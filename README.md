@@ -377,7 +377,7 @@ Krishna selitti seuraavaksi, miksi koodikanta vaatii jatkuvaa, epäitsekästä h
 
 **Krishna:**
 
-*"Katso minua, Arjuna! Minulla ei ole mitään saavutettavaa tässä repossassa. Ei ole olemassa tikettiä, joka minun pitäisi sulkea saadakseni palkan. Silti minä toimin lakkaamatta.*
+*"Katso minua, Arjuna! Minulla ei ole mitään saavutettavaa näissä kolmessa repossa. Ei ole olemassa tikettiä, joka minun pitäisi sulkea saadakseni palkan. Silti minä toimin lakkaamatta.*
 
 Jos minä lakkoilisin ja lopettaisin domain-mallin suojelemisen, nämä järjestelmät luhistuisivat. Minusta tulisi kaikkien tulevien bugien ja sekaannusten aiheuttaja.
 
