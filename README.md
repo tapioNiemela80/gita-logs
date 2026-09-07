@@ -1578,7 +1578,7 @@ Arjuna held the Axe of Non-attachment in his hand, ready to cut spaghetti depend
 
 **Divine qualities (Daivi Sampad)**
 
-Krishna enumerated the twenty-six virtues that make a developer and his code a manifestation of the light:
+Krishna enumerated the twenty-six virtues that make a developer, his actions and his code a manifestation of the light:
 
 **Krishna:**
 
