@@ -1,58 +1,58 @@
-# 🔴 ☢️ BHAGAVAD GITAN LOKIT ☢️ 🔴
+# 🔴 ☢️ THE LOGS OF THE BHAGAVAD GITA ☢️ 🔴
 
-## LUKU 1: Sanjayan näky ja Kurukshetran commit-historia
+## CHAPTER 1: Sanjaya's Vision and the Commit History of Kurukshetra
 
-**Sokea omistaja kysyy tilannetta**
+**The blind owner asks for a status report**
 
-Dhritarashtra oli sokea. Hän ei ollut koskaan katsonut koodikantaa itse, eikä hänellä ollut pääsyä suorituskykymittareihin. Hän oli tuoteomistaja (Product Owner), joka istui johtoryhmän huoneessa ja halusi tietää vain yhden asian: joko sprinteissä valatut ominaisuudet olivat tuotannossa.
+Dhritarashtra was blind. He had never looked at the codebase himself, and he had no access to the performance metrics. He was the Product Owner, seated in the executive suite, and he wanted to know one thing only: whether the features sworn to in the sprints were in production.
 
-Hän kääntyi Sanjayan puoleen. Sanjay oli tiimin arkkitehtuurikuiskaaja ja CI/CD-putken ylläpitäjä, jolle oli suotu *divya-drishti* – jumalallinen näkyvystoiminto, reaaliaikainen kaikkien mikropalvelulokeihin ja PR-katselmointeihin yltävä observability-työkalu.
+He turned to Sanjaya. Sanjaya was the team's architecture whisperer and the keeper of the CI/CD pipeline, and to him had been granted *divya-drishti* — the divine faculty of sight, a real-time observability tool reaching into every microservice log and every pull request review.
 
 **Dhritarashtra:**
 
-*"Sanjay! Kun minun tiimini (Kauravat) ja Pandavat kumpikin kokoontuivat Kurukshetran repo-haaraan tekemään katselmointejaan, mitä koodipohjalle tapahtui?"*
+*"Sanjaya! When my team (the Kauravas) and the Pandavas each gathered in the Kurukshetra branch to hold their reviews, what became of the codebase?"*
 
-**Sanjay raportoi taistelukentältä**
+**Sanjaya reports from the battlefield**
 
-**Sanjay:**
+**Sanjaya:**
 
-*"Oi kuningas, Duryodhana – Just Ship It -legioonan komentaja – katsoi Pandavien arkkitehtuurikenttää. Hän näki heidän DDD-mallinsa jäsenneltynä, Value Objectien suojattuna ja tietokantamigraatioiden luotettavana. Hän säikähti ja riensi heti vanhan opettajansa Dronan puoleen."*
+*"O King, Duryodhana — commander of the Just Ship It legion — surveyed the architectural field of the Pandavas. He saw their DDD model well-structured, their Value Objects guarded, their database migrations trustworthy. He took fright and hurried at once to his old teacher Drona."*
 
-Duryodhana katsoi Pandavien repo-haaraa ja yritti lohduttautua vähättelemällä heidän tietomalliaan.
+Duryodhana looked upon the Pandavas' branch and sought comfort in belittling their data model.
 
 **Duryodhana:**
 
-*"Katso, mestari, miten laaja heidän domain-mallinsa on! Heillä on siellä ehdottomia invariantteja, tiukkoja Aggregate Rooteja ja immutaabeleita luokkia. Mutta katso meidän armeijaamme! Meillä on täällä nopeat getterit ja setterit, julkiset muuttujat, globaali tila ja pikaiset hotfixit. Meidän joukkomme ovat rajattomat, heidän mallinsa on kankea!"*
+*"Behold, master, how vast their domain model is! They have absolute invariants there, strict Aggregate Roots and immutable classes. But look upon our own army! Here we have swift getters and setters, public fields, global state and rapid hotfixes. Our forces are boundless; their model is rigid!"*
 
-Duryodhana käski puhaltaa taistelutorviin: mergetköön kukin omat muutoshaaransa ilman arkkitehtuurikatselmointia! Ilmaan kajahti sotatorvien sarvi: *Just Ship It!*
+Duryodhana ordered the war horns sounded: let every man merge his own branch without architectural review! Through the air rang the blast of the trumpets: *Just Ship It!*
 
-Putket kääntyivät keltaisiksi, ja varoitukset täyttivät build-lokit.
+The pipelines turned yellow, and warnings filled the build logs.
 
-Vastapuolella Pandavien sotavaunuissa istuivat Arjuna ja hänen vaununajajansa Krishna. Heidän sotavaununsa ei pyörinyt millään tavallisella alustalla, vaan se oli rakennettu täydellisesti testatun asynkronisen tapahtumaytimen päälle.
+On the opposing side, in the Pandava chariot, sat Arjuna and his charioteer Krishna. Their chariot ran on no ordinary platform; it was built upon a perfectly tested asynchronous event core.
 
-Arjuna pyysi Krishnaa ajamaan vaunut kahden haaran väliin.
+Arjuna asked Krishna to drive the chariot between the two branches.
 
-**Arjuna kahden armeijan välissä**
-
-**Arjuna:**
-
-*"Krishna, aja minun kehitysympäristöni tähän keskelle. Haluan nähdä ne, jotka ovat ryhtyneet tähän taisteluun. Haluan nähdä muutoksen, joka minun pitäisi hyväksyä tai hylätä."*
-
-Krishna ajoi vaunut keskelle Kurukshetran commit-historiaa – feature-haaran ja `main`-haaran väliin, paikkaan, jossa paikallisesti järkevä muutos ja domain-mallin pitkäaikainen eheys kohtasivat.
-
-Arjuna katsoi molemmille puolille, ja hänen sydämensä murtui.
-
-Toisella puolella – Just Ship It -rintamassa – seisoi hänen omia vanhoja committejaan. Siellä olivat luokat, jotka hän oli itse kirjoittanut viisi vuotta sitten kiireessä periaatteella *"korjataan tämä myöhemmin"*. Siellä oli Drona, vanha opetuskoodipohja, josta hän oli oppinut ensimmäiset ohjelmointikielensä. Siellä oli Bhishma, vanha infrastruktuuri, jota kukaan ei uskaltanut purkaa. Siellä olivat hänen tiimikaverinsa, joiden kanssa hän oli juonut kahvia ja juhlinut onnistuneita tuotantoonsiirtoja.
-
-Ja toisella puolella olivat DDD-ihanteet, joita hän oli lupautunut puolustamaan.
+**Arjuna between the two armies**
 
 **Arjuna:**
 
-*"Krishna! Kun näen omat kollegani ja oman historiallisen koodini vastakkain tuolla kentällä, käteni alkavat täristä. Suuni kuivuu. Minun näppäimistöni tippuu sylistäni."*
+*"Krishna, drive my development environment here, into the middle. I wish to see those who have entered into this battle. I wish to see the change that I am to approve or reject."*
 
-**Mielen lamaannus (Arjuna Vishada Yoga)**
+Krishna drove the chariot into the very middle of the Kurukshetra commit history — between the feature branch and `main`, to the place where a locally sensible change and the long-term integrity of the domain model meet.
 
-Arjuna katsoi merge requestia. Muutos oli pieni: `Money`-Value Objectin sisäinen rakenne haluttiin paljastaa getter-metodeilla, jotta mapperi voisi rakentaa ulkoisen DTO:n.
+Arjuna looked to both sides, and his heart broke.
+
+On the one side — in the Just Ship It ranks — stood commits of his own. There were the classes he had written himself five years ago in a hurry, on the principle of *"we'll fix this later."* There stood Drona, the old teaching codebase from which he had learned his first programming languages. There stood Bhishma, the old infrastructure that no one dared dismantle. There stood his teammates, with whom he had drunk coffee and celebrated successful releases.
+
+And on the other side stood the DDD ideals he had pledged himself to defend.
+
+**Arjuna:**
+
+*"Krishna! When I see my own colleagues and my own history in code set against one another on that field, my hands begin to tremble. My mouth goes dry. My keyboard slips from my lap."*
+
+**The paralysis of the mind (Arjuna Vishada Yoga)**
+
+Arjuna looked at the merge request. The change was small: the internal structure of the `Money` Value Object was to be exposed through getter methods, so that a mapper could build an external DTO.
 
 ```java
 public final class Money {
@@ -70,65 +70,65 @@ public final class Money {
 }
 ```
 
-Perustelu oli moitteeton:
+The justification was impeccable:
 
-> Tarvitsemme vain summan ja valuutan mapperissa. Muutos ei muuta käyttäytymistä.
+> We only need the amount and the currency in the mapper. The change does not alter behaviour.
 
-Pipeline oli vihreä. Kaikki testit menivät läpi. `Money` oli edelleen immutaabeli, eikä yksikään nykyinen käyttötapaus rikkoutunut.
+The pipeline was green. Every test passed. `Money` was still immutable, and not one existing use case was broken.
 
-Juuri siksi Arjuna pelkäsi muutosta.
-
-**Arjuna:**
-
-*"Krishna, miten voisin hylätä tämän? He todella tarvitsevat summan ja valuutan rajapintaan. Kentät ovat jo olemassa, eikä niiden lukeminen muuta oliota. Kollegani eivät tee mitään ilmeisen väärää.*
-
-*Mutta jos hyväksyn tämän, `Money` lakkaa vähitellen olemasta laskennan suorittava käsite. Sen sisäinen rakenne leviää mappereihin, palveluihin ja ehtoihin. Jokainen ottaa summan ulos, tekee sille jotakin ja yrittää koota rahan takaisin.*
-
-*Jos puolustan kapselointia, näytän dogmaatikolta. Jos hyväksyn getterit perustelematta rajaa, autan itse rakentamaan sen aneemisen mallin, jota vastaan olen luvannut taistella.*
-
-*Mitä hyötyä on vihreästä buildista, jos jokainen vihreä testi vahvistaa mallia, joka sanoo domainista yhä vähemmän?"*
-
-Arjuna ei pelännyt kahta metodia. Hän pelkäsi maailmaa, joka alkaisi rakentaa niiden varaan.
-
-Hän ei halunnut painaa *Approve*, hän ei halunnut painaa *Reject*.
-
-**Sanjay:**
-
-*"Näin sanottuaan Arjuna heitti jousensa – oman IDE-ikkunansa – kiinni taistelukentän keskellä. Hän istui alas sotavaunujen pohjalle, sulki terminaalin ja puristi päätään käsissään, murheen murtamana."*
-
-## LUKU 2: Krishnan arkkitehtuurikoulu ja kuolemattomat invariantit
-
-**Arjuna luhistuu näppäimistön äärelle**
-
-**Sanjay:**
-
-*"Katsoessaan Arjunaa, joka istui kyyneleet silmissä suljetun läppärin ääressä, Krishna – sovellusarkkitehtuurin korkein haltija – katsoi häntä lempeän napakasti ja lausui seuraavat sanat."*
-
-**Krishna:**
-
-*"Arjuna! Mistä tämä heikkous tulee keskellä kiireisintä sprinttiä? Tämä ei ole arkkitehdin arvoista, eikä se vie sinua tuotantoon. Nouse ylös, sulje valituskanava Slackissa ja tartu toimeen!"*
+That was precisely why Arjuna feared the change.
 
 **Arjuna:**
 
-*"Krishna, miten voisin hylätä tämän muutoksen? Mapperi todella tarvitsee rahan representaation. Getterit eivät muuta tilaa, eikä nykyinen testi rikkoudu. Mutta miten voisin hyväksyä sen, että muu järjestelmä alkaa käyttää `Money`-olion sisäistä rakennetta omana ohjelmointimallinaan?"*
+*"Krishna, how could I reject this? They truly do need the amount and the currency at the boundary. The fields already exist, and reading them alters no object. My colleagues are doing nothing obviously wrong.*
 
-Krishna katsoi diffiä ja kysyi:
+*But if I approve this, `Money` will little by little cease to be a concept that performs a calculation. Its internal structure will spread into mappers, services and conditionals. Everyone will pull the amount out, do something to it, and try to assemble money back together again.*
 
-*"Tarvitseeko mapperi `Money`-olion sisäisen rakenteen – vai tarvitseeko se `Money`-oliolta representaation?"*
+*If I defend encapsulation, I look like a dogmatist. If I approve the getters without arguing the boundary, I help build with my own hands the anaemic model I have sworn to fight.*
 
-**Invariantin kuolemattomuus (Sankhya Yoga)**
+*What good is a green build, if every green test confirms a model that says less and less about the domain?"*
 
-Krishna hymyili kevyesti. Hän ei julistanut jokaista getteriä adharmaksi eikä tarjonnut yhtä universaalia rajapintaa. Hän siirsi keskustelun käsitteen vastuuseen, jota Arjuna ei ollut vielä osannut ilmaista.
+Arjuna did not fear two methods. He feared the world that would begin to be built upon them.
+
+He did not want to press *Approve*. He did not want to press *Reject*.
+
+**Sanjaya:**
+
+*"Having spoken thus, Arjuna cast down his bow — his own IDE window — and closed it in the middle of the battlefield. He sat down on the floor of the chariot, shut the terminal and clutched his head in his hands, broken with sorrow."*
+
+## CHAPTER 2: Krishna's School of Architecture and the Immortal Invariants
+
+**Arjuna collapses at the keyboard**
+
+**Sanjaya:**
+
+*"Beholding Arjuna, who sat with tears in his eyes before a closed laptop, Krishna — the supreme keeper of application architecture — looked upon him gently but firmly, and spoke these words."*
 
 **Krishna:**
 
-*"Sinä murehdit asioita, joita ei pitäisi murehtia, vaikka puhut viisaita sanoja. Viisas arkkitehti ei murehdi sitä, mikä poistetaan, eikä sitä, mikä luodaan.*
+*"Arjuna! Whence comes this weakness in the middle of the busiest sprint? This is unworthy of an architect, and it will not carry you to production. Rise up, close the complaints channel in Slack, and set to work!"*
 
-*Ei ole koskaan ollut aikaa, jolloin tätä liiketoimintasääntöä ei olisi ollut olemassa. Eikä tule aikaa, jolloin se lakkaa olemasta.*
+**Arjuna:**
 
-*Niin kuin ilmaantunut käsite käy läpi lapsuuden, nuoruuden ja vanhuuden, samoin data vaihtaa muotoaan toteutuksesta toiseen. DTO tarvitsee representaation, mutta representaation ei tarvitse määrätä käsitteen käyttäytymistä."*
+*"Krishna, how could I reject this change? The mapper truly does need a representation of money. The getters change no state, and no existing test breaks. But how could I accept that the rest of the system begins to use the internal structure of the `Money` object as its own programming model?"*
 
-`Money` voi itse suojella laskentaa ja tarjota samalla rajalle eksplisiittisen representaation:
+Krishna looked at the diff and asked:
+
+*"Does the mapper need the internal structure of the `Money` object — or does it need a representation from the `Money` object?"*
+
+**The immortality of the invariant (Sankhya Yoga)**
+
+Krishna smiled lightly. He did not declare every getter to be adharma, nor did he offer one universal interface. He moved the conversation to the responsibility of the concept, which Arjuna had not yet found the words for.
+
+**Krishna:**
+
+*"You grieve for that which is not worthy of grief, though you speak words of wisdom. The wise architect grieves neither for what is deleted, nor for what is created.*
+
+*There has never been a time when this business rule did not exist. Nor will there come a time when it ceases to be.*
+
+*As a concept that has come into being passes through childhood, youth and old age, so too does data change its shape from one implementation to another. The DTO needs a representation, but the representation need not dictate the behaviour of the concept."*
+
+`Money` can protect its own calculation and at the same time offer the boundary an explicit representation:
 
 ```java
 public final class Money {
@@ -147,7 +147,7 @@ public final class Money {
 }
 ```
 
-Tämä ei ole ainoa oikea API. Joskus `record Money(BigDecimal amount, Currency currency)` on täysin rehellinen malli, ja joskus infrastruktuurin adapteri saa lukea pysyvyyteen tarvittavan representaation. Ratkaisevaa ei ole getterin syntaksi vaan se, **kuka tekee rahan liiketoiminnalliset päätökset**.
+This is not the one correct API. Sometimes `record Money(BigDecimal amount, Currency currency)` is a perfectly honest model, and sometimes an infrastructure adapter may read the representation it needs for persistence. What is decisive is not the syntax of the getter, but **who makes the business decisions about money**.
 
 ```java
 var discountedAmount = money.getAmount()
@@ -156,167 +156,165 @@ var discountedAmount = money.getAmount()
 return new Money(discountedAmount, money.getCurrency());
 ```
 
-Kun tällainen laskenta leviää ulkopuolelle, `Money` on nimellisesti Value Object mutta käytännössä jälleen kaksi primitiiviä. Ulkopuolinen koodi vastaa nyt laskutoimituksesta, valuutan säilymisestä, pyöristyksestä, tuloksen validiudesta ja uuden olion kokoamisesta.
+When such calculation spreads outward, `Money` is nominally a Value Object but in practice two primitives once more. The outside code is now responsible for the arithmetic, for keeping the currency intact, for rounding, for the validity of the result and for assembling the new object.
 
-> **Value Object saa tarjota ulkoisen representaation. Sen ei tarvitse luovuttaa sisäistä rakennettaan muun järjestelmän ohjelmointimalliksi.**
+> **A Value Object may offer an external representation. It need not surrender its internal structure as the programming model of the rest of the system.**
 
-Krishna katsoi getter-metodeja, DTO:ta ja niiden takana olevaa käsitettä. Ne eivät olleet sama asia.
-
-**Krishna:**
-
-*"Sillä, mikä on pelkkää toteutustapaa (accidental complexity), ei ole pysyvää olemassaoloa. Sillä, mikä on aito liiketoiminnan invariantti (essential complexity), ei ole lakkaamista.*
-
-*Koodirivit, frameworkit, getterit ja tietokantaskeemat syntyvät ja kuolevat. Ne ovat kuin vaatteita, jotka käsite pukee päälleen ja riisuu taas pois. Jos `Money` muuttuu luokasta recordiksi tai sen DTO korvataan toisella representaatiolla, luuletko rahan arvon ja valuutan yhteyden kuolleen?*
-
-*Sitä yhteyttä ei voi poistaa refaktoroinnilla eikä suojella pelkällä `private`-avainsanalla. Se säilyy vain, jos järjestelmä tekee rahaa koskevat päätökset sen mukaisesti."*
-
-**Nishkama Karma – Toimi ilman kiintymystä tuloksiin**
-
-Arjuna katsoi Krishnaa hämmentyneenä. Jos koodi kerran vanhenee kuitenkin ja kaikki muuttuu legacyksi, miksi vaivautua puolustamaan katselmoinnissa yhtäkään invarianttia?
-
-Krishna vastasi Gitan kuuluisimmalla opetuksella:
+Krishna looked at the getter methods, at the DTO, and at the concept behind them. They were not the same thing.
 
 **Krishna:**
 
-*"Sinulla on oikeus vain itse työhön — tässä tapauksessa rehelliseen katselmointiin — ei koskaan sen hedelmiin (kuten ikuiseen monumenttiin, täydelliseen arkkitehtuuriin tai kehuihin ohjausryhmältä).*
+*"That which is mere implementation (accidental complexity) has no lasting existence. That which is a genuine business invariant (essential complexity) has no cessation.*
 
-*Älä koskaan tee työtä vain saadaksesi ticketin suljetuksi. Älä myöskään kiinny toimettomuuteen ja väistä kannanottoa. Tee työsi vakaasti, vapaana kiintymyksestä hyväksyntään tai hylkäykseen. Tätä mielen tasapainoa kutsutaan refaktoroinniksi."*
+*Lines of code, frameworks, getters and database schemas are born and die. They are as garments that the concept puts on and casts off again. If `Money` turns from a class into a record, or its DTO is replaced by another representation, do you imagine that the bond between an amount and its currency has died?*
 
-Koodaa ilman kiintymystä hedelmiin:
+*That bond cannot be deleted by refactoring, nor protected by the `private` keyword alone. It survives only if the system makes its decisions about money in accordance with it."*
 
-Tavoite: Suljettu Jira-tiketti, kehut ---\> Sitoo sinut pelkoon ja stressiin
+**Nishkama Karma — act without attachment to results**
 
-Tavoite: Mallin rehellisyys TÄNÄÄN ---\> Nishkama Karma (Vapaus toimia)
+Arjuna looked at Krishna in bewilderment. If code grows old in any case and everything becomes legacy, why trouble to defend a single invariant in review?
+
+Krishna answered with the most famous teaching of the Gita:
 
 **Krishna:**
 
-*"Se, joka tekee työnsä peläten PR-hylkäystä tai odottaen bonuspisteitä, on tulostensa orja. Mutta se, joka keskittyy itse liiketoimintamallin ymmärtämiseen tässä hetkessä, saavuttaa tyynen mielen – vaikka koodikanta myrskyäisi ympärillä."*
+*"You have a right to the work alone — in this case, to an honest review — never to its fruits (an eternal monument, a perfect architecture, or praise from the steering group).*
 
-**Sthitaprajna – Vakaa arkkitehti**
+*Never do the work merely to get a ticket closed. Nor be attached to inaction and evade taking a position. Do your work steadily, free of attachment to approval or to rejection. This evenness of mind is called refactoring."*
 
-Arjuna pyyhki kyynelensä ja kysyi jotain hyvin käytännöllistä:
+Code without attachment to the fruits:
+
+```text
+Goal: A closed Jira ticket, praise  ---> Binds you to fear and stress
+
+Goal: The honesty of the model TODAY ---> Nishkama Karma (freedom to act)
+```
+
+**Krishna:**
+
+*"He who does his work in fear of a rejected PR, or in expectation of bonus points, is the slave of his results. But he who concentrates on understanding the business model in this very moment attains a serene mind — though the codebase storm around him."*
+
+**Sthitaprajna — the steady architect**
+
+Arjuna wiped away his tears and asked something very practical:
 
 **Arjuna:**
 
-*"Mistä tunnistaa arkkitehdin tai seniorikehittäjän, jonka mieli on vakaa (Sthitaprajna)? Miten hän puhuu code review'ssa? Miten hän reagoi, kun P1-tuotantokriisi iskee kello 16.55 perjantaina?"*
+*"How does one recognise the architect or senior developer whose mind is steady (Sthitaprajna)? How does he speak in code review? How does he react when a P1 production crisis strikes at 16:55 on a Friday?"*
 
 **Krishna:**
 
-*"Se, jota tuotannon hälytykset eivät lamaannuta eikä pikaiset onnistumiset sokaise, on vakaa mieleltään.*
+*"He whom production alerts do not paralyse and quick wins do not blind, he is steady of mind.*
 
-*Niin kuin kilpikonna vetää raajansa kuoren sisään, vakaa kehittäjä vetää huomionsa pois Slackin paniikista, turhista framework-hypeistä ja somen väittelyistä. Hän ei vihaa legacy-koodia, eikä hän palvo uutta muotikieltä.*
+*As the tortoise draws its limbs into its shell, so the steady developer withdraws his attention from the panic in Slack, from empty framework hype and from arguments on social media. He does not hate legacy code, nor does he worship the newest fashionable language.*
 
-*Kun muut vellovat vaatimusten meressä kuin myrskyävä meri, vakaa arkkitehti pysyy tyynenä. Hänen koodikantaansa virtaa uusia vaatimuksia joka päivä, mutta hän ei paisu dogmatismista eikä murene kiireestä. Hän saavuttaa rauhan."*
+*While others toss upon the sea of requirements like a raging ocean, the steady architect remains calm. New requirements flow into his codebase every day, but he neither swells with dogmatism nor crumbles under haste. He attains peace."*
 
-**Luvun II lopputulos**
+**The outcome of Chapter II**
 
-Arjunalle alkaa hahmottua uusi näkökulma:
+A new perspective begins to take shape for Arjuna:
 
-1.  Vanhan koodin poistaminen tai muuttaminen ei ole arkkitehtoninen murha, jos sen alla oleva liiketoiminnan **invariantti** säilytetään ja kirkastetaan.
+1. Deleting or changing old code is not architectural murder, so long as the business **invariant** beneath it is preserved and clarified.
 
-2.  Työ täytyy tehdä laadukkaasti **tässä ja nyt**, riippumatta siitä, tuleeko koodista ensi vuonna legacyä vai ei.
+2. The work must be done well **here and now**, regardless of whether the code becomes legacy next year or not.
 
-3.  Koodarin vapaus löytyy siitä, ettei hän sido identiteettiään työnsä hedelmiin (hypeen, monumentteihin, refaktoroinnin täydellisyyteen).
+3. The developer's freedom lies in not binding his identity to the fruits of his work (to hype, to monuments, to the perfection of a refactoring).
 
-Arjuna ottaa hiljaa kiinni Gandivastaan ja avaa diffin uudelleen. Hän ei vielä hyväksy eikä hylkää, mutta hänen kätensä eivät enää tärise.
+Arjuna quietly takes hold of his Gandiva and opens the diff again. He neither approves nor rejects yet, but his hands no longer tremble.
 
 **Arjuna:**
 
-*"Opetuksesi on kirkas, Krishna. Mutta jos viisaus ja vakaus ovat tärkeämpiä kuin pelkkä hätäinen toiminta, miksi sinä silti käsket minun ryhtyä tähän vaikeaan taisteluun ja ottamaan kantaa tähän Merge Requestiin?"*
+*"Your teaching is clear, Krishna. But if wisdom and steadiness are more important than hasty action, why do you nevertheless command me to enter this difficult battle and to take a position on this Merge Request?"*
 
-## LUKU 3: Karma Yoga ja tekojen orkestraatio
+## CHAPTER 3: Karma Yoga and the Orchestration of Deeds
 
-**Arjunan kysymys: "Miksi ottaa kantaa, jos ymmärrys on vielä kesken?"**
+**Arjuna's question: "Why take a position, if understanding is still incomplete?"**
 
-Arjuna oli kuunnellut Krishnan opetusta domain-käsitteiden kuolemattomuudesta ja tyynen mielen merkityksestä. Hänen mieleensä syttyi kuitenkin välittömästi houkutteleva ajatus.
-
-**Arjuna:**
-
-*"Krishna! Jos kerran ymmärrys, kirkas arkkitehtuuri ja tyyni mieli ovat paljon parempia kuin hätäinen suorittaminen, miksi ihmeessä ajat minua katselmoimaan tämän Merge Requestin ja lausumaan siitä mielipiteeni?*
-
-*Eikö olisi parempi, että jäämme tähän neuvotteluhuoneeseen, pidämme jatkuvia Event Storming -työpajoja, piirrämme Miro-boardille täydellisiä luokkakaavioita emmekä koskaan koske tuotantokoodiin? Eikö toimettomuus ole turvallisempaa?"*
-
-**Krishna vastaa: Kukaan ei voi olla toimimatta**
-
-Krishna katsoi Arjunaa ja pudisti päätään hymyillen.
-
-**Krishna:**
-
-*"Tässä maailmassa on kaksi polkua, oi synnitön: ymmärtämisen polku (knowledge crunching) ja toiminnan polku (Karma Yoga). Mutta kuuntele tarkasti: ne eivät ole kaksi eri pakoreittiä vastuusta.*
-
-*Kukaan ei saavuta vapautta teknisestä velasta pelkästään jättämällä ottamatta kantaa. Kukaan ei suojele domainia poistamalla itseään revieweriksi ja toivomalla, että seuraava ymmärtää enemmän.*
-
-*Katselmoinnin luonto pakottaa sinut toimimaan. Hyväksyminen on teko, muutospyyntö on teko, kysymys on teko – ja hiljaisuuskin vaikuttaa siihen, millainen malli päätyy tuotantoon."*
-
-TOIMINNAN DYNAMIIKKA
-
-Pelkkä speksaus ilman koodia Kaaottinen Just Ship It
-
-(Valheellinen toimettomuus) (Sokea kiintymys tulokseen)
-
-\\ /
-
-\\ /
-
----\> KARMA YOGA \<---
-
-(Rehellinen teko tässä ja nyt:
-
-rehellinen kannanotto ilman egoa)
-
-**Krishna:**
-
-*"Se, joka sulkee diffin ja teeskentelee olevansa arkkitehtuurin yläpuolella, mutta käy silti mielessään jatkuvaa väittelyä siitä, miten muut tekevät virheitä, on valheellinen ihminen.*
-
-*Mutta se, joka avaa diffin uudelleen, tekee epäilyksensä näkyväksi kysymyksenä ja perustelee arvionsa ilman egoa tai kiintymystä voittoon – hän toimii erinomaisesti."*
-
-**Karman hedelmät ja epähedelmät**
-
-Arjuna jäi miettimään Krishnan sanoja. Hän oli oppinut, ettei tekoon saanut kiintyä, mutta tuotantojärjestelmissä jokainen teko näytti silti jättävän jäljen.
+Arjuna had listened to Krishna's teaching on the immortality of domain concepts and on the value of a serene mind. At once, however, a tempting thought kindled in him.
 
 **Arjuna:**
 
-*"Jos minun ei pidä kiintyä työni hedelmiin, tarkoittaako se, etteivät seuraukset kuulu minulle?"*
+*"Krishna! If understanding, clear architecture and a calm mind are so much better than hurried delivery, why on earth do you drive me to review this Merge Request and pronounce my opinion upon it?*
 
-Krishna pudisti päätään.
+*Would it not be better to remain here in this meeting room, hold endless Event Storming workshops, draw perfect class diagrams on a Miro board, and never touch production code at all? Is inaction not safer?"*
 
-**Krishna:**
+**Krishna answers: no one can refrain from action**
 
-*"Kiintymättömyys ei ole seurauksista piittaamattomuutta. Karma tarkoittaa juuri sitä, ettei yksikään teko jää ilman seurausta.*
-
-*Jokainen commit tavoittelee hedelmää. Mutta jokainen commit tuottaa myös epähedelmiä."*
-
-Hedelmä on se tulos, jota muutoksella tavoiteltiin ja joka kirjoitettiin Jira-tikettiin:
-
-> Mapperi saa muodostettua DTO:n.
-
-Epähedelmät ovat muutoksen tahattomia ja usein viiveellä kypsyviä seurauksia:
-
-- `Money`-olion sisäisestä rakenteesta tulee yleinen API.
-
-- laskenta alkaa siirtyä Value Objectin ulkopuolelle
-
-- valuuttasääntö kopioituu useaan palveluun
-
-- seuraava kehittäjä pitää ratkaisuun syntynyttä sattumaa suunniteltuna käytäntönä
-
-- AI tulkitsee sen *established project conventioniksi* ja monistaa sen kaikkialle
+Krishna looked at Arjuna and shook his head, smiling.
 
 **Krishna:**
 
-*"Hedelmän löydät Jira-tiketistä. Viisas katselmoija etsii epähedelmiä."*
+*"In this world there are two paths, O sinless one: the path of understanding (knowledge crunching) and the path of action (Karma Yoga). But listen closely: they are not two separate escape routes from responsibility.*
 
-**Tekninen velka karmallisena perintönä**
+*No one attains freedom from technical debt merely by declining to take a position. No one protects the domain by removing himself as reviewer and hoping that the next one will understand more.*
 
-Menneisyydessä tehty pikaratkaisu ei katoa, kun tiketti suljetaan tai sen tekijä vaihtaa projektia. Se jatkaa elämäänsä nykyhetkessä bugina, hidasteena, vaikeana testidatana ja selityksenä, jonka jokainen uusi kehittäjä joutuu oppimaan.
+*The very nature of review compels you to act. Approval is a deed, requesting changes is a deed, a question is a deed — and even silence shapes which model ends up in production."*
 
-Nykyinen tiimi ei ehkä aiheuttanut tätä velkaa, mutta se toimii sen seurausten keskellä. Refaktorointi ei pyyhi historiaa olemattomaksi. Se on teknisen karman **tietoista sovittamista**: vanhan oletuksen tunnistamista, sen seurausten ymmärtämistä ja uuden tiedon kirjoittamista takaisin malliin.
+```text
+                    THE DYNAMICS OF ACTION
 
-> **Et ole syyllinen kaikkeen perimääsi koodiin. Olet kuitenkin vastuussa siitä, mitä siirrät seuraaville.**
+  Specification without code              Chaotic Just Ship It
+  (false inaction)                        (blind attachment to results)
+                        \              /
+                         \            /
+                     ---> KARMA YOGA <---
+                (the honest deed here and now:
+                 an honest position, without ego)
+```
 
-**Event Sourcing – järjestelmä, joka muistaa tekonsa**
+**Krishna:**
 
-Tavallinen tilamalli kertoo helposti vain, mikä on totta nyt. Event Sourcing kertoo myös, millaisten tekojen seurauksena nykyhetkeen päädyttiin:
+*"He who closes the diff and pretends to stand above the architecture, yet carries on a ceaseless argument in his own mind about how others are making mistakes, is a hypocrite.*
+
+*But he who opens the diff again, makes his doubt visible as a question, and justifies his judgement without ego or attachment to victory — he acts excellently."*
+
+**The fruits and the un-fruits of karma**
+
+Arjuna was left pondering Krishna's words. He had learned that one must not be attached to the deed, yet in production systems every deed still seemed to leave a mark.
+
+**Arjuna:**
+
+*"If I am not to be attached to the fruits of my work, does that mean the consequences are none of my concern?"*
+
+Krishna shook his head.
+
+**Krishna:**
+
+*"Non-attachment is not indifference to consequences. Karma means precisely this: that not one deed is left without a consequence.*
+
+*Every commit seeks a fruit. But every commit also produces un-fruits."*
+
+The fruit is the result the change was aiming at, the one written into the Jira ticket:
+
+> The mapper is able to construct the DTO.
+
+The un-fruits are the unintended consequences of a change, and they often ripen only after a delay:
+
+- the internal structure of the `Money` object becomes a general API
+
+- calculation begins to migrate outside the Value Object
+
+- the currency rule is copied into several services
+
+- the next developer mistakes an accident of the solution for a designed convention
+
+- an AI reads it as an *established project convention* and replicates it everywhere
+
+**Krishna:**
+
+*"The fruit you will find in the Jira ticket. The wise reviewer looks for the un-fruits."*
+
+**Technical debt as a karmic inheritance**
+
+A shortcut taken in the past does not vanish when the ticket is closed or its author moves to another project. It goes on living in the present as a bug, as friction, as awkward test data, and as an explanation that every new developer must learn.
+
+The current team may not have caused this debt, but it works in the midst of its consequences. Refactoring does not erase history. It is the **conscious atonement** of technical karma: recognising the old assumption, understanding its consequences, and writing the new knowledge back into the model.
+
+> **You are not guilty of all the code you inherited. You are, however, responsible for what you pass on to those who come next.**
+
+**Event Sourcing — a system that remembers its deeds**
+
+An ordinary state model tends to tell you only what is true now. Event Sourcing also tells you through which deeds the present came about:
 
 ```text
 AccountOpened
@@ -325,1663 +323,1598 @@ PaymentDebited
 PaymentReversed
 ```
 
-Virheellistä veloitusta ei normaalisti poisteta tapahtumahistoriasta ja teeskennellä, ettei sitä koskaan tapahtunut. Sen jälkeen kirjataan uusi korjaava tapahtuma. Historia kertoo sekä teon että sen korjauksen.
+An erroneous debit is not normally deleted from the event history so that we may pretend it never happened. Instead, a new, correcting event is recorded afterwards. The history tells of both the deed and its correction.
 
 **Krishna:**
 
-*"Mennyttä tapahtumaa ei voi tehdä tapahtumattomaksi. Voit vain tehdä uuden teon, joka muuttaa sen seurauksia."*
+*"A past event cannot be made not to have happened. You can only perform a new deed that changes its consequences."*
 
-Tämä on syyn ja seurauksen laki lähes kirjaimellisena arkkitehtuurina. Se ei silti tee event storesta metafyysisesti ikuista: tietosuoja, säilytysajat ja virheellisesti tallennettu henkilötieto voivat velvoittaa poistamaan tai muuttamaan historiaa. Dharma ei ole patternin sokea noudattaminen.
+This is the law of cause and effect as architecture, almost literally. It does not, even so, make the event store metaphysically eternal: data protection, retention periods and personal data stored in error may oblige you to delete or alter history. Dharma is not the blind observance of a pattern.
 
-**Sivuvaikutukset – näkymätön karma**
+**Side effects — the invisible karma**
 
-Kaikki seuraukset eivät ilmesty heti eivätkä pysy saman Bounded Contextin sisällä. Vuotava kapselointi, jaettu tietokanta tai epäselvä integraatiosopimus voi käynnistää reaktion, jonka alkuperäinen tekijä kohtaa vasta kuukausia myöhemmin – tai jonka kohtaa joku aivan toinen.
+Not all consequences appear at once, and not all of them stay within the same Bounded Context. A leaking encapsulation, a shared database or an unclear integration contract can set off a reaction that the original author meets only months later — or that someone else entirely meets in his stead.
 
 ```text
-Money-getterit
-    → ulkopuolinen laskenta
-        → kopioituneet valuuttasäännöt
-            → kontekstien välinen riippuvuus
-                → muutos, jota kukaan ei enää uskalla tehdä
+Money getters
+    → calculation on the outside
+        → duplicated currency rules
+            → a dependency between contexts
+                → a change no one dares to make any more
 ```
 
-Karma ei tässä ole rangaistus eikä syytös. Se on syyn ja seurauksen tunnistamista. Koodikuiskaaja ei kysy ensimmäisenä, kuka teki virheen. Hän kysyy:
+Karma here is neither punishment nor accusation. It is the recognition of cause and effect. The code whisperer does not ask first who made the mistake. He asks:
 
-> *"Mitä tämä kipu kertoo aikaisemmasta päätöksestä – ja millaisia epähedelmiä oma päätöksemme jättää seuraaville?"*
-
-**Krishna:**
-
-*"Älä kiinny työsi hedelmiin. Älä kuitenkaan kuvittele, etteivät tekosi tuottaisi epähedelmiä."*
-
-**Uhri järjestelmän ylläpitämiseksi (Yajna)**
-
-Krishna selitti seuraavaksi, miksi koodikanta vaatii jatkuvaa, epäitsekästä huolenpitoa.
+> *"What does this pain tell us about an earlier decision — and what un-fruits will our own decision leave to those who come after?"*
 
 **Krishna:**
 
-*"Aikoinaan, kun maailmankaikkeuden Arkkitehti loi ensimmäiset järjestelmät ja kehittäjät, hän sanoi: 'Toimikaa Yajnalla (yhteisellä uhrilla ja panoksella). Tämä ylläpitää teitä.'*
+*"Be not attached to the fruits of your work. But do not imagine, either, that your deeds bear no un-fruits."*
 
-*Uhri ohjelmistokehityksessä tarkoittaa tätä:*
+**Sacrifice for the upkeep of the system (Yajna)**
 
-- Kirjoitat yksikkötestin, vaikka kukaan ei kysy sitä.
-
-- Dokumentoit Invariantin seuraavaa kehittäjää varten.
-
-- Korjaat pienen bugin ohi kulkiessasi (Boy Scout Rule).
-
-*Joka nauttii koodikannan eduista – valmiista kirjastoista, CI/CD-putkista ja muiden tekemistä pohjista – mutta ei itse uhraa aikaansa mallin selkeyttämiseen, on koodivaras!*
-
-*Ne, jotka koodaavat vain rikastuttaakseen omaa ansioluetteloaan tai sulkeakseen oman tiketinsä piittaamatta kokonaisuudesta, syövät omaa synnyttämäänsä teknistä velkaa."*
-
-**Esimerkin näyttäminen (Lokasamgraha)**
+Krishna next explained why a codebase demands continual, selfless care.
 
 **Krishna:**
 
-*"Katso minua, Arjuna! Minulla ei ole mitään saavutettavaa näissä kolmessa repossa. Ei ole olemassa tikettiä, joka minun pitäisi sulkea saadakseni palkan. Silti minä toimin lakkaamatta.*
+*"In the beginning, when the Architect of the universe created the first systems and the first developers, he said: 'Act through Yajna (through shared sacrifice and contribution). This shall sustain you.'*
 
-Jos minä lakkoilisin ja lopettaisin domain-mallin suojelemisen, nämä järjestelmät luhistuisivat. Minusta tulisi kaikkien tulevien bugien ja sekaannusten aiheuttaja.
+*Sacrifice in software development means this:*
 
-*Sitä, mitä johtava kehittäjä (Senior Architect) tekee, muut seuraavat. Minkä standardin hän asettaa omilla Merge Requesteillaan, sitä koko tiimi noudattaa.*
+- You write the unit test, though no one asks for it.
 
-*Viisas koodaa yhtä huolellisesti ja energeettisesti kuin hätäisin 'Just Ship It' -kehittäjä, mutta ilman itsekkyyttä. Hänen tavoitteensa on koodikannan terveys (Lokasamgraha), ei oma ego."*
+- You document the invariant for the next developer.
 
-**Roolien sekaannus ja eettinen velvollisuus**
+- You fix the small bug as you pass by (the Boy Scout Rule).
+
+*He who enjoys the benefits of the codebase — ready-made libraries, CI/CD pipelines and the foundations laid by others — but sacrifices none of his own time to the clarity of the model, is a thief of code!*
+
+*Those who code only to enrich their own CV or to close their own ticket, heedless of the whole, eat the technical debt they themselves have begotten."*
+
+**Setting the example (Lokasamgraha)**
+
+**Krishna:**
+
+*"Look at me, Arjuna! There is nothing for me to attain in these three repositories. There is no ticket I must close in order to be paid. And yet I act without ceasing.*
+
+*If I were to go on strike and cease protecting the domain model, these systems would collapse. I would become the author of every future bug and every future confusion.*
+
+*Whatever the lead developer (Senior Architect) does, others follow. Whatever standard he sets in his own Merge Requests, the whole team observes.*
+
+*The wise man codes as carefully and as energetically as the most hurried 'Just Ship It' developer, but without selfishness. His aim is the health of the codebase (Lokasamgraha), not his own ego."*
+
+**Confusion of roles and ethical duty**
 
 **Arjuna:**
 
-"Krishna, miksi ihminen sitten lankeaa tekemään huonoja ratkaisuja? Mikä saa kehittäjän levittämään `Money`-olion sisäisen rakenteen kaikkialle, vaikka hän näkee laskennan jo valuvan mapperiin?"
+*"Krishna, why then does a man fall into making poor decisions? What makes a developer spread the internal structure of the `Money` object everywhere, even when he can see the calculation already leaking into the mapper?"*
 
 **Krishna:**
 
-*"Se on Himo ja Viha – kiireen, aikataulupaineen ja 'minä haluan tämän valmiiksi Nyt' -asenteen synnyttämiä käskyttäjiä.*
+*"It is Desire and Anger — the taskmasters born of haste, of schedule pressure and of the attitude 'I want this finished Now'.*
 
-Paine sumentaa ymmärryksen samoin kuin savu peittää tulen tai pöly peittää peilin. Se saa kehittäjän unohtamaan Ubiquitous Languagen ja tarttumaan oikotiehen.
+*Pressure clouds the understanding as smoke covers fire, or dust covers a mirror. It makes the developer forget the Ubiquitous Language and reach for the shortcut.*
 
-*Mutta muista tämä:*
+*But remember this:*
 
-Parempi on suorittaa oma velvollisuutensa (Svadharma) epätäydellisesti, kuin toisen velvollisuus täydellisesti.
+**Better to perform one's own duty (Svadharma) imperfectly than another's duty perfectly.**
 
-Kehittäjän dharma on suojella domain-mallia ja ilmaista se koodissa. Älä yritä toimia Product Ownerina, joka myy sielunsa aikatauluille, äläkä arkkitehtipoliisina, joka pysäyttää kaiken. Tee oma osasi rehellisesti."
+*The developer's dharma is to protect the domain model and to express it in code. Do not try to act as the Product Owner who sells his soul to the schedule, nor as the architecture policeman who brings everything to a halt. Do your own part honestly."*
 
-**Luvun III päätös**
+**The conclusion of Chapter III**
 
-Arjuna ymmärtää nyt, että ymmärrys ilman valmiutta toimia sen perusteella voi muuttua pakoiluksi. Katselmointi ei ole sivusta huutelua, vaan se on täydellinen alusta harjoittaa **Karma Yogaa**:
+Arjuna now understands that understanding without the readiness to act upon it can turn into evasion. Review is not heckling from the sidelines; it is the perfect ground on which to practise **Karma Yoga**:
 
-1.  Ota kantaa **tässä ja nyt** sen ymmärryksen varassa, joka sinulla on – ja tee samalla epävarmuutesi näkyväksi.
+1. Take a position **here and now**, on the understanding you actually have — and make your uncertainty visible at the same time.
 
-2.  Katselmoi epäitsekkäästi palvellen yhteistä ymmärrystä ja koodikannan terveyttä (Lokasamgraha), älä omaa egoasi tai tarvetta voittaa keskustelua.
+2. Review selflessly, in service of shared understanding and the health of the codebase (Lokasamgraha), not of your own ego or your need to win the argument.
 
-3.  Älä odota täydellistä varmuutta: katselmoijan dharma on esittää olennainen havainto rehellisesti, ei omistaa lopullista totuutta.
+3. Do not wait for perfect certainty: the reviewer's dharma is to state the essential observation honestly, not to own the final truth.
 
-Arjuna nostaa Gandivansa – eli avaa diffin uudelleen.
+Arjuna raises his Gandiva — that is, he opens the diff again.
 
 **Arjuna:**
 
-*"Komentosi on selvä. En pakene työpajoihin enkä myöskään pakene niistä. Palaan Merge Requestiin ja kirjoitan sen kysymyksen, jonka nyt osaan esittää."*
+*"Your command is clear. I flee neither into workshops nor away from them. I return to the Merge Request and write the question I now know how to ask."*
 
-## LUKU 4: Vanhin commit ja tiedon sukupolvet
+## CHAPTER 4: The Oldest Commit and the Generations of Knowledge
 
-**Tieto, joka opetettiin ensimmäisille ohjelmoijille**
+**The knowledge that was taught to the first programmers**
 
-Arjuna oli saanut jousensa (IDE:nsä) valmiiksi, mutta hänen mielessään versoi uusi epäilys. Krishna puhui Domain-Driven Designistä ja käsitteiden eheydestä ikuisena totuutena, mutta ala oli täynnä muuttuvia trendejä.
+Arjuna had made his bow (his IDE) ready, but a new doubt sprouted in his mind. Krishna spoke of Domain-Driven Design and the integrity of concepts as an eternal truth, yet the field was full of shifting trends.
 
-Krishna katsoi Arjunaa ja sanoi:
+Krishna looked at Arjuna and said:
 
 **Krishna:**
 
-*"Tämän muuttumattoman tiedon minä opetin ensin Ada Lovelacelle. Ada näki, ettei koneen tehtävä ollut vain laskea numeroita, vaan että se voisi käsitellä ihmisen sille antamia symboleja ja merkityksiä.*
+*"This unchanging knowledge I taught first to Ada Lovelace. Ada saw that the task of the machine was not merely to compute numbers, but that it could handle the symbols and meanings a human being gave it.*
 
-*Turingille minä opetin, että laskennan periaate voidaan erottaa siitä fyysisestä koneesta, jolla se suoritetaan.*
+*To Turing I taught that the principle of computation can be separated from the physical machine that performs it.*
 
-*Von Neumannille annoin ohjelman ja tiedon yhteisen muistin. Hän rakensi siitä maailman – ja jätti teille samalla globaalin muuttuvan tilan siunaukset ja kiroukset. Minä annoin hänelle yhteisen muistin. Hän ei voinut tietää, mitä Enterprise Java tekisi sillä.*
+*To von Neumann I gave the shared memory of program and data. He built a world from it — and left you, at the same time, the blessings and the curses of global mutable state. I gave him the shared memory. He could not have known what Enterprise Java would do with it.*
 
-*Grace Hopperille minä opetin, ettei ihmisen tarvitse ikuisesti puhua koneen ehdoilla, vaan koneen kieli voidaan tuoda lähemmäksi ihmisten käyttämiä käsitteitä.*
+*To Grace Hopper I taught that a human being need not speak forever on the machine's terms, but that the machine's language can be brought closer to the concepts people use.*
 
-*McCarthylle minä kuiskasin, että ohjelma voi käsitellä symboleja, kuvata omaa rakennettaan ja rakentua myös muuttumattomien arvojen varaan.*
+*To McCarthy I whispered that a program can handle symbols, describe its own structure, and be built upon immutable values.*
 
-*Näin tämä oppi kulki sukupolvelta toiselle tietojenkäsittelyn paramparassa. Syntaksi muuttui, koneet vaihtuivat ja abstraktiot kasvoivat, mutta kysymys pysyi samana: miten ihmisen ymmärrys voidaan ilmaista koneelle menettämättä sen merkitystä?*
+*Thus this teaching passed from one generation to the next in the parampara of computing. The syntax changed, the machines were replaced and the abstractions grew, but the question remained the same: how can human understanding be expressed to a machine without losing its meaning?*
 
-*Pitkän ajan kuluessa, kiireen, pirstaloituneiden repojen ja Hype-Driven Developmentin seurauksena tämä kysymys katosi koodikannoista. Tämän saman tiedon minä ilmoitan nyt sinulle, koska sinä olet minun tiimikaverini ja ystäväni – ja koska sinulla on rohkeutta kysyä vaikeita kysymyksiä."*
+*In the long course of time, through haste, fragmented repositories and Hype-Driven Development, this question was lost from the codebases. That same knowledge I now declare to you, because you are my teammate and my friend — and because you have the courage to ask difficult questions."*
 
-**Arjunan hämmennys: "Kuinka voit olla niin vanha?"**
+**Arjuna's bewilderment: "How can you be so old?"**
 
-Arjuna katsoi Krishnaa kummissaan.
+Arjuna looked at Krishna in astonishment.
 
 **Arjuna:**
 
-*"Krishna! Ada Lovelace kuoli lähes sata vuotta ennen ensimmäistä Jira-tikettiä. Turing ja von Neumann kuolivat ennen kuin sinä liityit tähän konsulttiyritykseen. Grace Hopper oli jo amiraali, kun sinä vielä väitit CV:ssäsi osaavasi JavaScriptiä.*
+*"Krishna! Ada Lovelace died nearly a hundred years before the first Jira ticket. Turing and von Neumann died before you joined this consultancy. Grace Hopper was already an admiral while you were still claiming on your CV to know JavaScript.*
 
-*Miten sinä muka opetit heitä?"*
+*How could you possibly have taught them?"*
 
-Krishna vastasi syvällä ja rauhallisella äänellä:
-
-**Krishna:**
-
-*"Minulla ja sinulla on takana kymmeniä tuhansia committeja, ohjelmointikieliä ja projekteja, oi Arjuna. Sinä näet ihmiset, syntaksit ja teknologiat. Minä puhun siitä kysymyksestä, joka syntyy uudelleen jokaisessa sukupolvessa.*
-
-*Minä en ollut heidän frameworkinsa. Minä olin heidän vaikea kysymyksensä.*
-
-*Aina kun järjestelmän ymmärrys rappeutuu, aina kun Ubiquitous Language muuttuu sanoiksi ilman yhteistä merkitystä ja malli alkaa valehdella domainista, minä palaan uudelleen kysymyksen muodossa.*
-
-KNOWLEDGE CRUNCHINGIN KIERTO
-
-Havainto ---\> Vaikea kysymys ---\> Model Storming ---\> Esimerkki tai testi
-
-^                                                                    \|
-
-\|---------------------- Tarkentunut malli \<-----------------------\|
+Krishna answered in a deep and tranquil voice:
 
 **Krishna:**
 
-*"En palaa uutena frameworkina enkä arkkitehtina, joka tuo valmiin totuuden. Palaan, kun kehittäjä, domain-asiantuntija ja käyttäjä kokoontuvat saman esimerkin äärelle ja uskaltavat huomata, etteivät he vielä tarkoita samalla sanalla samaa asiaa.*
+*"You and I have tens of thousands of commits, programming languages and projects behind us, O Arjuna. You see the people, the syntaxes and the technologies. I speak of the question that is born anew in every generation.*
 
-*Knowledge crunchingissa vanha oletus saa kuolla ja tarkempi malli syntyä. Model Stormingissa ymmärrys saa väliaikaisen muodon, jota voidaan koetella ja muuttaa. Näin dharmaa ei palauteta kerran – se löydetään uudelleen jokaisessa keskustelussa, testissä ja refaktoroinnissa."*
+*I was not their framework. I was their difficult question.*
 
-**Tekemättömyys teossa (Akarma)**
+*Whenever the understanding of a system decays, whenever the Ubiquitous Language turns into words without shared meaning and the model begins to lie about the domain, I return in the form of a question."*
 
-Sitten Krishna palaa opetukseen, joka hämmentää kehittäjiä kaikkein eniten: miten koodaaminen ja koodaamatta jättäminen suhtautuvat toisiinsa?
+```text
+              THE CYCLE OF KNOWLEDGE CRUNCHING
 
-**Krishna:**
-
-*"Mitä on toiminta (Karma) ja mitä on toimettomuus (Akarma)? Tässä viisaimmatkin seniorit menevät sekaisin.*
-
-Se, joka näkee toimettomuudessa toiminnan ja toiminnassa toimettomuuden, on viisas ihmisten joukossa.
-
-*Mitä tämä tarkoittaa ohjelmoinnissa?"*
-
-1.  Toiminta toimettomuudessa: Kehittäjä istui kaksi tuntia hiljaa, ei kirjoittanut riviäkään koodia, mutta löysi väärän oletuksen tietomallista. Hän säästi tiimiltä kolmen kuukauden turhan työn. Ulkoa päin se näytti toimettomuudelta, mutta se oli suurin arkkitehtoninen teko!
-
-2.  Toimettomuus toiminnassa: Toinen kehittäjä ja AI-generoija tuottivat 3 000 riviä mapper-luokkia, rajapintoja ja controllereita ilman, että he ymmärsivät liiketoiminnan tarvetta sekuntiakaan. Ulkoa päin se näytti valtavalta toiminnalta, mutta domainin kannalta mitään ei tapahtunut – se oli täydellistä toimettomuutta.
+  Observation ---> Difficult question ---> Model Storming ---> Example or test
+       ^                                                              |
+       |------------------- A sharpened model <-----------------------|
+```
 
 **Krishna:**
 
-"Viisas koodari on se, jonka jokainen teko on puhdistettu hemmottelevasta kiintymyksestä. Hänen koodinsa ei ole täynnä turhia abstraktioita (accidental complexity), vaan vain sitä, mikä kuuluu itse ongelmaan (essential complexity)."
+*"I do not return as a new framework, nor as an architect bearing a finished truth. I return when the developer, the domain expert and the user gather around the same example and dare to notice that they do not yet mean the same thing by the same word.*
 
-**Tietoisuuden tuli polttaa teknisen velan**
+*In knowledge crunching the old assumption is permitted to die and a more precise model to be born. In Model Storming, understanding is given a provisional form that can be tested and changed. Thus dharma is not restored once and for all — it is rediscovered in every conversation, every test and every refactoring."*
+
+**Inaction in action (Akarma)**
+
+Krishna then returns to the teaching that confuses developers most of all: how do coding and not coding stand in relation to one another?
 
 **Krishna:**
 
-*"Niin kuin syttynyt tuli polttaa polttopuut tuhaksi, samoin Tiedon Tuli (Jnana) polttaa kaiken teknisen velan ja virheelliset oletukset.*
+*"What is action (Karma) and what is inaction (Akarma)? Here even the wisest seniors are bewildered.*
 
-*Ei ole mitään niin puhdistavaa tässä maailmassa kuin aito ymmärrys domainista. Kun sinulla on se tieto, et enää lankea oikoteihin eikä sinua sokaise yksikään uusi framework-hype.*
+**He who sees action in inaction, and inaction in action, is wise among men.**
 
-*Ota tämä Tieto miekaksesi, leikkaa sillä poikki se epäilys, joka kumpuaa tietämättömyydestä ja istuu sydämessäsi! Nouse, Arjuna, tartu Gandivaan ja palaa diffiin!"*
+*What does this mean in programming?"*
 
-**Luvun IV päätös**
+1. **Action in inaction:** A developer sat in silence for two hours and wrote not a single line of code, but found a false assumption in the data model. He saved the team three months of pointless work. From the outside it looked like inaction, but it was the greatest architectural deed of all!
 
-Arjuna alkaa nähdä oman roolinsa pidemmässä jatkumossa:
+2. **Inaction in action:** Another developer and an AI generator produced 3,000 lines of mapper classes, interfaces and controllers without understanding the business need for one second. From the outside it looked like enormous activity, but as far as the domain was concerned nothing happened at all — it was perfect inaction.
 
-1.  Ohjelmistoarkkitehtuurin perussäännöt eivät ole viime viikon muoti-ilmiö, vaan **ikuista viisautta**, joka vain pukeutuu eri kieliin eri vuosikymmeninä.
+**Krishna:**
 
-2.  Rivimäärät ja git-commitien tiheys eivät kerro mitään työn arvosta – **pysähtyminen ja oikean kysymyksen esittäminen** on usein tehokkainta koodaamista.
+*"The wise coder is the one whose every deed has been purified of indulgent attachment. His code is not full of needless abstractions (accidental complexity), but only of what belongs to the problem itself (essential complexity)."*
 
-3.  Ymmärrys (Knowledge Crunching) polttaa epävarmuuden pois.
+**The fire of knowledge burns technical debt to ash**
 
-Arjuna katsoo nyt koodia ilman pelkoa. Hän ymmärtää, että jokainen rehellinen katselmointi voi jatkaa tätä tiedon ikuista ketjua.
+**Krishna:**
+
+*"As a kindled fire burns firewood to ashes, so the Fire of Knowledge (Jnana) burns up all technical debt and every false assumption.*
+
+*There is nothing in this world so purifying as a true understanding of the domain. When you possess that knowledge, you no longer fall for shortcuts, and no framework hype can blind you.*
+
+*Take up this Knowledge as your sword, and with it cut through the doubt that springs from ignorance and sits in your heart! Rise, Arjuna, take up the Gandiva and return to the diff!"*
+
+**The conclusion of Chapter IV**
+
+Arjuna begins to see his own role within a longer continuum:
+
+1. The fundamental rules of software architecture are not last week's fashion but **eternal wisdom**, which merely dresses itself in different languages in different decades.
+
+2. Line counts and commit frequency say nothing about the value of the work — **stopping and asking the right question** is often the most effective coding of all.
+
+3. Understanding (knowledge crunching) burns uncertainty away.
+
+Arjuna now looks at the code without fear. He understands that every honest review can carry this eternal chain of knowledge one link further.
 
 **Arjuna:**
 
-*"Epäilykseni alkavat väistyä, Krishna. Mutta kerro minulle vielä: kumpi on lopulta parempi – luopua kaikista huonoista luokista kerralla (Sanyasa), vai refaktoroida niitä pikkuhiljaa toiminnan kautta (Karma Yoga)?"*
+*"My doubts begin to recede, Krishna. But tell me one thing more: which is better in the end — to renounce all the bad classes at once (Sanyasa), or to refactor them little by little through action (Karma Yoga)?"*
 
-## LUKU 5: Sanyasa Yoga eli suuren uudelleenkirjoituksen ansa
+## CHAPTER 5: Sanyasa Yoga, or the Trap of the Great Rewrite
 
-**Arjunan kysymys: "Eikö olisi helpompaa vain tuhota tämä ja aloittaa alusta?"**
+**Arjuna's question: "Would it not be easier simply to destroy this and start again?"**
 
-Arjuna oli oppinut toiminnan merkityksen ja ymmärtänyt koodin historialliset kerrokset. Mutta katsoessaan edelleen monoliitin syövereitä ja sekavia luokkarakenteita, hänen mieleensä nousi kaikkien ohjelmoijien suurin houkutus.
-
-**Arjuna:**
-
-*"Krishna! Toisaalta kiittelet luopumista (Sanyasa – vanhan koodipohjan hylkäämistä ja Big Rewrite -projektia) ja toisaalta kehotat minua jatkamaan refaktorointia toiminnan kautta (Karma Yoga).*
-
-*Sano minulle selkeästi: kumpi polku on parempi? Eikö olisi paljon helpompaa heittää koko tämä repo roskakoriin, perustaa uusi greenfield-projekti tyhjältä pöydältä ja kirjoittaa kaikki puhtaalle paperille?"*
-
-**Krishna vastaa: Uudelleenkirjoituksen illuusio**
-
-Krishna katsoi Arjunaa lempeästi, mutta napakasti, kuten kokenut arkkitehti, joka on nähnyt jo kymmenen epäonnistunutta greenfield-uudistusta.
-
-**Krishna:**
-
-*"Sekä koodista luopuminen (Rewrite) että sen refaktorointi (Karma Yoga) voivat johtaa korkeimpaan tulokseen. Mutta näistä kahdesta toiminnallinen refaktorointi on huomattavasti parempi!*
-
-*Luopuminen ilman kurinalaisuutta ja ymmärrystä tuo mukanaan vain suurta tuskaa.*
-
-*Sinä luulet, että uudessa repossa kaikki on puhdasta. Mutta jos sinulla on samat virheelliset oletukset ja sama epäselvä kieli mukanasi, viet vain vanhat haamusi uuteen projektiin! Viiden kuukauden kuluttua 'uusi uljas greenfield-projektisi' on aivan yhtä suuri legacy-sotku kuin tämä vanha monoliitti."*
-
-GREENFIELD-HARHA (BIG REWRITE)
-
-Vanha monoliitti (Sotku, mutta toimii)
-
-│
-
-├───\> "Heitetään roskakoriin ja aloitetaan alusta!"
-
-│
-
-▼
-
-Uusi Repo (Greenfield)
-
-│
-
-├───\> Ei ymmärretty vanhoja piilosääntöjä
-
-├───\> Kopioitiin samat oletukset
-
-│
-
-▼
-
-Tulos: Kaksi legacy-järjestelmää yhden sijaan!
-
-**Krishna:**
-
-*"Toiminnallinen luopuja (Karma-Sanyasi) on se, joka ei vihaa vanhaa koodia eikä ihannoi uutta frameworkia. Hän ei pakenemaan greenfield-haaveisiin, vaan tekee muutokset elävään järjestelmään pala palalta.*
-
-*Sitä, joka näkee, että syvällinen arkkitehtuurisuunnittelu (Sankhya) ja käytännön refaktorointi (Karma) ovat sama asia, voidaan kutsua todelliseksi näkijäksi."*
-
-**Tyyni koodari keskellä tuotantoa**
-
-Krishna selitti seuraavaksi, miltä näyttää kehittäjä, joka on saavuttanut sisäisen rauhan keskellä monimutkaista järjestelmää.
-
-**Krishna:**
-
-*"Se, joka on puhdistanut mielensä, voittanut egonsa ja oppinut näkemään saman Ubiquitous Languagen kaikkialla, ei tahraannu koodatessaan – vaikka hänen kätensä koskisivat kaikkein kauheimpaan legacy-metodiin.*
-
-*Vaikka hän näkee, kuulee, tekee HTTP-kutsuja, lukee tietokannasta ja kirjoittaa lokia, hän ajattelee:*
-
-*'En minä (minun egoni) tätä tee. Se on vain tyyppijärjestelmä ja runtime, joka suorittaa tehtäväänsä.'*
-
-*Hän asettaa jokaisen muutoksensa Bounded Contextin suojiin, aivan kuten lootuksenkukka kasvaa vedessä mutta sen lehtiin ei tartu pisaraakaan mutaa. Hän tekee työnsä ilman kiintymystä, ja siksi tuotantobugit eivät pysty murtamaan hänen rauhaansa."*
-
-**Yhdenvertainen katse käsitteisiin**
-
-**Krishna:**
-
-*"Viisas arkkitehti katsoo samalla yhdenvertaisella silmällä (Sama-darshina) niin pientä apuluokkaa, suurta Aggregate Rootia kuin monimutkaista ulkoista rajapintaakin.*
-
-*Hän ei väheksy pientä Value Objectia, eikä hän pelkää tuotantokannassa makaavaa miljardin rivin taulua. Hän ymmärtää, että niitä kaikkia koskevat samat dharman lait: jokaisella pitää olla selkeä rooli, rajat ja merkitys."*
-
-**Luvun V päätös**
-
-Arjunalle kirkastuu syvä totuus uudelleenkirjoituksen (Big Rewrite) ja refaktoroinnin suhteesta:
-
-1.  **Pako greenfield-projektiin on harha:** Jos et ymmärrä domainia vanhassa koodissa, et hallitse sitä uudessakaan.
-
-2.  **Lootuksenkukan periaate:** Voit koodata kaikkein rumimmassa legacy-ympäristössä menettämättä ammattitaitoasi ja rauhaasi, kunhan erotat oman egosi järjestelmän rakenteista ja teet jokaisen pienen muutoksen kurinalaisesti.
-
-3.  Arkkitehdin tehtävä ei ole unelmoida tyhjästä pöydästä, vaan **tuoda valoa ja järjestystä siihen maastoon, jossa tiimi tänään seisoo**.
-
-Arjuna katsoo monoliittia uusin silmin. Hän ei enää haaveile repon poistamisesta.
+Arjuna had learned the meaning of action and understood the historical strata of code. But as he went on gazing into the depths of the monolith and its tangled class structures, the greatest temptation of all programmers rose in his mind.
 
 **Arjuna:**
 
-*"Ymmärrän, Krishna. En pakene uuteen repoon. Alan siivota tätä maastoa tässä ja nyt. Mutta miten hallitsen mieleni ja keskittymiseni, kun ympärilläni laulavat Slack-ilmoitukset ja jatkuvat keskeytykset?"*
+*"Krishna! On the one hand you praise renunciation (Sanyasa — abandoning the old codebase and launching a Big Rewrite), and on the other you urge me to go on refactoring through action (Karma Yoga).*
 
-## LUKU 6: Dhyana Yoga ja Deep Workin taito
+*Tell me plainly: which path is better? Would it not be far easier to throw this whole repository into the bin, start a new greenfield project with a clean slate, and write it all afresh on virgin paper?"*
 
-**Mielen hallinta keskeytysten aikakaudella**
+**Krishna answers: the illusion of the rewrite**
 
-Arjuna oli valmis refaktoroimaan elävää koodia, mutta hän huomasi heti uuden esteen. Aina kun hän yritti syventyä monimutkaiseen async-vuohon, hänen huomionsa herpaantui.
+Krishna looked at Arjuna gently but firmly, as an experienced architect who has already seen ten failed greenfield renewals.
 
-Slack lauloi punaisia ilmoituksia, Teams-palaverikutsu syrjäytti kalenterin, ja selainikkunassa vilkkuivat uudet teknologiauutiset.
+**Krishna:**
+
+*"Both renunciation of the code (Rewrite) and its refactoring (Karma Yoga) can lead to the highest result. But of the two, refactoring through action is by far the better!*
+
+*Renunciation without discipline and without understanding brings nothing but great suffering.*
+
+*You imagine that in the new repository everything will be clean. But if you carry the same false assumptions and the same unclear language with you, you merely take your old ghosts into a new project! Five months from now your 'brave new greenfield project' will be exactly as great a legacy mess as this old monolith."*
+
+```text
+                 THE GREENFIELD ILLUSION (BIG REWRITE)
+
+           Old monolith (a mess, but it works)
+                         │
+                         ├───> "Bin it and start again!"
+                         │
+                         ▼
+                   New repo (greenfield)
+                         │
+                         ├───> The old hidden rules were never understood
+                         ├───> The same assumptions were copied over
+                         │
+                         ▼
+              Result: two legacy systems instead of one!
+```
+
+**Krishna:**
+
+*"The active renouncer (Karma-Sanyasi) is he who neither hates the old code nor idolises the new framework. He does not flee into greenfield dreams; he makes his changes to the living system piece by piece.*
+
+*He who sees that deep architectural design (Sankhya) and practical refactoring (Karma) are one and the same may be called a true seer."*
+
+**The serene coder in the midst of production**
+
+Krishna next described what a developer looks like who has attained inner peace in the middle of a complex system.
+
+**Krishna:**
+
+*"He who has purified his mind, conquered his ego and learned to see the same Ubiquitous Language everywhere is not stained by his coding — though his hands should touch the most dreadful legacy method of all.*
+
+*Though he sees, hears, makes HTTP calls, reads from the database and writes to the log, he thinks:*
+
+*'It is not I (my ego) who does this. It is only the type system and the runtime, performing their task.'*
+
+*He places every change of his within the shelter of a Bounded Context, just as the lotus grows in water and yet not a drop of mud clings to its leaves. He does his work without attachment, and therefore production bugs cannot break his peace."*
+
+**An equal eye upon all concepts**
+
+**Krishna:**
+
+*"The wise architect looks with the same equal eye (Sama-darshina) upon a small helper class, upon a great Aggregate Root, and upon a complex external interface.*
+
+*He does not disdain the small Value Object, nor does he fear the billion-row table lying in the production database. He understands that the same laws of dharma apply to them all: each must have a clear role, clear boundaries and a clear meaning."*
+
+**The conclusion of Chapter V**
+
+The deep truth about the relation between the Big Rewrite and refactoring dawns on Arjuna:
+
+1. **Flight into a greenfield project is an illusion:** if you do not understand the domain in the old code, you will not master it in the new one either.
+
+2. **The principle of the lotus:** you can code in the ugliest legacy environment there is without losing your craft or your peace, so long as you keep your ego separate from the structures of the system and make every small change with discipline.
+
+3. The architect's task is not to dream of a clean slate, but to **bring light and order to the terrain in which the team is standing today**.
+
+Arjuna looks at the monolith with new eyes. He no longer dreams of deleting the repository.
 
 **Arjuna:**
 
-*"Krishna! Mieli on levoton, raju, vaativa ja piintynyt! Sen hallitseminen tuntuu minusta yhtä mahdottomalta kuin myrskytuulen sitominen solmuun.*
+*"I understand, Krishna. I shall not flee into a new repository. I begin to clear this terrain here and now. But how am I to govern my mind and my concentration, when Slack notifications sing around me and the interruptions never stop?"*
 
-*Miten voin mallintaa syvällisiä liiketoimintasääntöjä, kun mieleni hyppii tiketti-ilmoituksista kahvihuonejuoruun ja sieltä tuotantolokeihin sekunnin murto-osassa?"*
+## CHAPTER 6: Dhyana Yoga and the Art of Deep Work
 
-**Krishna vastaa: Abhyasa ja Vairagya (Harjoitus ja irti päästäminen)**
+**Mastering the mind in the age of interruption**
 
-Krishna katsoi Arjunaa ymmärtäväisesti. Tämä ei ollut uusi ongelma – se oli ihmismielen ikuinen taistelu.
+Arjuna was ready to refactor living code, but he met a new obstacle at once. Every time he tried to sink into a complicated async flow, his attention scattered.
 
-**Krishna:**
-
-*"Ilman muuta mieli on vaikea hallita, oi valtavakätinen! Mutta se on mahdollista saavuttaa kahdella asialla: **Abhyasalla** (säännöllisellä harjoituksella) ja **Vairagyalla** (irti päästämisellä ja kurinalaisuudella).*
-
-*Se, joka ei hallitse mieltään, ei voi saavuttaa syvää fokaalista keskittymistä (Deep Work). Mutta se, joka hallitsee itsensä ja yrittää oikeilla menetelmillä, saavuttaa menestyksen."*
-
-DEEP WORKIN TILA (DHYANA)
-
-Puhelin 🔕 │ Slack Do Not Disturb 🌙 │ IDE Fullscreen 💻
-
-────────────────────────────────────────────────────────
-
-│
-
-▼
-
-YKSI FOCUS (Ekagra)
-
-│
-
-▼
-
-Virheetön Domain-malli
-
-**Miten koodari pystyttää meditaatiopaikan?**
-
-Krishna antoi hyvin käytännölliset ohjeet siitä, miten koodarin tulee valmistautua syvätyöjaksoon:
-
-**Krishna:**
-
-*"Valitkoon kehittäjä puhtaan ja rauhallisen työtilan, missä ei ole turhia häiriötekijöitä. Asettakoon hän työskentelyasentonsa ergonomiseksi – ei liian korkealle eikä liian matalalle.*
-
-*Kytkeköön hän pois Slack-ilmoitukset, sulkekoon sosiaalisen median välilehdet ja laittakoon puhelimensa hiljaiselle.*
-
-*Istukoon hän siinä vakaasti, pitäköön selkänsä suorana ja kohdistakoon katseensa vain edessään olevaan koodiin – katsomatta sivuilleen.*
-
-*Älköön hän syökö liikaa raskasta lounasta ennen syvätyöjaksoa, älköönkä myöskään kärsikö nälässä. Älköön hän valvoko koko yötä kofeiinin voimalla, älköönkä nukkuko puolta päivää. Kohtuus kaikessa on joogan avain!"*
-
-**Mielen vertauskuva: Tuuleton paikka**
-
-Krishna käytti kaunista vertauskuvaa kuvaillakseen keskittyneen koodarin mieltä.
-
-**Krishna:**
-
-*"Niin kuin kynttilän liekki ei lepata tuulettomassa paikassa, samoin on sen arkkitehdin mieli tyyni, joka harjoittaa syventymistä domain-malliin.*
-
-*Kun mieli rauhoittuu koodin äärellä, kehittäjä kokee iloa, joka ylittää aistien tason. Hän ei enää horju pois totuudesta, kohtasi hän mitä tahansa refaktorointihaasteita.*
-
-*Tätä tilasta erossa olemista – irti päästämistä kiireestä ja hälystä – kutsutaan todelliseksi Deep Workiksi."*
-
-**Arjunan pelko: "Mitä jos epäonnistun kesken kaiken?"**
-
-Arjunaa pohditutti vielä yksi asia.
+Slack sang out its red notifications, a Teams invitation displaced his calendar, and in the browser window the latest technology news flickered.
 
 **Arjuna:**
 
-*"Krishna! Entä jos kehittäjä yrittää tätä, laittaa ilmoitukset pois ja syvenny koodiin, mutta menettää silti keskittymisensä? Entä jos hän ei saa PR:ää valmiiksi eikä silti nauti 'Just Ship It' -porukan pikaisista voitoista? Onko hän kuin hajonnut pilvi, joka ei kuulu taivaalle eikä maahan?"*
+*"Krishna! The mind is restless, turbulent, demanding and obstinate! Controlling it seems to me as impossible as tying a storm wind into a knot.*
+
+*How can I model deep business rules when my mind leaps from a ticket notification to the gossip of the coffee room and from there to the production logs in a fraction of a second?"*
+
+**Krishna answers: Abhyasa and Vairagya (practice and letting go)**
+
+Krishna looked at Arjuna with understanding. This was no new problem — it was the eternal struggle of the human mind.
 
 **Krishna:**
 
-*"Arjuna! Ei hyvän koodin tekijä koskaan päädy perikatoon – ei tässä sprintissä eikä tulevissa!*
+*"Without doubt the mind is hard to master, O mighty-armed one! But it can be attained by two things: **Abhyasa** (regular practice) and **Vairagya** (letting go, and discipline).*
 
-*Se, joka pyrkii rehelliseen arkkitehtuuriin mutta lankeaa kesken kaiken, syntyy uudelleen parempaan ympäristöön. Hän päätyy tiimiin, jossa on hyvät koodauskäytännöt ja viisaat seniorit.*
+*He who does not master his mind cannot attain deep, focused concentration (Deep Work). But he who masters himself and strives by the right methods attains success."*
 
-*Siellä hän löytää jälleen sen ymmärryksen tason, jonka hän saavutti edellisessä projektissaan, ja jatkaa siitä eteenpäin. Yksikään hyvän mallin eteen tehty työtunti ei mene koskaan hukkaan."*
+```text
+                 THE STATE OF DEEP WORK (DHYANA)
 
-**Luvun VI päätös**
+  Phone 🔕  │  Slack Do Not Disturb 🌙  │  IDE fullscreen 💻
+  ────────────────────────────────────────────────────────
+                          │
+                          ▼
+                  ONE FOCUS (Ekagra)
+                          │
+                          ▼
+                A flawless domain model
+```
 
-Arjuna oppii keskittymisen ja itsekurin merkityksen:
+**How does a coder prepare his place of meditation?**
 
-1.  **Mieli on työkalu, ei isäntä:** Slackin ja Teamsin orjuudesta voi päästä eroisiksi luomalla tietoisia syvätyön (Deep Work) rajoja.
+Krishna gave very practical instructions on how a developer should prepare for a session of deep work:
 
-2.  **Kohtuus kaikessa:** Paras koodi ei synny yön yli kestävissä energiajuomamaratoneissa, vaan tasaisessa, ergonomisessa ja kirkkaassa arjessa.
+**Krishna:**
 
-3.  **Ponnistelu ei mene hukkaan:** Vaikka sprintti menisi myöhästyneeksi, oppi ja pystytetty itsekuri kantavat seuraavaan projektiin.
+*"Let the developer choose a clean and quiet workspace, where there are no needless distractions. Let him set his working posture ergonomically — neither too high nor too low.*
 
-Arjuna laittaa kuulokkeet korvilleen, aktivoi *Do Not Disturb* -tilan ja katsoo suoraan edessä olevaa luokkaa.
+*Let him switch off Slack notifications, close the tabs of social media, and put his phone on silent.*
+
+*Let him sit there steadily, keep his back straight, and direct his gaze only upon the code before him, without looking to either side.*
+
+*Let him not eat too heavy a lunch before a deep work session, nor let him suffer hunger. Let him not stay awake all night on the strength of caffeine, nor sleep half the day away. Moderation in all things is the key to yoga!"*
+
+**A simile for the mind: a windless place**
+
+Krishna used a beautiful simile to describe the mind of a focused coder.
+
+**Krishna:**
+
+*"As the flame of a candle does not flicker in a windless place, so is the mind of that architect steady who practises absorption in the domain model.*
+
+*When the mind grows calm before the code, the developer knows a joy that surpasses the level of the senses. He no longer wavers from the truth, whatever refactoring challenges he may meet.*
+
+*This standing apart from that state — this letting go of haste and clamour — is called true Deep Work."*
+
+**Arjuna's fear: "What if I fail halfway?"**
+
+One thing still troubled Arjuna.
 
 **Arjuna:**
 
-*"Mieleni on tyyni, Krishna. Suljen ulkopuolisen maailman. Olen valmis ymmärtämään järjestelmän syvimmän olemuksen."*
-
-## LUKU 7: Jnana-Vijnana Yoga eli abstraktion ja runtime-todellisuuden synteesi
-
-**Pelkkä tektikirjaoppi ei riitä**
-
-Arjuna oli saavuttanut tyynen mielentilan ja oppinut sulkemaan häiriötekijät pois. Hän tunsi DDD-terminologian ja Bounded Contextien rajoitukset. Mutta Krishna tiesi, että pelkkä teoreettinen tieto (Jnana) ilman käytännön kokemusta runtime-käyttäytymisestä (Vijnana) tekee arkkitehdistä vain norsunluutornissa istuvan haaveilijan.
+*"Krishna! And what if a developer attempts this, turns off his notifications and sinks into the code, but loses his concentration all the same? What if he does not finish the PR, and yet does not enjoy the quick victories of the 'Just Ship It' crowd either? Is he like a scattered cloud, belonging neither to the sky nor to the earth?"*
 
 **Krishna:**
 
-*"Kuuntele nyt, oi Arjuna! Minä kerron sinulle täydellisesti sekä teoreettisen arkkitehtuuritiedon (Jnana) että sen käytännön suorituskyky-ymmärryksen (Vijnana). Kun tämän tiedät, mitään muuta tietämisen arvoista ei tässä koodikannassa sinulle jää.*
+*"Arjuna! Never does one who writes good code come to ruin — neither in this sprint nor in those to come!*
 
-*Tuhatta kehittäjää kohden on ehkä yksi, joka pyrkii todella ymmärtämään arkkitehtuurin syvimmän olemuksen. Ja niistä harvoista, jotka pyrkivät, tuskin yksikään tuntee minun suoritusympäristöni todellista luontoa."*
+*He who strives for honest architecture but falls short halfway is born again into a better environment. He ends up in a team with good coding practices and wise seniors.*
 
-**Kahdeksankertainen fyysinen alusta (Prakriti)**
+*There he finds again the level of understanding he reached in his previous project, and continues onward from it. Not one hour of work done for the sake of a good model is ever wasted."*
 
-Krishna selitti, miten koko ohjelmistoalusta rakentuu elementeistä, joita ilman mikään koodi ei voi suorittua.
+**The conclusion of Chapter VI**
 
-**Krishna:**
+Arjuna learns the value of concentration and self-discipline:
 
-*"Minun alempi luontoni (eli fyysinen infra ja runtime) koostuu kahdeksasta elementistä:*
+1. **The mind is a tool, not a master:** one can be freed from bondage to Slack and Teams by creating conscious boundaries for deep work.
 
-1.  **Levytila** (Maa – persistentti tallennus)
+2. **Moderation in all things:** the best code is not born in all-night energy-drink marathons, but in a steady, ergonomic and lucid daily rhythm.
 
-2.  **Verkko-IO** (Vesi – data-virrat ja pakettiliikenne)
+3. **The effort is never wasted:** even if the sprint runs late, the learning and the discipline that were built carry over into the next project.
 
-3.  **CPU-syklit** (Tuli – prosessointiteho)
-
-4.  **RAM-muisti** (Ilma – dynaaminen tila)
-
-5.  **Osoiteavaruus** (Eetteri – muistipaikat ja osoittimet)
-
-6.  **Kääntäjä ja Runtime** (Mieli – koodin tulkinta)
-
-7.  **Tyyppijärjestelmä** (Äly – abstraktiorajat)
-
-8.  **Ego** (Ego – kehittäjän oma mielipide siitä, miten koodi tulisi kirjoittaa)
-
-Alempi luonto (Infrastruktuuri / Prakriti)
-
-\[RAM\] \[CPU\] \[Network\] \[Disk\] \[Runtime\] \[Type System\]
-
-│
-
-▼
-
-Kaikki kytkeytyy yhteen ilmentymään
-
-▲
-
-│
-
-Korkeampi luonto (Domain / Purusha)
-
-\[Liiketoiminta-invariantit ja merkitys\]
-
-**Krishna:**
-
-*"Tämä on vasta alempi luontoni, Arjuna! Mutta tunne myös minun korkeampi luontoni: se Elävä Henki (Domain-malli), joka puhaltaa merkityksen näihin muistipaikkoihin ja pitää koko sovellusta pystyssä.*
-
-*Ilman liiketoimintalogiikkaa CPU vain polttaa sähköä ja RAM-muisti on pelkkää satunnaista kohinaa."*
-
-**Kuin helmet kaikki riippuvat minusta**
-
-Krishna näyttää Arjunalle järjestelmän sellaisena kuin CI/CD-pipeline tai kääntäjä ei sitä näe.
-
-Käyttöliittymä näyttää rahamäärän. API välittää sen representaationa, jossa määrä ja valuutta kulkevat yhdessä. Application Service antaa `Money`-olion Aggregate Rootille, joka tekee sitä koskevan liiketoimintapäätöksen. Domain-eventti kantaa päätöksen tuloksen, projektio näyttää sen asiakkaalle ja tietokantataulu säilyttää teknisen representaation määränä ja valuuttakoodina.
-
-Ne näyttävät erillisiltä osilta:
-
-\[ UI \] ──\> \[ Command \] ──\> \[ Aggregate \] ──\> \[ Domain Event \] ──\> \[ Projection \] ──\> \[ Database \]
-
-Mutta niiden läpi kulkee sama merkitys kuin näkymätön lanka helminauhan läpi.
-
-**Krishna:**
-
-*"Kuin helmet lankaan pujotettuina, kaikki riippuvat minusta.*
-
-*Minä olen Yhteinen Kieli (Ubiquitous Language) kerrosten läpi,*
-
-*minä olen se merkitys, joka pitää järjestelmän yhdessä:*
-
-*minä olen Money käyttäjän ruudulla,*
-
-*minä olen määrän ja valuutan yhteys rajapinnan viestissä,*
-
-*minä olen Money Aggregaatin päätöksenteossa,*
-
-*minä olen päätöksen seurauksena syntyneen Eventin sanomassa,*
-
-*minä olen pysyvyys tietokannan sarakkeessa.*
-
-Ilman minua nämä ovat vain erillisiä teknisiä kuoria –
-
-minä olen se lanka, joka tekee niistä yhden todellisuuden."
-
-**Lanka katkeaa – getterit eivät ole vain kaksi viatonta ovea**
-
-Domain-Driven Designissä tuo lanka on domainin merkitys, jota Ubiquitous Language yrittää tehdä näkyväksi. Osia ei yhdistä ensisijaisesti Java, JSON, Kafka tai vierasavain. Niitä yhdistää väite siitä, mistä liiketoiminnassa puhutaan.
-
-**Krishna:**
-
-*"Jos Money tarkoittaa aggregaatissa määrän ja valuutan muodostamaa muuttumatonta kokonaisuutta, mutta sen getterit opettavat muun järjestelmän käsittelemään niitä kahtena toisistaan irrallisena primitiivinä, helminauha alkaa katketa.*
-
-*Kaikki helmet voivat silti olla tallella. Jokainen komponentti voi toimia omassa erillisessä yksikkötestissään. Järjestelmä ei vain enää puhu samaa todellisuutta päästä päähän."*
-
-Ubiquitous Language ei ole järjestelmän koriste tai dokumentaation kuorrute. **Se on lanka, joka pitää sen osat samassa todellisuudessa.**
-
-**Koodin Kolme Laatua (Gunat) järjestelmässä**
-
-Sitten Krishna paljastaa Arjunalle, miten koodi ja kehittäjät jakaantuvat kolmeen laatuun (*Guna*):
-
-**Krishna:**
-
-*"Minun ilmentymäni koodikannassa kietoutuu kolmeen laatuun:*
-
-1.  **Sattva (Puhtaus ja tasapaino):** Selkeä, luettava, testattu ja stabiili koodi. Se luo rauhaa tiimiin ja pitää järjestelmän selkeänä.
-
-2.  **Rajas (Intohimo ja ego):** Hätäiset pikaratkaisut, 'älykkäät' kikkailut ja suorituspaineessa syntynyt koodi. Se tuottaa nopeasti tuloksia, mutta jättää jälkeensä teknistä velkaa.
-
-3.  **Tamas (Hämäryys ja laiskuus):** Spagettikoodi, kopioitu ilman ymmärrystä, ilman testejä tai poikkeudenhallintaa. Se johtaa hämmennykseen ja tuotantokatkoihin.
-
-*Nämä kolme laatua hämärtävät kehittäjän mielen, jotta hän näkisi vain tekniset puitteet eikä merkityksen lankaa."*
-
-**Arjunan tehtävä katselmoijana**
-
-Arjunan levottomuus Merge Requestin äärellä ei siis ole makuasia tai turhaa pikkutarkkuutta. Hän tuntee sormissaan kohdan, jossa merkityksen lanka on katkeamassa tai Rajas/Tamas hallitsee muutosta.
-
-Hänen tehtävänsä ei ole julistaa omaa tulkintaansa ainoaksi totuudeksi, vaan osoittaa katkos ja kysyä:
-
-// Arjuna's PR Review Comment:
-
-*"Tarvitseeko mapperi näitä gettereitä, vai tarvitseeko se Money-oliolta yhden eksplisiittisen representaation? Ja mikä estää muuta koodia ottamasta `amount`- ja `currency`-arvoja ulos ja tekemästä rahan päätöksiä Money-olion puolesta?"*
-
-**Luvun VII päätös**
-
-**Krishna:**
-
-*"Kuka tahansa voi oppia syntaksin, frameworkit ja Gunat (Jnana), mutta se, joka näkee näkymättömän merkityksen langan koodikerrosten läpi ja suojelee Yhteistä Kieltä, omistaa syvän arkkitehtonisen viisauden (Vijnana)."*
-
-Arjuna katsoi koodikantaa uudella tavalla: hän näki laadut, mutta ennen kaikkea hän näki langasta riippuvat helmet.
+Arjuna puts on his headphones, switches on *Do Not Disturb* and looks straight at the class in front of him.
 
 **Arjuna:**
 
-*"Olen löytänyt langan. En enää katsele vain helmiä tai koodin pintaa, vaan sitä, mikä pitää ne yhdessä."*
+*"My mind is serene, Krishna. I shut out the outside world. I am ready to understand the deepest nature of the system."*
 
-## LUKU 8: Akshara Brahma Yoga eli tietokantamigraatiot ja ikuinen tila
+## CHAPTER 7: Jnana-Vijnana Yoga, or the Synthesis of Abstraction and Runtime Reality
 
-**Arjunan kysymys: "Mitä tapahtuu, kun prosessi kuolee?"**
+**Book learning alone is not enough**
 
-Arjuna oli oppinut näkemään koodin laadut ja suoritusympäristön rakenteen. Mutta prosessien väliaikaisuus täytti hänet silti epävarmuudella.
+Arjuna had attained a serene state of mind and learned to shut out distractions. He knew the terminology of DDD and the constraints of Bounded Contexts. But Krishna knew that theoretical knowledge (Jnana) without practical experience of runtime behaviour (Vijnana) makes an architect no more than a dreamer in an ivory tower.
+
+**Krishna:**
+
+*"Listen now, O Arjuna! I shall declare to you in full both theoretical architectural knowledge (Jnana) and its practical counterpart, the understanding of performance in the running system (Vijnana). When you know this, nothing else worth knowing will remain for you in this codebase.*
+
+*Among a thousand developers there is perhaps one who truly strives to understand the deepest nature of architecture. And of those few who strive, hardly one knows the true nature of my runtime."*
+
+**The eightfold physical platform (Prakriti)**
+
+Krishna explained how the whole software platform is composed of elements without which no code can execute.
+
+**Krishna:**
+
+*"My lower nature (that is, the physical infrastructure and the runtime) consists of eight elements:*
+
+1. **Disk** (Earth — persistent storage)
+
+2. **Network I/O** (Water — streams of data and packet traffic)
+
+3. **CPU cycles** (Fire — processing power)
+
+4. **RAM** (Air — dynamic state)
+
+5. **Address space** (Ether — memory locations and pointers)
+
+6. **Compiler and runtime** (Mind — the interpretation of code)
+
+7. **Type system** (Intellect — the boundaries of abstraction)
+
+8. **Ego** (Ego — the developer's own opinion about how the code ought to be written)
+
+```text
+        Lower nature (Infrastructure / Prakriti)
+
+  [RAM]  [CPU]  [Network]  [Disk]  [Runtime]  [Type System]
+                          │
+                          ▼
+            Everything binds into one manifestation
+                          ▲
+                          │
+          Higher nature (Domain / Purusha)
+          [Business invariants and meaning]
+```
+
+**Krishna:**
+
+*"This is only my lower nature, Arjuna! But know also my higher nature: that Living Spirit (the domain model) which breathes meaning into these memory locations and holds the whole application upright.*
+
+*Without business logic the CPU merely burns electricity, and RAM is nothing but random noise."*
+
+**All things hang upon me as pearls upon a thread**
+
+Krishna shows Arjuna the system as neither the CI/CD pipeline nor the compiler can see it.
+
+The user interface displays an amount of money. The API conveys it as a representation in which the amount and the currency travel together. The Application Service hands the `Money` object to the Aggregate Root, which makes the business decision concerning it. A domain event carries the result of that decision, a projection shows it to the customer, and a database table preserves the technical representation as an amount and a currency code.
+
+They look like separate parts:
+
+```text
+[ UI ] ──> [ Command ] ──> [ Aggregate ] ──> [ Domain Event ] ──> [ Projection ] ──> [ Database ]
+```
+
+But through them all runs the same meaning, like an invisible thread through a string of pearls.
+
+**Krishna:**
+
+*"As pearls strung upon a thread, all things hang upon me.*
+
+*I am the Ubiquitous Language through the layers,*
+
+*I am the meaning that holds the system together:*
+
+*I am Money on the user's screen,*
+
+*I am the bond of amount and currency in the message at the boundary,*
+
+*I am Money in the decision-making of the Aggregate,*
+
+*I am in the message of the Event born of that decision,*
+
+*I am the persistence in the database column.*
+
+*Without me these are only separate technical shells —*
+
+*I am the thread that makes of them one reality."*
+
+**The thread snaps — getters are not merely two innocent doors**
+
+In Domain-Driven Design that thread is the meaning of the domain, which the Ubiquitous Language tries to make visible. What joins the parts together is not primarily Java, JSON, Kafka or a foreign key. What joins them is a claim about what the business is talking about.
+
+**Krishna:**
+
+*"If Money means, within the aggregate, the immutable whole formed by an amount and a currency, but its getters teach the rest of the system to handle them as two primitives detached from one another, the string of pearls begins to break.*
+
+*Every pearl may still be present. Every component may pass its own isolated unit test. It is only that the system no longer speaks the same reality from end to end."*
+
+The Ubiquitous Language is not an ornament of the system or a glaze upon the documentation. **It is the thread that keeps its parts in the same reality.**
+
+**The three qualities (Gunas) of code in a system**
+
+Krishna then reveals to Arjuna how code and developers divide into three qualities (*Guna*):
+
+**Krishna:**
+
+*"My manifestation in the codebase is bound up with three qualities:*
+
+1. **Sattva (purity and balance):** clear, readable, tested and stable code. It brings peace to the team and keeps the system lucid.
+
+2. **Rajas (passion and ego):** hasty shortcuts, 'clever' tricks and code born under pressure to perform. It produces results quickly, but leaves technical debt behind it.
+
+3. **Tamas (darkness and sloth):** spaghetti code, copied without understanding, without tests or error handling. It leads to confusion and to production outages.
+
+*These three qualities cloud the developer's mind, so that he sees only the technical frame and not the thread of meaning."*
+
+**Arjuna's task as a reviewer**
+
+Arjuna's unease before the Merge Request is therefore not a matter of taste or of needless pedantry. He feels in his fingertips the point at which the thread of meaning is about to break, or at which Rajas and Tamas govern the change.
+
+His task is not to declare his own reading the only truth, but to point at the break and ask:
+
+```text
+// Arjuna's PR review comment:
+```
+
+*"Does the mapper need these getters, or does it need one explicit representation from the Money object? And what prevents other code from pulling out the `amount` and `currency` values and making the decisions about money on Money's behalf?"*
+
+**The conclusion of Chapter VII**
+
+**Krishna:**
+
+*"Anyone can learn the syntax, the frameworks and the Gunas (Jnana); but he who sees the invisible thread of meaning through the layers of code and protects the Ubiquitous Language possesses deep architectural wisdom (Vijnana)."*
+
+Arjuna looked at the codebase in a new way: he saw the qualities, but above all he saw the pearls hanging from the thread.
 
 **Arjuna:**
 
-*"Krishna! Mikä on se Ikuinen Tila (Brahma)? Mikä on sovelluksen perusolemus (Adhyatma), ja mitä ovat nämä tietokanta-transaktiot ja tapahtumat (Karma)?*
+*"I have found the thread. I no longer look only at the pearls or at the surface of the code, but at that which holds them together."*
 
-*Ja ennen kaikkea: Miten järjestelmä säilyttää identiteettinsä silloin, kun podi saa SIGKILL-signaalin, kontti kaatuu ja muisti pyyhkiytyy tyhjäksi? Miten tietoisuus ja tila säilyvät tuotannon kaatumisen hetkellä?"*
+## CHAPTER 8: Akshara Brahma Yoga, or Database Migrations and the Eternal State
 
-**Krishna vastaa: Viimeisen hetken ajatus ja muistin pysyvyys**
+**Arjuna's question: "What happens when the process dies?"**
 
-Krishna katsoi Arjunaa ja valaisi prosessin kuolevaisuuden ja datan kuolemattomuuden eroa.
-
-**Krishna:**
-
-*"Ikuinen ja muuttumaton (Akshara) on se kaikkein syvin tietomalli, joka ei tuhoudu vaikka jokainen sovelluspalvelin ajettaisiin alas.*
-
-*Kuuntele tarkasti tämä laki:*
-
-Mitä tilaa sovellus edustaa viimeisellä muistisivullaan ennen sammumistaan, siihen tilaan se myös herää uudelleenkäynnistyksessä.
-
-*Se prosessi, joka unelmoi uncommitted datasta ja hallitsemattomista tilamuutoksista kuolemansa hetkellä, herää uudelleen korruptoituneena ja bugisena.*
-
-*Mutta se prosessi, joka tekee hallitun alasajon (graceful shutdown), kirjoittaa tilansa eheyden ACID-transaktiolla levylle ja muistaa Bounded Contextinsa – se herää uuteen inkarnaatioon virheettömänä ja valmiina palvelemaan."*
-
-PROSESSIN ALASAJO JA HERÄÄMINEN
-
-Ajoaika (In-Memory State) ───\[SIGTERM\]───\> Graceful Shutdown
-
-│ │
-
-▼ ▼
-
-\`SIGKILL\` (Kaaos) ACID Commit / WAL Log
-
-│ │
-
-▼ ▼
-
-Tietokannan korruptio Ikuinen Tila (Akshara)
-
-(Uudelleensyntymä buginen) (Puhdas uudelleenkäynnistys)
-
-**Kaksi polkua: Epäsynkroninen ja synkroninen migraatio**
-
-Krishna selitti seuraavaksi kaksi tapaa, joilla tila voi siirtyä vanhasta schemasta uuteen – valon ja pimeyden polut.
-
-**Krishna:**
-
-*"On kaksi polkua, joita pitkin koodi ja data siirtyvät versiosta toiseen: Valon polku ja Pimeyden polku.*
-
-**1. Valon polku (Zero-Downtime Migration):**
-
-*Tämä on yhteensopivien migraatioiden polku. Siinä vanha ja uusi schema elävät rinnakkain, data kirjoitetaan hallitusti molempiin suuntiin, ja vanhat luokat poistetaan vasta kun uudet ovat täysin vakaita. Tämä polku johtaa ikuiseen saatavuuteen (99.999% uptime), eikä siltä palaava järjestelmä koe katkoja.*
-
-**2. Pimeyden polku (Downtime Migration & Force Push):**
-
-*Tämä on hätäisten tietokantalukkojen ja 'ajetaan kanta alas yöllä' -asenteen polku. Järjestelmä pysäytetään, dataa muokataan suorilla SQL-skripteillä ilman varmuuskopioita, ja toivotaan parasta. Tämä polku johtaa takaisin tuotantokriiseihin ja manuaaliseen tietojen korjailuun."*
-
-**Unohda väliaikainen, muista Ikuinen**
-
-**Krishna:**
-
-*"Kaikki maailmat ja järjestelmät – jopa kaikkein suurimmat Pilvi-alustat ja kalleimmat klusterit – tulevat ja menevät. Ne syntyvät päivän alussa (Deployment) ja tuhoutuvat yön tullessa (Teardown).*
-
-*Mutta näiden ilmestyvien ja katoavien podien takana on Ikuinen Suoritusympäristö.*
-
-*Älä siis kiinnitä sydäntäsi siihen, pyöriikö sovelluksesi säikeessä X vai podissa Y. Muista minun ikuinen Bounded Contextini kaikkina aikoina, ja käy taisteluusi koodikannassa!*
-
-*Se, joka ajattelee minun liiketoimintasääntöjäni pysähtymättä ja harjoittaa jatkuvaa integrointia (CI), saavuttaa täydellisen tilan ilman pelkoa datan menetyksestä."*
-
-**Luvun VIII päätös**
-
-Arjuna ymmärtää nyt sovelluksen elinkaaren syvimmän luonteen:
-
-1.  **Graceful Shutdown ja Transaktiot:** Prosessin kuolema ei ole katastrofi, jos sovellus suojataan ehyillä transaktioilla ja hallitulla alasajolla.
-
-2.  **Zero-Downtime:** Datamallin muutokset täytyy suunnitella siten, että vanha ja uusi tila voivat elää hetken sovussa keskenään (Valon polku).
-
-3.  **Pysyvyys:** Muisti (RAM) on vain väliaikainen näyttämö, mutta heijastettu tila ja liiketoiminnan perussäännöt ovat ikuisia.
-
-Arjuna katsoo tietokantamigraatioita ja asynkronisia lokiputkia uudella kunnioituksella.
+Arjuna had learned to see the qualities of code and the structure of the runtime. But the transience of processes filled him with uncertainty all the same.
 
 **Arjuna:**
 
-*"En enää pelkää tuotannon sammuttamista tai podien kuolemaa, Krishna. Ymmärrän, miten tila säilytetään. Mutta paljasta minulle nyt kaikkein suurin salaisuus (Raja Vidya) – se, joka tekee koodaamisesta täysin vaivatonta!"*
+*"Krishna! What is that Eternal State (Brahma)? What is the essential nature of an application (Adhyatma), and what are these database transactions and events (Karma)?*
 
-## LUKU 9: Raja-Vidya Raja-Guhya Yoga eli Kuninkaallinen arkkitehtuurisalaisuus
+*And above all: how does a system preserve its identity when the pod receives a SIGKILL, the container falls over and memory is wiped clean? How do consciousness and state survive the moment production crashes?"*
 
-**Kaikkein ylin ja puhtain tieto**
+**Krishna answers: the last thought, and the persistence of memory**
 
-Arjuna oli oppinut hallitsemaan muistin, suoritusympäristön ja tietokannan tilat. Nyt Krishna päätti ilmoittaa hänelle kaikkein korkeimman ja salaisimman opetuksen.
-
-**Krishna:**
-
-*"Koska sinä et kadehdi etkä väittele vastaan, minä ilmoitan sinulle tämän kaikkein suurimman salaisuuden (Raja-Guhya) ja kuninkaallisen tiedon (Raja-Vidya).*
-
-*Tämä on puhdistavista asioista korkein. Tämä on välittömästi havaittavissa, dharman mukainen, erittäin helppo toteuttaa ja ikuisesti kestävä.*
-
-*Ne kehittäjät, joilla ei ole uskoa tähän syvään arkkitehtuurimalliin, eivät saavuta rauhaa. He palaavat aina uudestaan ja uudestaan tuotantokatkojen ja pikakorjausten kiertokulkuun (Samsara)."*
-
-**Näkymätön Invariantti (Immanenssi ja Transsendenssi)**
-
-Krishna paljasti, miten todellinen arkkitehtuuri toimii sovelluksen taustalla.
+Krishna looked at Arjuna and illuminated the difference between the mortality of the process and the immortality of the data.
 
 **Krishna:**
 
-*"Minun näkymätön muotoni peittää koko tämän järjestelmän.*
+*"Eternal and unchanging (Akshara) is that deepest data model which is not destroyed though every application server be shut down.*
 
-Kaikki oliot ja palvelut sijaitsevat minun Bounded Contextissani, mutta minä en ole kytkettynä yhteenkään niistä!
+*Listen closely to this law:*
 
-*Mieti tätä paradoksia, Arjuna!*
+**Whatever state the application represents on its last page of memory before it shuts down, into that state it also awakens on restart.**
 
-- Arkkitehtuuri on kaikkialla koodissa (koska jokainen luokka noudattaa sen sääntöjä).
+*That process which dreams of uncommitted data and uncontrolled state changes at the hour of its death awakens again corrupted and full of bugs.*
 
-- Silti arkkitehtuuri ei ole mikään yksittäinen luokka, rajapinta tai .jar-tiedosto.
+*But that process which performs a graceful shutdown, writes the integrity of its state to disk in an ACID transaction and remembers its Bounded Context — that one awakens into a new incarnation flawless and ready to serve."*
 
-*Niin kuin suuri tuuli liikkuu kaikkialla avaruudessa mutta ei koskaan tartu siihen, samoin kaikki mikroservicesit liikkuvat minun arkkitehtuurissani ilman, että ne sotkevat toisiaan."*
+```text
+              SHUTDOWN AND AWAKENING OF A PROCESS
 
-NÄKYMÄTÖN ARKKITEHTUURI (RAJA-VIDYA)
+  Runtime (in-memory state) ───[SIGTERM]───> Graceful shutdown
+            │                                        │
+            ▼                                        ▼
+      SIGKILL (chaos)                       ACID commit / WAL log
+            │                                        │
+            ▼                                        ▼
+     Database corruption                    Eternal state (Akshara)
+   (rebirth full of bugs)                    (a clean restart)
+```
 
-+-----------------------------------------------+
+**Two paths: asynchronous and synchronous migration**
 
-\| BOUNDED CONTEXT \|
-
-\| \|
-
-\| \[Service A\] \[Service B\] \[Service C\] \|
-
-\| \\ \| / \|
-
-\| \\----\> INVARIANTTI \<-----/ \|
-
-\| \|
-
-+-----------------------------------------------+
-
-(LÄSNÄ KAIKKIALLA - EIKÄ MISSÄÄN ERIKSEEN)
-
-**Yksinkertainen uhri: "Leaf of Code, Spoonful of Data"**
-
-Arjuna mietti, vaatiiko tämä kuninkaallinen tie valtavia, miljoonien eurojen puitteita ja monimutkaisia enterprise-työkaluja.
-
-Krishna vastasi yhdistämällä Gitan kuuluisimman säkeistön suoraan koodaus arkeen:
+Krishna next explained the two ways in which state can pass from an old schema to a new one — the path of light and the path of darkness.
 
 **Krishna:**
 
-*"Joka tarjoaa minulle omistautumisella yksinkertaisen ilmaisun, pienen Value Objectin, yhden selkeän testitapauksen tai pienen puhtaan funktion – sen minä otan ilolla vastaan!*
+*"There are two paths along which code and data move from one version to another: the path of light and the path of darkness.*
 
-Mitä ikinä teetkin, mitä ikinä refaktoroitkaan, mitä ikinä commitoitkaan, mitä ikinä testaatkaan ja mitä ikinä vietkin tuotantoon – tee se kaikki uhrina ja kunnioituksena domain-mallille!
+**1. The path of light (zero-downtime migration):**
 
-*Jos teet näin, vapaudat itsesi hyvien ja huonojen commitien hedelmistä (Karma). Mielesi vapautuu, ja vaikka olisit tehnyt kauheita virheitä menneisyydessä, sinut katsotaan vanhurskaaksi arkkitehdiksi sieltä hetkestä alkaen, kun teet päätöksen kunnioittaa mallia."*
+*This is the path of compatible migrations. Upon it the old and the new schema live side by side, data is written in a controlled way in both directions, and the old classes are removed only when the new ones are entirely stable. This path leads to eternal availability (99.999% uptime), and the system that returns from it suffers no outage.*
 
-**Kuka tahansa voi saavuttaa puhtaan arkkitehtuurin**
+**2. The path of darkness (downtime migration and force push):**
 
-Krishna vakuutti Arjunalle, ettei arkkitehtuuri ole vain tiettyjen "guru-kehittäjien" tai korkeasti palkattujen konsulttien etuoikeus.
+*This is the path of hasty database locks and the attitude of 'we'll take the database down overnight'. The system is halted, data is edited with direct SQL scripts without backups, and one hopes for the best. This path leads back to production crises and to fixing data by hand."*
+
+**Forget the transient, remember the Eternal**
 
 **Krishna:**
 
-*"Ne, jotka turvautuvat minun opetukseeni – olivatpa he vasta-alkajia, juniorikehittäjiä, itseoppineita tai legacy-ylläpitäjiä – saavuttavat yhtäläisesti korkeimman arkkitehtuurin tason!*
+*"All worlds and all systems — even the greatest cloud platforms and the costliest clusters — come and go. They are born at the beginning of the day (deployment) and destroyed at the coming of night (teardown).*
 
-*Kuinka paljon helpompaa se siis on sinulle, jolla on välineet, ymmärrys ja hyvä tiimi ympärilläsi?*
+*But behind these appearing and disappearing pods there is an Eternal Runtime.*
 
-*Kinnitä siis mielesi domainiin, omista työsi mallin selkeydelle, kunnioita invariantteja ja kumarra totuudelle. Kun teet näin, tulet varmasti saavuttamaan minun täydellisen tilani."*
+*Do not, then, fix your heart upon whether your application runs in thread X or in pod Y. Remember my eternal Bounded Context at all times, and go to your battle in the codebase!*
 
-**Luvun IX päätös**
+*He who thinks upon my business rules without ceasing and practises continuous integration (CI) attains the perfect state, free of the fear of data loss."*
 
-Arjuna kokee syvän helpotuksen tunteen:
+**The conclusion of Chapter VIII**
 
-1.  **Näkymätön arkkitehtuuri:** Paras arkkitehtuuri ei ole se, joka vaatii satoja rivejä konfiguraatiota ja monimutkaisia kehyksiä, vaan se, joka luo **turvallisen ja selkeän tilan** jokaiselle luokalle.
+Arjuna now understands the deepest nature of an application's life cycle:
 
-2.  **Pienet teot ratkaisevat:** Yksi puhdas ja rehellinen funktio on arvokkaampi kuin monimutkainen enterprise-hirviö.
+1. **Graceful shutdown and transactions:** the death of a process is no catastrophe, so long as the application is protected by sound transactions and a controlled shutdown.
 
-3.  **Menneet virheet pyyhitään pois:** Ei ole väliä kuinka paljon spagettikoodia olet kirjoittanut eilen. Se hetki, kun sitoudut domainin rehellisyyteen, tekee sinusta oikean arkkitehdin.
+2. **Zero downtime:** changes to the data model must be designed so that the old and the new state can live at peace with one another for a while (the path of light).
 
-Arjuna katsoo koodikantaansa ilman häpeää menneistä virheistä.
+3. **Persistence:** memory (RAM) is only a temporary stage, but the reflected state and the fundamental rules of the business are eternal.
+
+Arjuna looks at database migrations and asynchronous log pipelines with new respect.
 
 **Arjuna:**
 
-*"Sydämeni on keveä, Krishna. Ymmärrän nyt kuninkaallisen salaisuuden. Mutta minun silmäni haluavat nähdä tämän kaiken konkreettisesti: paljasta minulle sinun Mahtava Arkkitehtuurisi ja Kaikkeuden Rakenne (Vibhuti)!"*
+*"I no longer fear shutting down production or the death of pods, Krishna. I understand how state is preserved. But reveal to me now the greatest secret of all (Raja Vidya) — the one that makes coding altogether effortless!"*
 
-## LUKU 10: Vibhuti Yoga eli järjestelmän mahtavat ilmentymät ja entropia
+## CHAPTER 9: Raja-Vidya Raja-Guhya Yoga, or the Royal Architectural Secret
 
-**Arjuna pyytää näkemään mahtavuuden**
+**The highest and purest knowledge**
 
-Arjuna oli ymmärtänyt kuninkaallisen salaisuuden. Mutta koodimaailman moninaisuudessa hän kaipasi kiintopisteitä: mistä asioista ja ilmiöistä Krishna todella tunnistetaan koodipohjassa?
+Arjuna had learned to master the states of memory, of the runtime and of the database. Now Krishna resolved to declare to him the highest and most secret teaching of all.
+
+**Krishna:**
+
+*"Because you neither envy nor argue against me, I shall declare to you this greatest of secrets (Raja-Guhya) and this royal knowledge (Raja-Vidya).*
+
+*This is the highest of all purifying things. It is directly perceptible, in accordance with dharma, very easy to put into practice, and everlasting.*
+
+*Those developers who have no faith in this deep architectural model attain no peace. They return again and again to the round of production outages and quick fixes (Samsara)."*
+
+**The invisible invariant (immanence and transcendence)**
+
+Krishna revealed how true architecture works behind the application.
+
+**Krishna:**
+
+*"My invisible form pervades this entire system.*
+
+**All objects and all services reside within my Bounded Context, yet I am coupled to none of them!**
+
+*Consider this paradox, Arjuna!*
+
+- The architecture is everywhere in the code (because every class obeys its rules).
+
+- And yet the architecture is no single class, no interface, no .jar file.
+
+*As the great wind moves everywhere through space and yet never clings to it, so all microservices move within my architecture without entangling one another."*
+
+```text
+              THE INVISIBLE ARCHITECTURE (RAJA-VIDYA)
+
+  +-----------------------------------------------+
+  |               BOUNDED CONTEXT                 |
+  |                                               |
+  |   [Service A]     [Service B]     [Service C] |
+  |          \             |             /        |
+  |           \----->  INVARIANT  <-----/         |
+  |                                               |
+  +-----------------------------------------------+
+        (PRESENT EVERYWHERE — AND NOWHERE APART)
+```
+
+**The simple offering: "a leaf of code, a spoonful of data"**
+
+Arjuna wondered whether this royal road demanded vast, million-euro apparatus and complicated enterprise tooling.
+
+Krishna answered by joining the most famous verse of the Gita directly to the working day of a coder:
+
+**Krishna:**
+
+*"Whoever offers me with devotion a simple expression, a small Value Object, one clear test case or one small pure function — that I accept with joy!*
+
+**Whatever you do, whatever you refactor, whatever you commit, whatever you test and whatever you release to production — do it all as an offering and as reverence to the domain model!**
+
+*If you do so, you will free yourself from the fruits of good and bad commits alike (Karma). Your mind will be liberated, and though you had made dreadful mistakes in the past, you will be counted a righteous architect from the moment you resolve to honour the model."*
+
+**Anyone may attain clean architecture**
+
+Krishna assured Arjuna that architecture is not the privilege of certain "guru developers" or highly paid consultants alone.
+
+**Krishna:**
+
+*"Those who take refuge in my teaching — be they beginners, junior developers, self-taught, or maintainers of legacy — attain the highest level of architecture just as surely!*
+
+*How much easier, then, is it for you, who have the tools, the understanding and a good team around you?*
+
+*Fix your mind, therefore, upon the domain, dedicate your work to the clarity of the model, honour the invariants and bow to the truth. Doing so, you will most certainly attain my perfect state."*
+
+**The conclusion of Chapter IX**
+
+Arjuna feels a deep sense of relief:
+
+1. **Invisible architecture:** the best architecture is not the one that demands hundreds of lines of configuration and elaborate frameworks, but the one that creates **a safe and clear space** for every class.
+
+2. **Small deeds decide:** one clean and honest function is worth more than a complicated enterprise monster.
+
+3. **Past mistakes are wiped away:** it does not matter how much spaghetti code you wrote yesterday. The moment you commit yourself to the honesty of the domain makes you a true architect.
+
+Arjuna looks at his codebase without shame for past mistakes.
 
 **Arjuna:**
 
-*"Krishna! Puhut minulle ikuisesta arkkitehtuurista, mutta kerro minulle konkreettisesti:*
+*"My heart is light, Krishna. I understand the royal secret now. But my eyes wish to see all this made concrete: reveal to me your Mighty Architecture and the Structure of the Whole (Vibhuti)!"*
 
-*Missä luokissa, missä rajapinnoissa ja missä ilmiöissä sinun mahtavuutesi (Vibhuti) näkyy kaikkein kirkkaimmin? Miten voin tunnistaa sinut keskellä tätä miljoonan rivin repo-haaraa?"*
+## CHAPTER 10: Vibhuti Yoga, or the System's Mighty Manifestations and Entropy
 
-**Krishna ilmoittaa ilmentymänsä koodissa**
+**Arjuna asks to see the majesty**
 
-Krishna vastasi äänellä, joka kaikui läpi koko kehitysympäristön.
-
-**Krishna:**
-
-*"Kuuntele, oi Arjuna! Minun mahtavilla ilmentymilläni ei ole loppua, mutta minä kerron sinulle niistä tärkeimmät:*
-
-- Sähköpostiprotokollisista minä olen **SMTP**, ja tapahtumajonoista minä olen **Kafka**.
-
-- Tietokantatyypeistä minä olen **ACID-yhteensopiva Relaatiokanta**, ja välimuisteista minä olen **Redis**.
-
-- Tietotyypeistä minä olen **Value Object**; invariantteja suojaavista rakenteista minä olen **Aggregate Root**.
-
-- Koodauskäytännöistä minä olen **Test-Driven Development**, ja kääntäjän ominaisuuksista minä olen **Immutability**.
-
-- Kehittäjien joukossa minä olen se **Senior, joka kuuntelee kiltisti juniorin kysymykset** tuomitsematta."\*
-
-ILMENTYMÄT JA ENTROPIA
-
-KORKEIN MAHTAVUUS (Vibhuti) SORMENJÄLKI KOODISSA
-
-───────────────────────────── ─────────────────────
-
-• Event-Driven Stream ---\> Järjestys kaaoksessa
-
-• Value Object ---\> Eheys ilman sivuvaikutuksia
-
-• CI/CD Green Pipeline ---\> Jatkuva rauha ja luottamus
-
-• PARATON ENTROPIA ---\> Kaikkien luokkien vääjäämätön
-
-lahoaminen ilman huolenpitoa!
-
-**Entropia – vääjäämätön luonnonlaki**
-
-Sitten Krishnan ääni muuttui vakavammaksi. Hän ei halunnut Arjunan unohtan koodipohjien suurinta vihollista.
-
-**Krishna:**
-
-*"Mutta muista tämä, Arjuna! Minä olen myös se voima, joka murentaa kaiken rakennetun – minä olen **Entropia**!*
-
-*Mikään koodi ei pysy puhtaana itsestään. Jätä kaikkein kaunein arkkitehtuuri koskemattomaksi puoleksi vuodeksi, ja katso mitä tapahtuu:*
-
-- Riippuvuudet vanhenevat ja saavat tietoturva-aukkoja (CVE).
-
-- Ympäristöparametrit muuttuvat ja API-rajapinnat deprecatoituvat.
-
-- Uudet kiireiset muutokset murtavat rajat, ja 'väliaikaiset' purkat kovettuvat pysyviksi.
-
-Entropia on koodikannan luonnollinen tila! Puhdas arkkitehtuuri ei ole paikka, johon saavutaan ja jäädään maata – se on jatkuvaa taistelua entropian rappeuttavaa voimaa vastaan."
-
-**Rehellisyys ja energian ylläpito**
-
-**Krishna:**
-
-*"Kuten lahoaminen syö puuta, samoin entropia syö repon, jonka eteen ei tehdä jatkuvaa työtä (Yajna).*
-
-*Jos et tuo järjestelmään jatkuvasti uutta järjestystä – refaktoroimalla, siivoamalla ja kyseenalaistamalla – Tamas (mätä) ottaa vallan.*
-
-*Tietämys tästä entropiasta ei ole epätoivon lähde, vaan herätys! Se tarkoittaa, että koodin korjaaminen tänään ei ole epäonnistumisen merkki, vaan elämän merkki. Vain kuollut koodi ei muutu."*
-
-**Luvun X päätös**
-
-Arjuna ymmärtää nyt koodikannan elävän luonteen:
-
-1.  **Kauneus ja eheys:** Krishna on läsnä jokaisessa puhdistetussa luokassa, selkeässä nimessä ja virheettömässä testissä.
-
-2.  Entropia on varjo: Mikään arkkitehtuuri ei ole kuolematon tai "valmis". Entropia syö kaiken, mitä ei aktiivisesti pidetä yllä.
-
-3.  **Refaktorointi on elämää:** Jatkuva koodin siistiminen (Boy Scout Rule) on ainoa tapa pitää entropian peikko loitolla.
-
-Arjuna katsoo koodipohjaa ja näkee sekä sen parhaat ilmentymät että ne paikat, joissa entropia on jo alkanut syödä rakenteita.
+Arjuna had understood the royal secret. But in the multiplicity of the world of code he longed for fixed points: in what things and in what phenomena is Krishna truly recognised within a codebase?
 
 **Arjuna:**
 
-*"Nyt minä ymmärrän entropian mahtavuuden ja sinun sormenjälkesi koodissa, Krishna. Mutta minun mieleni on valmis näkemään kaikkein pelottavimman: Näytä minulle Koko Järjestelmän Todellinen Muoto (Vishvarupa)!"*
+*"Krishna! You speak to me of an eternal architecture, but tell me concretely:*
 
-## LUKU 11: Vishvarupa Darsana Yoga eli Kosmisen järjestelmän ja kaikkien riippuvuuksien näky
+*In which classes, in which interfaces and in which phenomena does your majesty (Vibhuti) shine most brightly? How can I recognise you in the midst of this million-line branch?"*
 
-**Arjuna pyytää näkemään kaiken kerralla**
+**Krishna declares his manifestations in code**
 
-Arjuna oli kuullut opetukset, mutta hän halusi nähdä todellisuuden ilman abstraktioita. Hän ei halunnut enää katsoa koodia src/-kansioittain tai moduuli kerrallaan.
+Krishna answered in a voice that echoed through the whole development environment.
+
+**Krishna:**
+
+*"Listen, O Arjuna! My mighty manifestations have no end, but I shall tell you the chief among them:*
+
+- Of email protocols I am **SMTP**, and of event queues I am **Kafka**.
+
+- Of database types I am the **ACID-compliant relational database**, and of caches I am **Redis**.
+
+- Of data types I am the **Value Object**; of structures that guard invariants I am the **Aggregate Root**.
+
+- Of coding practices I am **Test-Driven Development**, and of compiler features I am **immutability**.
+
+- Among developers I am the **senior who listens patiently to a junior's questions** without judging."*
+
+```text
+        MANIFESTATIONS AND ENTROPY
+
+  HIGHEST MAJESTY (Vibhuti)      FINGERPRINT IN THE CODE
+  ─────────────────────────      ───────────────────────
+  • Event-driven stream    --->  Order within chaos
+  • Value Object           --->  Integrity without side effects
+  • Green CI/CD pipeline   --->  Continuous peace and trust
+  • RELENTLESS ENTROPY     --->  The inevitable decay of every
+                                 class left uncared for!
+```
+
+**Entropy — the inescapable law of nature**
+
+Then Krishna's voice grew graver. He did not want Arjuna to forget the greatest enemy of all codebases.
+
+**Krishna:**
+
+*"But remember this, Arjuna! I am also that force which crumbles everything that is built — I am **Entropy**!*
+
+*No code stays clean of itself. Leave the most beautiful architecture untouched for half a year, and see what happens:*
+
+- Dependencies age and acquire security holes (CVEs).
+
+- Environment parameters change and APIs are deprecated.
+
+- New, hurried changes break the boundaries, and 'temporary' patches harden into permanent ones.
+
+*Entropy is the natural state of a codebase! Clean architecture is not a place you arrive at and lie down in — it is a continual struggle against the decaying force of entropy."*
+
+**Honesty and the maintenance of energy**
+
+**Krishna:**
+
+*"As rot eats wood, so entropy eats the repository for which no continual work (Yajna) is done.*
+
+*If you do not bring new order into the system continually — by refactoring, by cleaning, by questioning — Tamas (decay) takes command.*
+
+*Knowledge of this entropy is not a source of despair but an awakening! It means that repairing the code today is not a mark of failure but a sign of life. Only dead code does not change."*
+
+**The conclusion of Chapter X**
+
+Arjuna now understands the living nature of a codebase:
+
+1. **Beauty and integrity:** Krishna is present in every cleaned class, every clear name and every flawless test.
+
+2. **Entropy is the shadow:** no architecture is immortal or "finished". Entropy devours everything that is not actively maintained.
+
+3. **Refactoring is life:** the continual tidying of code (the Boy Scout Rule) is the only way to keep the troll of entropy at bay.
+
+Arjuna looks at the codebase and sees both its finest manifestations and those places where entropy has already begun to eat the structures away.
 
 **Arjuna:**
 
-*"Krishna! Jos se on minulle mahdollista, näytä minulle sinun rajaton ja kaiken kattava muotosi. Näytä minulle kerralla koko tämä järjestelmä: jokainen mikroservice, jokainen tietokantayhteys, jokainen asynkroninen viesti ja jokainen historiallinen commit!"*
+*"Now I understand the majesty of entropy and your fingerprint in the code, Krishna. But my mind is ready to see the most terrifying thing of all: show me the True Form of the Whole System (Vishvarupa)!"*
 
-**Krishna:**
+## CHAPTER 11: Vishvarupa Darsana Yoga, or the Vision of the Cosmic System and All Its Dependencies
 
-*"Sinun tavalliset silmäsi – sinun pieni IDE-ikkunasi ja tekstieditorisi – eivät kestä tätä näkyä. Siksi minä annan sinulle Jumalallisen Silmän (divya-chaksus) – täydellisen, reaaliaikaisen, kaikkien järjestelmien yli ulottuvan Observability & Distributed Tracing -näkymän!"*
+**Arjuna asks to see everything at once**
 
-**Kosminen näky: Miljoona riviä ja kaikkialle ulottuva dependency graph**
-
-Yhtäkkiä Arjunan silmien edessä räjähti auki koko tuotantoympäristö.
-
-Se ei ollut enää kaunis ja siisti arkkitehtuurikaavio kalvolla. Se oli tuhansien aurinkojen kirkkaudella palava, myrskyävä ja kaiken nielaiseva verkko.
-
-**Sanjay raportoi sokealle omistajalle:**
-
-*"Oi kuningas! Arjuna näki siellä rajattoman määrän suoritusprosesseja, joilla oli miljoonia silmiä, miljoonia lokivirtoja ja lukemattomia avoimia HTTP-yhteyksiä!*
-
-*Koko universumin koodikanta – jokainen riippuvuus, legacy-kirjasto, GraphQL-kysely ja asynkroninen Kafka-topic – oli kietoutunut yhteen ja samaan jättimäiseen hahmoon.*
-
-*Siinä muodossa ei ollut alkua, keskikohtaa eikä loppua."*
-
-VISHVARUPA – KOSMINEN RIIPPUVUUSVERKOSTO
-
-\[ Microservice A \] ─── (gRPC) ───┐
-
-│ │
-
-\[ Legacy Monolith \] ────┼──── \[ Kafka Event Stream \] ──── \[ DB Cluster \]
-
-│ │
-
-\[ Lambda Worker \] ─── (REST) ────┘
-
-│
-
-==================================================
-
-KAIKKI SAMASSA RONTGEN-KUVASSA (Observability)
-
-==================================================
-
-Arjunan hiukset nousivat pystyyn kauhusta. Hän näki, miten tähän jättimäiseen suuhun syöksyivät yhtä lailla Just Ship It -kehittäjät, vanhat arkkitehdit kuin hänen omat kauniit refaktorointipull-requestinsakin. Kaikki koodi oli matkalla kohti samaa kohtaloa.
-
-**"Nyt minusta on tullut Aika / Entropia"**
-
-Säikähtänyt Arjuna lankesi maahan ja huusi monoliitin jättimäisen hahmon edessä:
+Arjuna had heard the teachings, but he wished to see reality without abstractions. He no longer wanted to look at code one src/ folder or one module at a time.
 
 **Arjuna:**
 
-*"Kuka sinä olet, tämä pelottava ja kaiken nielaiseva muoto?! Mihin tämä järjestelmä on menossa?"*
-
-Ja silloin Krishna – kosminen arkkitehtuuri – lausui ne kuuluisat sanat, jotka kaikuivat läpi kaikkien suoritusprosessien ja deployment-putkien:
+*"Krishna! If it is possible for me, show me your boundless and all-encompassing form. Show me this whole system at once: every microservice, every database connection, every asynchronous message and every commit in its history!"*
 
 **Krishna:**
 
-**"Kalo 'smi lokaksayakrt pravrddho:"**
+*"Your ordinary eyes — your small IDE window and your text editor — cannot bear this vision. Therefore I grant you the Divine Eye (divya-chaksus): a perfect, real-time observability and distributed tracing view reaching across every system!"*
 
-"Minä olen Aika / Entropia, maailmojen ja koodikantojen tuhooja! Olen tullut tänne tuhoamaan nämä vanhat rakenteet ja syömään tämän legacy-järjestelmän.
+**The cosmic vision: a million lines and a dependency graph without end**
 
-*Jopa ilman sinua, Arjuna – vaikka sulkisit läppärisi ja juoksisit karkuun – kaikki nämä vanhat luokat, virheelliset setterit ja lahoavat sovellukset tulevat tuhoutumaan time-outteihin ja tekniseen velkaan.*
+All at once the entire production environment burst open before Arjuna's eyes.
 
-*Aika on jo päättänyt heidän kohtalonsa. Minä olen jo poistanut heidän elinvoimansa tuotannosta. Sinä olet vain minun välineeni (Nimitta-matram) – palaa siis diffiin, tee havaintosi näkyväksi ja kutsu tekijät yhteiseen knowledge crunchingiin. Älä korjaa toisen koodia hänen puolestaan; auta tiimiä näkemään, mitä sen pitäisi yhdessä ymmärtää!"*
+It was no longer a neat and beautiful architecture diagram on a slide. It was a raging, all-devouring web, burning with the brightness of a thousand suns.
 
-**Arjunan nöyrtyminen ja paluu normaaliin**
+**Sanjaya reports to the blind owner:**
 
-Näky oli niin musertava, että Arjuna ei kestänyt katsoa sitä enempää. Koko järjestelmän riippuvuuksien monimutkaisuus ja Entropian vääjäämätön voima saivat hänet tajuamaan oman pienen roolinsa.
+*"O King! There Arjuna beheld a boundless multitude of running processes, with millions of eyes, millions of log streams and countless open HTTP connections!*
+
+*The codebase of the whole universe — every dependency, every legacy library, every GraphQL query and every asynchronous Kafka topic — was bound together into one and the same colossal form.*
+
+*In that form there was no beginning, no middle and no end."*
+
+```text
+        VISHVARUPA — THE COSMIC DEPENDENCY NETWORK
+
+  [ Microservice A ] ─── (gRPC) ───┐
+           │                       │
+  [ Legacy Monolith ] ─────────────┼──── [ Kafka Event Stream ] ──── [ DB Cluster ]
+           │                       │
+  [ Lambda Worker ] ─── (REST) ────┘
+                          │
+  ==================================================
+     ALL OF IT IN ONE X-RAY IMAGE (Observability)
+  ==================================================
+```
+
+Arjuna's hair stood on end with dread. He saw how into that colossal mouth rushed alike the Just Ship It developers, the old architects, and his own beautiful refactoring pull requests. All code was travelling towards the same fate.
+
+**"Now I am become Time / Entropy"**
+
+Terrified, Arjuna fell to the ground and cried out before the giant form of the monolith:
 
 **Arjuna:**
 
-*"Anteeksi, Krishna! Jos olen koskaan vähätellyt tätä järjestelmää, jos olen huolimattomasti heittänyt // TODO-kommentin koodiin, jos olen koodikatselmoinnissa nauranut muiden virheille tai suhtautunut kevyesti tähän arkkitehtuuriin – pyydän sitä sinulta anteeksi!*
+*"Who are you, this fearful and all-devouring form?! Where is this system going?"*
 
-*Ole armollinen! Sulje tämä pelottava kaikkien lokien ja riippuvuuksien meri, ja palaa takaisin sinun lauhkeaan, inhimilliseen muotoosi – siksi selkeäksi ja ymmärrettäväksi Domain-malliksi, jonka kanssa voin arjessa elää ja koodata!"*
+And then Krishna — the cosmic architecture — spoke those famous words that echoed through every running process and every deployment pipeline:
 
-Krishna hymyili, sulki kosmisen Observability-näkymän ja palautti koodin näytölle tavallisena, selkeänä ja hallittavana tekstinä.
+**Krishna:**
 
-**Luvun XI päätös**
+**"Kalo 'smi lokakshayakrit pravriddho:"**
 
-Arjuna kokee elämänsä suurimman arkkitehtonisen herätyksen:
+**"I am Time / Entropy, the destroyer of worlds and of codebases! I have come here to destroy these old structures and to devour this legacy system.**
 
-1.  **Todellisuuden näkeminen (Observability):** Järjestelmä on aina suurempi ja monimutkaisempi kuin yksittäisen koodarin päässä oleva kuva.
+*Even without you, Arjuna — though you shut your laptop and run away — all these old classes, these faulty setters and these rotting applications will perish into timeouts and technical debt.*
 
-2.  Aika ja Entropia ovat voittamattomia: Vanha koodi tuhoutuu joka tapauksessa. Katselmoijan ei tarvitse pelastaa järjestelmää yksin, vaan toimia **Ajan välineenä**: tehdä mallin kipu näkyväksi ja luoda yhteiselle ymmärrykselle tilaa.
+*Time has already decided their fate. I have already taken their vitality from production. You are merely my instrument (Nimitta-matram) — return, then, to the diff, make your observation visible, and call its authors into shared knowledge crunching. Do not fix another's code on his behalf; help the team to see what it ought to understand together!"*
 
-3.  **Nöyryys:** Suuren järjestelmän edessä ego katoaa. Katselmoija ei ole "sankari" eikä muutoksen salainen toinen toteuttaja, vaan keskusteluun osallistuva ihminen, joka kertoo rehellisesti sen, minkä näkee.
+**Arjuna's humbling and return to the ordinary**
 
-Arjuna hengittää syvään. Kosminen pelko on väistynyt, ja tilalle on tullut syvä, levollinen kunnioitus järjestelmää kohtaan.
+The vision was so overwhelming that Arjuna could not bear to look on it any longer. The complexity of the system's dependencies and the relentless force of entropy made him grasp how small his own part was.
 
 **Arjuna:**
 
-*"Näin sinun todellisen muotosi. En enää leiki arkkitehtuurilla. Kerro minulle nyt, miten voin palvella tätä mallia kaikkein syvimmällä omistautumisella (Bhakti) joka päivä?"*
+*"Forgive me, Krishna! If I have ever belittled this system, if I have carelessly thrown a // TODO comment into the code, if in code review I have laughed at others' mistakes or treated this architecture lightly — I beg your forgiveness!*
 
-## LUKU 12: Bhakti Yoga eli koodipohjan rakastamisen taito
+*Be merciful! Close this fearful sea of logs and dependencies, and return to your gentle, human form — to that clear and comprehensible domain model with which I can live and code in the everyday!"*
 
-**Arjunan kysymys: "Abstrakti täydellisyys vai arkinen huolenpito?"**
+Krishna smiled, closed the cosmic observability view, and restored the code on the screen to ordinary, clear and manageable text.
 
-Nähdessään järjestelmän kosmisen ja armottoman muodon (Vishvarupa) Arjuna ymmärsi, että pelkkä teoreettinen tieto ei riitä. Hän halusi tietää, millainen asenne tuo parhaan tuloksen pitkässä juoksussa.
+**The conclusion of Chapter XI**
 
-**Arjuna:**
+Arjuna undergoes the greatest architectural awakening of his life:
 
-*"Krishna! Kummat ovat parempia arkkitehteja:*
+1. **Seeing reality (observability):** the system is always larger and more complex than the picture of it in any one coder's head.
 
-*Ne, jotka aina palvovat ja tavoittelevat täysin abstraktia, näkymätöntä ja muodotonta täydellisyyttä (Abstraktia DDD-teoriaa, jota kukaan ei pysty koodaamaan)?*
+2. **Time and entropy are unconquerable:** old code will perish in any case. The reviewer need not save the system alone, but act as **the instrument of Time**: making the model's pain visible and creating room for shared understanding.
 
-*Vai ne, jotka omistautuvat sinulle arjessa hoivaten ja kunnioittaen elävää koodipohjaa jokaisessa commitissa?"*
+3. **Humility:** before a great system, the ego disappears. The reviewer is not a "hero", nor the change's secret second author, but a human being taking part in a conversation, who says honestly what he sees.
 
-**Krishna vastaa: Arjen omistautuminen voittaa teoreettisen purismin**
-
-Krishna katsoi Arjunaa lempeästi. Hän antoi vastauksen, joka huojentaa jokaisen käytännön kehittäjän mieltä.
-
-**Krishna:**
-
-*"Ne, jotka kiinnittävät mielensä minun elävään domain-malliini ja palvelevat sitä lakkaamatta suurella uskolla – heitä minä pidän kaikkein parhaina!*
-
-*Nekin, jotka tavoittelevat abstraktia, muodotonta ja täydellistä arkkitehtuuria, saavuttavat lopulta minut. Mutta heidän polkunsa on täynnä suurta tuskaa ja uupumusta (Burnout)!*
-
-*Sillä ihmiselle, jolla on fyysinen keho ja aikarajat, muodottoman ja täydellisen järjestelmän tavoittelu on erittäin raskasta."*
-
-ARKKITEHTUURIN KAKSI POLKUA
-
-1\. TEOREETTINEN PURISMI 2. BHAKTI YOGA (OMISTAUTUMINEN)
-
-───────────────────────────── ───────────────────────────────
-
-• Loputtomat abstraktiot • Rehellinen ja huolellinen koodi
-
-• "Ei voida koodata vielä" • Tehdään paras mahdollinen TÄNÄÄN
-
-• Arkkitehdin uupumus (Burnout) • Koodikannan jatkuva hoivaaminen
-
-│ │
-
-▼ ▼
-
-Vaikea ja tuskallinen Helppo, tyyni ja kestävä
-
-**Omistautumisen portaat (Bhakti-asteikko)**
-
-Krishna tiesi, että jokaisella kehittäjällä on erilaiset voimavarat ja taidot eri päivinä. Siksi hän antoi joustavan portaat-mallin siitä, miten koodipohjaa voi palvella:
-
-**Krishna:**
-
-*"1. **Ensimmäinen taso:** Kinnitä mielesi täysin minun domain-malliini ja koodaa aina virheettömästi. Tämä on paras tapa.*
-
-*2. **Toinen taso:** Jos et pysty keskittymään täydellisesti, harjoita säännöllistä refaktorointia (Abhyasa-yoga). Opettele vähän kerrallaan.*
-
-*3. **Kolmas taso:** Jos et pysty refaktoroimaan syvällisesti, tee edes työsi minun nimissäni – kirjoita pikkutarkat yksikkötestit ja selkeät PR-kuvaukset.*
-
-*4. **Neljäs taso:** Jos et pysty siihenkään, luovu ainakin egostasi ja tuloksiin kiinnittymisestä (Karma-phala-tyaga). Ota vastaan koodikatselmoinnin kritiikki tyynesti ilman suuttumusta.*
-
-*Tieto on parempi kuin mekaaninen koodaus, syvä mietiskely on parempi kuin pelkkä tieto, ja tyyni luopuminen oman koodin 'virheettömyyden' illuusiosta on parempi kuin mietiskely – sillä siitä seurakseen välitön rauha!"*
-
-**Millainen on todellinen koodin rakastaja?**
-
-Krishna luetteli ne ominaisuudet, jotka tekevät kehittäjästä todellisen *Bhakta-arkkitehdin*:
-
-**Krishna:**
-
-*"Se kehittäjä on minulle erittäin rakas:*
-
-- Joka ei vihaa yhtäkään legacy-luokkaa eikä syytä edellisiä koodareita.
-
-- Joka on ystävällinen ja empaattinen junioreille.
-
-- Joka ei sano 'tämä on MINUN koodini', vaan näkee sen yhteisenä omaisuutena.
-
-- Joka ei paisu kehuista eikä murene koodikatselmoinnin korjauspyynnöistä.
-
-- Joka ei aiheuta paniikkia tiimissä eikä panikoi itse, kun CI-putki palaa punaisena.
-
-- Joka on puhdas, taitava, puolueeton ja vapaa turhasta draamasta.
-
-*Tällainen kehittäjä, joka omistautuu koodipohjan ja tiimin hyvinvoinnille, on minulle kaikkein rakkain."*
-
-**Luvun XII päätös**
-
-Arjuna kokee syvää sisäistä tyyntymistä:
-
-1.  **Ei purismille:** Täydellisen, teoreettisen arkkitehtuurin tavoittelu johtaa uupumukseen. Tärkeintä on **rehellinen huolenpito** siitä koodista, mitä kirjoitetaan tänään.
-
-2.  **Armollisuus itseä ja muita kohtaan:** Jokaisella on omat tasonsa ja voimavaransa. Pienikin hyvä teko (selkeä muuttujan nimi, puuttuva testi) on arvokasta omistautumista.
-
-3.  **Koodi on yhteinen puutarha:** Koodipohjaa ei hallita pelolla tai egolla, vaan empatialla, puhtaudella ja huolenpidolla.
-
-Arjuna katsoo koodia ensimmäistä kertaa ilman taistelutahtoa tai pelkoa – pelkällä kunnioituksella ja rakkaudella.
+Arjuna breathes deeply. The cosmic fear has receded, and in its place has come a deep, tranquil respect for the system.
 
 **Arjuna:**
 
-*"Sydämeni on tyyni, Krishna. En enää vihaa tätä legacy-koodia. Alan hoivata sitä. Mutta selitä minulle vielä viimeiset rakenneosat: Mitä ovat Luonto (Prakriti), Kokija (Purusha) ja itse Tieto (Jnana) tässä koodikannassa?"*
+*"I have seen your true form. I no longer play at architecture. Tell me now: how can I serve this model with the deepest devotion (Bhakti), day after day?"*
 
-## LUKU 13: Kshetra-Kshetrajna Vibhaga Yoga eli Koodipohjan ja sen Ymmärtäjän erottaminen
+## CHAPTER 12: Bhakti Yoga, or the Art of Loving the Codebase
 
-**Arjuna pyytää määritelmää: Kenttä ja Kentän Tuntija**
+**Arjuna's question: "Abstract perfection or everyday care?"**
 
-Arjuna katsoi ruudullaan vilkkuvaa koodia. Hän ymmärsi jo omistautumisen ja arjen huolenpidon merkityksen, mutta hän halusi vetää tarkan rajan materiaalin ja ymmärryksen välille.
-
-**Arjuna:**
-
-*"Krishna! Minä haluan tietää:*
-
-*Mikä on **Kshetra** (Kenttä / Koodipohja) ja mikä on **Kshetrajna** (Kentän Tuntija / Ymmärtäjä)?*
-
-*Mitä on todellinen tieto (Jnana) ja mikä on se kohde, joka pitäisi ymmärtää (Jneya)?"*
-
-**Krishna vastaa: Mikä on Kenttä (Kshetra)?**
-
-Krishna osoitti kädellään koko projektikansiotatosta, repositoriosta ja CI/CD-ympäristöstä muodostuvaa kokonaisuutta.
-
-**Krishna:**
-
-*"Tätä 'kehoa' – tätä koko koodikantaa, repo-haaroja, .java- ja .ts-tiedostoja, tietokantaschemoja ja suoritusympäristöä – kutsutaan **Kentäksi (Kshetra)**.*
-
-*Ja sitä, joka havainnoi tätä kenttää, ymmärtää sen rakenteen ja näkee sen invariantit – häntä viisaat kutsuvat **Kentän Tuntijaksi (Kshetrajna)**.*
-
-*Ota tämä huomioon, Arjuna:*
-
-**Minä olen se sama Ymmärtäjä (Kshetrajna) kaikkien kehittäjien ja kaikkien tiimien koodikannoissa!**
-
-*Tieto kentästä ja sen tuntijasta – se on minun mielestäni aitoa arkkitehtuuritietoa."*
-
-KENTTÄ JA KENTÄN TUNTIJA
-
-KENTTÄ (Kshetra - Materiaali) KENTÄN TUNTIJA (Kshetrajna - Tietoisuus)
-
-──────────────────────────────── ─────────────────────────────────────────
-
-• Tekstitiedostot & syntaksi • Ymmärrys liiketoimintatarpeesta
-
-• Frameworkit & kirjastot • Kyky nähdä muutosvaikutukset
-
-• CI/CD-putket & suorituskyky • Invarianttien ja rajojen tunnistaminen
-
-│ │
-
-▼ ▼
-
-Pysymätön & Muuttuva Ikuinen & Tiedostava
-
-**Mistä Kenttä (Koodikanta) koostuu?**
-
-Krishna eritteli tarkasti, mitä kaikkea koodikannan kenttä pitää sisällään:
-
-**Krishna:**
-
-*"Laitteisto, muistimäärä, kääntäjän komponentit, ego, tyyppijärjestelmä, viisi aistidataa (lokit, konsolitulosteet, verkko-IO, prosessit, levy-yhteydet), toiveet ('kunpa tämä sprintti päättyisi'), viha bugia kohtaan, ilo vihreästä testistä, ja se rakenne, joka pitää luokat pystyssä muistissa – tämä kaikki on Kenttää ja sen muunnoksia.*
-
-*Älä koskaan sekoita itseäsi (Ymmärtäjää) kenttään (koodiriviin)! Sinä et ole tuo ruma null-osoitinpoikkeama, etkä sinä ole tuo nerokas yksirivinen lambda-funktio. Sinä olet se tietoisuus, joka katsoo niitä molempia."*
-
-**Mitä on Aito Tieto (Jnana)?**
-
-Krishna määritteli arkkitehdin ja kehittäjän henkisen kypsyyden. Aito tieto ei ole sitä, että muistaa ulkoa jokaisen Java- tai Python-kirjaston metodin.
-
-**Krishna:**
-
-*"Aito Tieto ohjelmistokehityksessä on tätä:*
-
-- **Nöyryys:** Sen tajuaminen, ettei kukaan osaa kaikkea.
-
-- **Kerskailemattomuus:** Ei elvistellä koodikatselmoinnissa omilla kikoilla.
-
-- **Väkivallattomuus (Ahimsa):** Ei runtelu-kritiikkiä muille kehittäjille PR-kommenteissa.
-
-- **Kärsivällisyys:** Rauhallisuus, kun legacy-bugia selvitetään neljättä tuntia.
-
-- **Puhtaus:** Selkeä koodityyli ja rehellinen naming convention.
-
-- **Mielen vakaus:** Ei hätiköityjä ratkaisuja kiireenkään alla.
-
-- **Kiintymättömyys:** Valmius poistaa oma eilen kirjoitettu koodi, jos parempi malli löytyy.
-
-*Kaikki muu kuin tämä on Tietämättömyyttä (Ajnana), olipa koodari kuinka kokenut tahansa."*
-
-**Luonto (Prakriti) ja Henki (Purusha) koodissa**
-
-**Krishna:**
-
-*"Tiedä, että sekä Luonto (Infrastruktuuri/Prakriti) että Henki (Domain-ymmärrys/Purusha) ovat molemmat vailla alkua.*
-
-*Infrastruktuuri ja kääntäjä luovat syyt ja seuraukset (jos kutsut tätä metodia, tapahtuu tämä sivuvaikutus).* *Mutta Ymmärtäjä (Purusha) on se, joka kokee koodin toimivuuden, iloitsee ja kantaa vastuun.*
-
-*Se, joka näkee, että kaikki teot (koodirivit) suorittaa lopulta suoritusympäristön Luonto (Prakriti), ja että Ymmärtäjä pysyy itse toimimattomana ja puhtaana – hän näkee todella!"*
-
-**Luvun XIII päätös**
-
-Arjuna ymmärtää syvän eron koodin ja sen ymmärtämisen välillä:
-
-1.  **Identiteetin vapautuminen:** Kehittäjä ei ole koodinsa. Bugi koodissa ei tarkoita bugia kehittäjän arvossa.
-
-2.  **Aito Tieto on asennetta:** Tieto ei ole framework-tietoutta, vaan nöyryyttä, kärsivällisyyttä, puhtautta ja empatiaa tiimiä kohtaan.
-
-3.  **Arkkitehdin katse:** Arkkitehti on se, joka katsoo koko "kenttää" (repoa, kantaa, infraa) korkeammalta tasolta sekoittamatta omaa egoaan siihen.
-
-Arjuna katsoo ruutuaan. Hän näkee tiedostot Kenttänä ja oman mielensä sen Tuntijana.
+Having seen the cosmic and merciless form of the system (Vishvarupa), Arjuna understood that theoretical knowledge alone does not suffice. He wanted to know which attitude bears the best fruit in the long run.
 
 **Arjuna:**
 
-*"Raja on selvä, Krishna. En enää samastu koodissani oleviin virheisiin. Mutta kerro minulle vielä niistä kolmesta laadusta (Gunat), jotka pyörittävät tätä kenttää ja kaikkia kehittäjiä!"*
+*"Krishna! Which are the better architects:*
 
-## LUKU 14: Gunatraya-Vibhaga Yoga eli koodin kolmen laadun dynamiikka
+*Those who always worship and pursue a wholly abstract, invisible and formless perfection (an abstract DDD theory that no one is able to code)?*
 
-**Miten koodipohja sitoo kehittäjän?**
+*Or those who devote themselves to you in the everyday, tending and honouring the living codebase in every commit?"*
 
-Arjuna oli jo oppinut erottamaan Kentän (koodin) ja Kentän Tuntijan (ymmärryksen). Nyt hän halusi tietää, mitkä voimat saavat viisaatkin kehittäjät tekemään huonoja päätöksiä ja miten koodikannan "henkinen ilmapiiri" muodostuu.
+**Krishna answers: everyday devotion surpasses theoretical purism**
+
+Krishna looked at Arjuna gently. He gave the answer that eases the mind of every practising developer.
+
+**Krishna:**
+
+*"Those who fix their minds upon my living domain model and serve it without ceasing, with great faith — them I hold to be the best of all!*
+
+*Even those who pursue the abstract, formless and perfect architecture reach me in the end. But their path is full of great suffering and exhaustion (burnout)!*
+
+*For a human being who has a body and deadlines, the pursuit of a formless and perfect system is exceedingly heavy."*
+
+```text
+              THE TWO PATHS OF ARCHITECTURE
+
+  1. THEORETICAL PURISM              2. BHAKTI YOGA (DEVOTION)
+  ─────────────────────────          ───────────────────────────────
+  • Endless abstractions             • Honest and careful code
+  • "We can't code it yet"           • Do the best possible TODAY
+  • Architect's burnout              • Continual tending of the codebase
+             │                                     │
+             ▼                                     ▼
+   Hard and full of suffering          Easy, serene and sustainable
+```
+
+**The steps of devotion (the Bhakti scale)**
+
+Krishna knew that every developer has different resources and different skills on different days. He therefore gave a flexible ladder for serving the codebase:
+
+**Krishna:**
+
+*"1. **The first step:** Fix your mind wholly upon my domain model and always code flawlessly. This is the best way.*
+
+*2. **The second step:** If you cannot concentrate perfectly, practise regular refactoring (Abhyasa-yoga). Learn a little at a time.*
+
+*3. **The third step:** If you cannot refactor deeply, then at least do your work in my name — write meticulous unit tests and clear PR descriptions.*
+
+*4. **The fourth step:** If you cannot manage even that, then renounce at least your ego and your attachment to results (Karma-phala-tyaga). Receive the criticism of code review calmly and without anger.*
+
+*Knowledge is better than mechanical coding; deep contemplation is better than knowledge alone; and the serene renunciation of the illusion that one's own code is 'flawless' is better than contemplation — for from it follows immediate peace!"*
+
+**What is a true lover of code like?**
+
+Krishna enumerated the qualities that make a developer a true *Bhakta architect*:
+
+**Krishna:**
+
+*"That developer is very dear to me:*
+
+- Who hates not a single legacy class and blames not the coders who came before.
+
+- Who is kind and empathetic towards juniors.
+
+- Who does not say 'this is MY code', but sees it as common property.
+
+- Who is not puffed up by praise, nor crushed by change requests in code review.
+
+- Who neither causes panic in the team nor panics himself when the CI pipeline burns red.
+
+- Who is clean, skilled, impartial and free of needless drama.
+
+*Such a developer, devoted to the wellbeing of the codebase and of the team, is dearest of all to me."*
+
+**The conclusion of Chapter XII**
+
+Arjuna feels a deep inner calm:
+
+1. **No to purism:** the pursuit of a perfect, theoretical architecture leads to exhaustion. What matters most is **honest care** for the code that is being written today.
+
+2. **Mercy towards oneself and others:** everyone has his own level and his own resources. Even a small good deed (a clear variable name, a missing test) is valuable devotion.
+
+3. **The code is a shared garden:** a codebase is not governed by fear or by ego, but by empathy, cleanliness and care.
+
+Arjuna looks at the code for the first time without the will to fight and without fear — with respect and love alone.
 
 **Arjuna:**
 
-*"Krishna! Mikä saa kehittäjän tekemään purkkaratkaisuja, vaikka hän tietää paremmin? Mitkä ovat ne voimat (Gunat), jotka sitovat ihmisen koodin materiaaliin ja miten niistä voi vapautua?"*
+*"My heart is serene, Krishna. I no longer hate this legacy code. I begin to tend it. But explain to me the last structural parts: what are Nature (Prakriti), the Knower (Purusha) and Knowledge itself (Jnana) in this codebase?"*
 
-**Kolme Laatua (Gunat) koodausarjessa**
+## CHAPTER 13: Kshetra-Kshetrajna Vibhaga Yoga, or Distinguishing the Codebase from the One Who Understands It
 
-Krishna valaisi Arjunalle kolme perusvoimaa, jotka hallitsevat kaikkea koodia, dokumentaatiota ja tiimin dynamiikkaa.
+**Arjuna asks for a definition: the Field and the Knower of the Field**
 
-**Krishna:**
-
-*"Kuuntele, Arjuna! Materiaalinen Luonto (Prakriti) koostuu kolmesta laadusta: **Sattva** (Puhdistavuus/Selkeys), **Rajas** (Kiihko/Kiire) ja **Tamas** (Pimeys/Mätä). Ne sitovat kuolemattoman kehittäjän kiinni koodipohjan materiaaliin.*
-
-1.  **Sattva (Puhtauden laatu):**
-
-*Sattva on tahroton, kirkas ja terveellinen. Se ilmentyy koodina, joka on luettavaa, täysin testattua, selkeästi dokumentoitua ja kaunista. Sattva tuo kehittäjälle sisäistä rauhaa, onnellisuutta ja syvää ymmärrystä. Mutta varo: Sattvakin voi sitoa! Se sitoo kehittäjän hengelliseen ylpeyteen ja 'arkkitehtuuriseen elitismiin'.*
-
-2.  **Rajas (Kiihkon ja kiireen laatu):**
-
-*Rajas syntyy sammumattomasta halusta saada tuloksia AIKAAN NYT. Se ilmentyy spagettikoodina, 'mullankaivuuna', oikoteinä ja hätäisinä pushauksina ilman testejä, jotta tiketti saadaan suljettua ennen sprintin päättymistä. Rajas tuo mukanaan levottomuutta, jatkuvaa hälytystilaa ja loputonta refaktoroitavaa.*
-
-3.  **Tamas (Sokeuden ja mättäyksen laatu):**
-
-*Tamas syntyy tietämättömyydestä ja välinpitämättömyydestä. Se ilmentyy koodina, joka on kopioitu ymmärtämättä foorumeilta tai tekoälyltä, piilotettuina virheinä, kommentoituina testilohkoina (// @Ignore), laiskuutena ja muutosvastarintana. Tamas vie tiimiltä toimintakyvyn ja johtaa uneliaisuuteen ja hämmennykseen."*
-
-KOODIKANNAN KOLME LAATUA (GUNAT)
-
-SATTVA (Selkeys & Rauha)
-
-/ \\
-
-/ "Koodi on taidetta \\
-
-/ ja pidetty puhtaana" \\
-
-/ \\
-
-/ \\
-
-RAJAS (Kiire & Paska) \<─────────\> TAMAS (Mätä & Välinpitämättömyys)
-
-"Äkkiä tuotantoon, "Ei kiinnosta, toimiipahan
-
-ei keretä testaamaan!" jotenkuten, älä koske"
-
-**Miten tunnistaa, mikä laatu hallitsee?**
-
-Krishna antoi Arjunalle selkeät kriteerit, joilla arvioida koodia ja tiimin tilaa millä hetkellä hyvänsä:
-
-**Krishna:**
-
-*"Kun kaikkien luokkien ja funktioiden läpi virtaa selkeys, testit menevät heittämällä läpi ja arkkitehtuuri on helppo selittää juniorille – silloin tiedä, että **Sattva** on voitolla.*
-
-*Kun näet tiimissä valtavaa ahneutta uusille ominaisuuksille, hätäistä PR-katselmointia, 'Quick and Dirty' -kommentteja ja jatkuvaa tulipalojen sammuttamista – silloin hallitsee **Rajas**.*
-
-*Kun koodikanta täyttyy kuolleesta koodista, deprecatoiduista kirjastoista joita kukaan ei uskalla päivittää, ja kehittäjät sanovat 'ei sitä kannata korjata, se on aina ollut rikki' – silloin **Tamas** on peittänyt kaiken pimeyteen."*
-
-**Gunatraya-Atita: Kolmen laadun yläpuolelle nouseminen**
-
-Arjuna kysyi, miten kehittäjä voi saavuttaa täydellisen mielenrauhan näiden voimien keskellä.
+Arjuna looked at the code flickering on his screen. He already understood the value of devotion and everyday care, but he wanted to draw an exact line between the material and the understanding.
 
 **Arjuna:**
 
-*"Miten tunnistetaan se arkkitehti, joka on noussut näiden kolmen laadun yläpuolelle (Gunatita)?"*
+*"Krishna! I wish to know:*
+
+*What is **Kshetra** (the Field / the codebase) and what is **Kshetrajna** (the Knower of the Field / the one who understands)?*
+
+*What is true knowledge (Jnana), and what is that object which ought to be understood (Jneya)?"*
+
+**Krishna answers: what is the Field (Kshetra)?**
+
+Krishna pointed with his hand at the whole formed by the project folder, the repository and the CI/CD environment.
 
 **Krishna:**
 
-*"Se kehittäjä, oi Arjuna:*
+*"This 'body' — this entire codebase, its branches, its .java and .ts files, its database schemas and its runtime — is called the **Field (Kshetra)**.*
 
-- Ei vihaa **Tamasia** (kun hän joutuu korjaamaan vanhaa rumaa legacy-koodia).
+*And he who observes this field, understands its structure and sees its invariants — him the wise call the **Knower of the Field (Kshetrajna)**.*
 
-- Ei haaveile **Rajasista** (eikä panikoi, vaikka koodia pitäisi kirjoittaa nopeasti).
+*Take note of this, Arjuna:*
 
-- Ei ylpisty **Sattvasta** (eikä katso muita alaspäin, vaikka hänen oma koodinsa olisi täydellistä).
+**I am that same Knower (Kshetrajna) in the codebases of all developers and of all teams!**
 
-*Hän pysyy tyynenä kuin kivenmurikka myrskyssä. Hän näkee, että nämä kolme laatua vain pyörivät ja vaikuttavat koodissa, mutta hänen oma tietoisuutensa säilyy riippumattomana ja koskemattomana.*
+*Knowledge of the field and of its knower — that, in my view, is genuine architectural knowledge."*
 
-*Hänelle kiitos ja moite PR-kommenteissa ovat samanarvoisia. Hän koodaa, koska se on hänen dharmansa, eikä anna Gunojen heilutella mieltään."*
+```text
+              THE FIELD AND THE KNOWER OF THE FIELD
 
-**Luvun XIV päätös**
+  FIELD (Kshetra — matter)          KNOWER (Kshetrajna — consciousness)
+  ────────────────────────────      ─────────────────────────────────────
+  • Text files & syntax             • Understanding of the business need
+  • Frameworks & libraries          • The ability to see the effects of change
+  • CI/CD pipelines & performance   • Recognition of invariants and boundaries
+             │                                       │
+             ▼                                       ▼
+     Impermanent & changing                  Eternal & aware
+```
 
-Arjuna näkee nyt koodikannan ja tiimin toiminnan aivan uudessa valossa:
+**Of what does the Field (the codebase) consist?**
 
-1.  **Dynaamiset voimat:** Jokainen rivi koodia on joko Sattvaa (selkeyttä), Rajasia (kiirettä) tai Tamasia (välinpitämättömyyttä).
+Krishna set out in detail everything the field of a codebase contains:
 
-2.  **Tiedostaminen:** Kun huomaat kirjoittavasi koodia kiireessä ja hätiköiden, tunnistat Rajaksen ja voit pysähtyä hengittämään.
+**Krishna:**
 
-3.  **Mielen tasapaino:** Paras arkkitehti ei ole se, joka raivoaa huonolle koodille, vaan se, joka tunnistaa voimat ja tuo lempeästi Sattvan eli puhtauden takaisin järjestelmään.
+*"The hardware, the quantity of memory, the components of the compiler, the ego, the type system, the five streams of sense data (logs, console output, network I/O, processes, disk connections), the wishes ('if only this sprint would end'), the hatred of a bug, the joy of a green test, and that structure which holds the classes upright in memory — all this is the Field and its modifications.*
 
-Arjuna katsoo omaa PR-jonoaan levollisesti.
+*Never confuse yourself (the Knower) with the field (a line of code)! You are not that ugly null pointer exception, and you are not that brilliant one-line lambda. You are the consciousness that looks upon them both."*
+
+**What is true knowledge (Jnana)?**
+
+Krishna defined the mental maturity of an architect and a developer. True knowledge is not knowing by heart every method of every Java or Python library.
+
+**Krishna:**
+
+*"True Knowledge in software development is this:*
+
+- **Humility:** the realisation that no one knows everything.
+
+- **Absence of boasting:** not showing off one's own tricks in code review.
+
+- **Non-violence (Ahimsa):** no savaging criticism of other developers in PR comments.
+
+- **Patience:** calm in the fourth hour of tracking down a legacy bug.
+
+- **Purity:** a clear coding style and an honest naming convention.
+
+- **Steadiness of mind:** no hasty solutions, even under pressure.
+
+- **Non-attachment:** readiness to delete the code you wrote yesterday, if a better model is found.
+
+*Everything other than this is Ignorance (Ajnana), however experienced the coder may be."*
+
+**Nature (Prakriti) and Spirit (Purusha) in code**
+
+**Krishna:**
+
+*"Know that both Nature (infrastructure / Prakriti) and Spirit (domain understanding / Purusha) are without beginning.*
+
+*The infrastructure and the compiler create causes and effects (if you call this method, this side effect follows). But the Knower (Purusha) is the one who experiences whether the code works, who rejoices, and who bears responsibility.*
+
+*He who sees that all deeds (lines of code) are performed in the end by the Nature of the runtime (Prakriti), and that the Knower himself remains actionless and pure — he truly sees!"*
+
+**The conclusion of Chapter XIII**
+
+Arjuna understands the deep difference between code and the understanding of code:
+
+1. **The liberation of identity:** a developer is not his code. A bug in the code does not mean a bug in the developer's worth.
+
+2. **True knowledge is an attitude:** knowledge is not framework trivia, but humility, patience, purity and empathy towards the team.
+
+3. **The architect's gaze:** the architect is the one who looks at the whole "field" (the repo, the database, the infrastructure) from a higher level, without mixing his own ego into it.
+
+Arjuna looks at his screen. He sees the files as the Field and his own mind as its Knower.
 
 **Arjuna:**
 
-*"Ymmärrän nyt koodikannan dynaamiset voimat, Krishna. Mutta mikä on se Ikuinen Puu (Ashvattha), jonka juuret ovat ylhäällä ja oksat alhaalla, josta kaikki nämä riippuvuudet kumpuavat?"*
+*"The boundary is clear, Krishna. I no longer identify with the errors in my code. But tell me now of those three qualities (Gunas) that turn this field and every developer within it!"*
 
-## LUKU 15: Purushottama Yoga eli Korkeimman Arkkitehdin ja Ikuisen Riippuvuuspuun jooga
+## CHAPTER 14: Gunatraya-Vibhaga Yoga, or the Dynamics of Code's Three Qualities
 
-**Nurinpäin kasvanut Riippuvuuspuu (Ashvattha)**
+**How does a codebase bind a developer?**
 
-Krishna halusi näyttää Arjunalle koodikannan kaikkein syvimmän rakenteen. Hän käytti vertauskuvana ikuista viisauden ja riippuvuuksien puuta, Ashvatthaa.
-
-**Krishna:**
-
-*"Sanotaan, että on olemassa ikuinen viipalepuu (Ashvattha), jonka juuret ovat ylhäällä (korkean tason arkkitehtuurissa ja konseptuaalisessa domain-mallissa) ja jonka oksat levittäytyvät alas (konkreettisiin luokkiin, toteutuksiin ja apufunktioihin).*
-
-*Sen lehdet ovat yksikkötestejä ja rajapintoja. Se, joka ymmärtää tämän riippuvuuspuun rakenteen, on todellinen koodikannan tuntija!*
-
-*Sen oksat leviävät sekä ylös että alas, ja niitä ravitsevat koodin kolme laatua (Gunat). Sen versot ovat käyttöliittymän komponentteja ja rajapintakutsuja, ja sen alemmat juuret ulottuvat syvälle ihmisten tekoihin ja liiketoimintalogiikan vaatimuksiin."*
-
-NURINPÄIN KASVAVA RIIPPUVUUSPUU (ASHVATTHA)
-
-(Juuret Ylhäällä: Domain & Invariantit)
-
-│
-
-▼
-
-\[ Absoluuttinen Malli \]
-
-/ \\
-
-/ \\
-
-/ \\
-
-\[ Bounded Context A \] \[ Bounded Context B \]
-
-/ \\ / \\
-
-/ \\ / \\
-
-(Oksat Alhaalla: Luokat, Kirjastot, SQL-Kyselyt, UI)
-
-**Miten vapautua sekavista riippuvuuksista?**
-
-Arjuna katsoi puuta ja näki, miten sen oksat olivat kietoutuneet toisiinsa: perintää perinnän perään, kirottuja globaaleja tiloja ja syviä kytkentöjä.
-
-**Krishna:**
-
-*"Tämän puun todellista muotoa ei voida hahmottaa täältä alhaalta käsin. Et näe sen alkua, et sen loppua, enkä sen todellista perustaa.*
-
-**Tämä tiheään kietoutunut ja syvälle juurtunut riippuvuuspuu täytyy kaataa terävällä Kiintymättömyyden Kirveellä (Asanga-shastra)!**
-
-*Leikkaa irti tarpeettomat riippuvuudet! Poista perintähirviöt ja korvaa ne kompositiolla. Katkaise sykliset kytkökset ilman sääliä!*
-
-*Kun olet leikannut irti nämä vääristyneet kytkökset, etsi se Alkulähde, josta koko järjestelmän virta on kerran lähtenyt liikkeelle. Sille polulle astunut ei enää koskaan uppoa spaghetti-koodin suohon."*
-
-**Kolme Ihmistä / Tasoa Koodimaailmassa (Purushas)**
-
-Krishna paljasti seuraavaksi arkkitehtuurin kolme perustasoa:
-
-**Krishna:**
-
-*"Tässä maailmassa ja koodikannassa on kahdenlaisia toimijoita:*
-
-1.  **Kshara (Katoavainen):** Kaikki ne luokat, oliot, prosessit ja väliaikaiset muuttujat, jotka syntyvät ja kuolevat ajossa.
-
-2.  **Akshara (Muuttumaton):** Se muuttumaton rakenne, tietokannan eheys ja Domain-invariantit, jotka säilyvät vaikka prosessi kuolee.
-
-*MUTTA on vielä kolmas, kaikkein korkein taso:*
-
-1.  **Uttama Purusha / Purushottama (Korkein Arkkitehti / Perusolemus):**
-
-*Se on se Korkein Tietoisuus ja Perusperiaate, joka ulottuu kaikkien järjestelmien yli, ylläpitää niin katoavaista koodia kuin muuttumatonta tilaa ja puhaltaa henkeen koko järjestelmän.*
-
-*Koska minä ylitän katoavaisen koodin ja olen muuttumatonta rakennettakin korkeampi, minua kutsutaan koodikannoissa ja eepoksissa **Korkeimmaksi Arkkitehdiksi (Purushottama)**."*
-
-**Luvun XV päätös**
-
-Arjuna ymmärtää nyt riippuvuuksien ja kaikkien tasojen syvän hierarkian:
-
-1.  **Kiintymättömyyden kirves:** Huonosti suunniteltuja, syvälle juurtuneita riippuvuuksia ei pidä pelätä – ne leikataan irti terävällä ja rohkealla refaktoroinnilla.
-
-2.  **Juuret ylhäällä:** Koodi ei ala tietokannasta tai UI-komponentista, vaan korkeamman tason domain-mallista.
-
-3.  **Purushottama:** Paras arkkitehtuuri näkee yhtä aikaa sekä heiteltävissä olevat väliaikaiset luokat (Kshara) että ikuiset invariantit (Akshara), pysyen itse kaiken tämän yläpuolella.
-
-Arjuna tunti kädessään Kiintymättömyyden Kirveen painon. Hän oli valmis karsimaan turhat riippuvuudet.
+Arjuna had already learned to distinguish the Field (the code) from the Knower of the Field (understanding). Now he wished to know which forces make even wise developers take poor decisions, and how the "spiritual climate" of a codebase comes about.
 
 **Arjuna:**
 
-*"Näen nyt puun ja minulla on kirves. Mutta Krishna, miten erotan ne kehittäjät ja piirteet, jotka rakentavat puhtaasti (Jumalalliset ominaisuudet), niistä jotka tuovat tuhoa (Demoniset ominaisuudet)?"*
+*"Krishna! What makes a developer reach for a bodge, even when he knows better? What are those forces (Gunas) that bind a person to the matter of code, and how can one be freed from them?"*
 
-## LUKU 16: Daivasura-Sampad-Vibhaga Yoga eli Jumalallisten ja demonisten kehityskäytäntöjen erottaminen
+**The three qualities (Gunas) in the working life of a coder**
 
-**Kaksi tietä koodikannassa**
-
-Arjuna peli kädessään Kiintymättömyyden Kirvestä, valmiina leikkaamaan spagettiriippuvuuksia. Mutta hän halusi kirkkaan kompassin tunnistaakseen, mitkä päätökset vievät järjestelmää kohti valoa ja mitkä kohti turmiota.
+Krishna illuminated for Arjuna the three fundamental forces that govern all code, all documentation and all team dynamics.
 
 **Krishna:**
 
-*"Kuuntele, Arjuna! Tässä koodimaailmassa on kahdenlaisia kehittäjiä ja arkkitehtuuripäätöksiä: **Jumalallisia** (Daivi) ja **Demonisia** (Asuri).*
+*"Listen, Arjuna! Material Nature (Prakriti) consists of three qualities: **Sattva** (purity / clarity), **Rajas** (passion / haste) and **Tamas** (darkness / rot). They bind the immortal developer to the matter of the codebase.*
 
-*Jumalalliset ominaisuudet johtavat järjestelmän vakauteen, vapauteen ja rauhaan. Demoniset ominaisuudet sitovat koodikannan teknisen velan orjuuteen ja ikuiseen päivystyspiinaan."*
+1. **Sattva (the quality of purity):**
 
-**Jumalalliset ominaisuudet (Daivi Sampad)**
+*Sattva is spotless, luminous and healthy. It manifests as code that is readable, fully tested, clearly documented and beautiful. Sattva brings the developer inner peace, happiness and deep understanding. But beware: even Sattva can bind! It binds the developer to spiritual pride and to 'architectural elitism'.*
 
-Krishna luetteli ne 26 hyvettä, jotka tekevät kehittäjästä ja hänen koodistaan valon ilmentymän:
+2. **Rajas (the quality of passion and haste):**
 
-**Krishna:**
+*Rajas is born of an unquenchable craving for results RIGHT NOW. It manifests as spaghetti code, as digging in the dirt, as shortcuts and as hasty pushes without tests, so that the ticket may be closed before the sprint ends. Rajas brings restlessness, a permanent state of alert and an endless backlog of things to refactor.*
 
-*"Jumalalliseen luonteeseen syntyneen kehittäjän tunnusmerkit ovat nämä:*
+3. **Tamas (the quality of blindness and rot):**
 
-- **Pelottomuus:** Rohkeus refaktoroida vanhaa koodia, kun testit ovat kunnossa.
+*Tamas is born of ignorance and indifference. It manifests as code copied from forums or from an AI without understanding, as hidden errors, as commented-out test blocks (// @Ignore), as laziness and as resistance to change. Tamas robs the team of its capacity to act and leads to torpor and confusion."*
 
-- **Mielen puhtaus:** Selkeä, luettava ja itseilsevä koodi ilman kikkailua.
+```text
+              THE THREE QUALITIES OF A CODEBASE (GUNAS)
 
-- **Anteliaisuus:** Tiedon jakaminen tiimille, hyvä dokumentaatio ja kattavat vastaukset keskusteluissa.
+                       SATTVA (Clarity & Peace)
+                            /            \
+                           /  "Code is a  \
+                          /   craft, kept  \
+                         /     clean"       \
+      RAJAS (Haste & Mess) <──────────> TAMAS (Rot & Indifference)
+      "Straight to production,          "Don't care, it works
+       no time to test!"                 somehow, don't touch it"
+```
 
-- **Itsehillintä:** Maltti olla käyttämättä uusinta muotiframeworkia pelkästä vaihtelunhalusta.
+**How to tell which quality is in command**
 
-- **Väkivallattomuus (Ahimsa):** Rakentava, kunnioittava ja rohkaiseva palaute PR-katselmoinneissa.
-
-- **Totuudellisuus:** Rehellisyys arvioissa (esim. 'Tämä tiketti vie kolme päivää, ei kahta tuntia').
-
-- **Rauhallisuus:** Tyyni mieli, vaikka tuotannossa palaisi hälytys."\*
-
-**Demoniset ominaisuudet (Asuri Sampad)**
-
-Sitten Krishnan ilme vakavoitui, kun hän kuvaili järjestelmien tuhoajia.
-
-**Krishna:**
-
-*"Mutta katso demonista luonnetta, Arjuna! Sitä ohjaavat pöyhkeys, ylpeys, viha, tylyys ja tietämättömyys.*
-
-*Demoninen kehittäjä sanoo mielessään:*
-
-*'Minä kirjoitin tämän koodin tunneissa! En tarvitse yksikkötestejä, minun koodissani ei ole bugin bugia! Ymmärtämättömät juniorit eivät vain tajua nerouttani. Minä ohitan CI/CD-tarkistukset ja pusken suoraan main-haaraan git push --force -komennolla!'*
-
-*He eivät tunne rajapintojen eheyttä eivätkä puhtautta. He sanovat:*
-
-*'Ei koodipohjalla ole mitään syvempää arkkitehtuuria tai domain-mallia! Kaikki on vain satunnaista bittimuhjua. Tehdään vain mitä halutaan ja kääritään rahat!'*
-
-*Tällaiset ihmiset – takertuneina loputtomiin egoistisiin kuvitelmiin ja pikavoittoihin – luovat järjestelmiä, jotka ovat täynnä piilobugeja ja turvallisuusaukkoja. He hukuttavat itsensä ja tiiminsä teknisen velan helvettiin."*
-
-KAHDEN KULTTUURIN VERTAILU
-
-JUMALALLINEN (Daivi) DEMONINEN (Asuri)
-
-───────────────────────────── ─────────────────────────────
-
-• "Miten tämä auttaa tiimiä?" • "Katso miten hienon kikan tein!"
-
-• Kattavat testit & selkeä PR • Ei testejä, \`--force\` push
-
-• Rehelliset aika-arviot • Valheet & oikotiet
-
-• Pitkän aikavälin vakaus • Välitön kaos tuotannossa
-
-**Tuhon kolme porttia**
-
-Krishna tiivisti demonisen koodauksen juurisyt kolmeen vaarallisimpaan impulssiin:
+Krishna gave Arjuna clear criteria by which to judge the code and the state of the team at any moment:
 
 **Krishna:**
 
-*"On olemassa kolme porttia tähän arkkitehtoniseen helvettiin, ja ne tuhoavat kehittäjän mielen:*
+*"When clarity flows through every class and function, when the tests pass with ease and the architecture is easy to explain to a junior — then know that **Sattva** prevails.*
 
-1.  **Kama (Himo / Ominaisuushimo):** Haluaa ahtaa järjestelmään sata uutta piirrettä hätäisesti.
+*When you see in the team an enormous greed for new features, hurried PR reviews, 'quick and dirty' comments and the constant putting out of fires — then **Rajas** rules.*
 
-2.  **Krodha (Raivo / Mätä viha):** Suuttumus ja hätiköinti silloin, kun koodi ei toimi heti.
+*When the codebase fills with dead code and with deprecated libraries that no one dares upgrade, and the developers say 'not worth fixing, it's always been broken' — then **Tamas** has covered everything in darkness."*
 
-3.  **Lobha (Ahneus / Pikanäppäily):** Haluaa päästä mahdollisimman vähällä työllä ilman testejä ja siistimistä.
+**Gunatraya-Atita: rising above the three qualities**
 
-**Jokaisen viisaan kehittäjän tulee hylätä nämä kolme porttia!**
-
-*Vapauta itsesi näistä, Arjuna, ja anna standardien, hyvien käytäntöjen sekä tiimin yhteisten sääntöjen (Shastra) ohjata toimintaasi. Olkoon koodistandardi oppaasi siinä, mitä tulee tehdä ja mitä jättää tekemättä!"*
-
-**Luvun XVI päätös**
-
-Arjuna ymmärtää, että koodin laatu ei ole vain tekninen kysymys, vaan **eettinen ja henkinen valinta**:
-
-1.  **Hyveet koodissa:** Selkeys, rehellisyys ja testattavuus ovat jumalallisia ominaisuuksia, jotka tuovat rauhaa koko tiimille.
-
-2.  **Egon vaara:** Demoninen koodaus syntyy egosta, oikoteistä ja piittaamattomuudesta muita kohtaan.
-
-3.  **Standardien kunnioitus:** Tiimin yhteiset käytännöt ja linjaukset suojelevat koodareita heidän omilta hätiköidyiltä impulsseiltaan.
-
-Arjuna katsoo omaa asennettaan ja valitsee tietoisesti valon polun.
+Arjuna asked how a developer can attain perfect peace of mind amid these forces.
 
 **Arjuna:**
 
-*"Olen hylännyt egoistisen pikakoodauksen, Krishna. Mutta entä ne kehittäjät, jotka tekevät työtään suurella uskolla ja sydämellä, mutta eivät tunne virallisia oppikirjoja tai standardeja? Mihin luokkaan heidän uskonsa kuuluu?"*
+*"How is the architect recognised who has risen above these three qualities (Gunatita)?"*
 
-## LUKU 17: Shraddhatraya-Vibhaga Yoga eli Kolmen laadun usko ja motiivit koodauksessa
+**Krishna:**
 
-**Arjunan kysymys: Motiivin ja uskon merkitys**
+*"That developer, O Arjuna:*
 
-Arjuna oli oppinut tunnistamaan jumalallisen ja demonisen koodauksen erot. Mutta arjessa hän näki paljon kehittäjiä, jotka koodasivat suurella palolla, vaikka eivät tunteneet virallisia sääntöjä tai arkkitehtuurioppikirjoja.
+- Does not hate **Tamas** (when he must repair old, ugly legacy code).
+
+- Does not long for **Rajas** (nor panic when code must be written quickly).
+
+- Does not grow proud of **Sattva** (nor look down on others, though his own code be perfect).
+
+*He remains as steady as a boulder in a storm. He sees that these three qualities merely revolve and act within the code, while his own consciousness remains independent and untouched.*
+
+*To him, praise and blame in PR comments are of equal worth. He codes because it is his dharma, and does not let the Gunas sway his mind."*
+
+**The conclusion of Chapter XIV**
+
+Arjuna now sees the codebase and the working of the team in an entirely new light:
+
+1. **Dynamic forces:** every line of code is either Sattva (clarity), Rajas (haste) or Tamas (indifference).
+
+2. **Awareness:** when you notice that you are writing code in haste and by guesswork, you recognise Rajas and can stop to breathe.
+
+3. **Balance of mind:** the best architect is not the one who rages at bad code, but the one who recognises the forces and gently brings Sattva — clarity — back into the system.
+
+Arjuna looks at his own PR queue in peace.
 
 **Arjuna:**
 
-*"Krishna! Entä ne kehittäjät, jotka sivuuttavat viralliset oppikirjat ja design pattern -oppaat, mutta kirjoittavat koodia suurella innolla ja uskolla (Shraddha)?*
+*"I understand the dynamic forces of the codebase now, Krishna. But what is that Eternal Tree (Ashvattha), whose roots are above and whose branches are below, from which all these dependencies spring?"*
 
-*Mihin luokkaan heidän työnsä kuuluu: Sattvaan (puhtaus), Rajasiin (kiire) vai Tamasiin (hämärä)?"*
+## CHAPTER 15: Purushottama Yoga, or the Yoga of the Supreme Architect and the Eternal Dependency Tree
 
-**Krishna vastaa: Kolmenlainen usko koodauksessa**
+**The dependency tree that grows upside down (Ashvattha)**
 
-Krishna selitti, että jokaisen kehittäjän usko ja tekemisen motiivi muotoutuu sen mukaan, mikä laatu (Guna) häntä hallitsee.
-
-**Krishna:**
-
-*"Ihmisen usko ja asenne on hänen oman luonteensa mukaista, Arjuna. Kehittäjä on sitä, mihin hän uskoo!*
-
-1.  **Sattvinen usko (Sattvika):**
-
-*Kehittäjä uskoo koodin selkeyteen, tiimin yhteiseen hyvään ja laatuun. Hän kirjoittaa testejä ja dokumentaatiota, koska haluaa tuoda rauhaa ja vakautta tuotantoon. Hän tekee työtä ilman oman egon pönkittämistä.*
-
-2.  **Rajasinen usko (Rajasika):**
-
-*Kehittäjä uskoo maineeseen, nopeuteen ja egoonsa. Hän kirjoittaa monimutkaisia, 'älykkäitä' yksirivisiä ratkaisuja vain näyttääkseen muille, kuinka taitava on. Hän tekee työtä saadakseen pörssitähdeltä näyttävän GitHub-profiilin ja pikaisia kehuja.*
-
-3.  **Tamasinen usko (Tamasika):**
-
-*Kehittäjä uskoo sokeasti vanhoihin vääriin tapoihin tai AI:n antamiin vastauksiin ilman kriittistä ajattelua. Hän tekee 'uhrauksia' (koodaa läpi yön) ilman mitään suunnitelmaa, rikkoo tiimin sopimukset ja tuottaa vain kaaosta."*
-
-KOLMENLAINEN MOTIIVI JA KOODAAJAN ASKETISMI
-
-SATTVA (Selkeys & Yhteisö) ────\> Koodataan tiimille & pitkän aikavälin rauhalle
-
-RAJAS (Ego & Näkyvyys) ────\> Koodataan kehuille, tähdille & omalle egolle
-
-TAMAS (Sokeus & Kaaos) ────\> Koodataan sokeasti ilman ymmärrystä & plaania
-
-**Kolmenlainen Uhraus ja Kurinalaisuus (Koodaajan Tapas)**
-
-Krishna määritteli seuraavaksi, mitä on aito kehittäjän kurinalaisuus (*Tapas*) kehossa, puheessa ja mielessä.
+Krishna wished to show Arjuna the very deepest structure of the codebase. As his simile he took the eternal tree of wisdom and of dependencies, the Ashvattha.
 
 **Krishna:**
 
-*"Kuuntele, mitä on aito koodaajan asketismi ja kurinalaisuus:*
+*"It is said that there exists an eternal fig tree (Ashvattha) whose roots are above (in the high-level architecture and the conceptual domain model) and whose branches spread downward (into concrete classes, implementations and helper functions).*
 
-- **Kehon/Käden kurinalaisuus:** Koodi pidetään puhtaana, sisennykset kohdallaan, turhat riippuvuudet poissa ja ergonomiasta pidetään huolta.
+*Its leaves are unit tests and interfaces. He who understands the structure of this dependency tree is a true knower of the codebase!*
 
-- **Puheen kurinalaisuus:** PR-kommentit ja Slack-viestit ovat totta, lempeitä, hyödyllisiä eivätkä aiheuta turhaa ahdistusta muille.
+*Its branches spread both upward and downward, and they are nourished by the three qualities of code (the Gunas). Its shoots are UI components and API calls, and its lower roots reach deep into human deeds and the demands of business logic."*
 
-- **Mielen kurinalaisuus:** Mieli pidetään tyynenä, rehellisenä, tyytyväisenä ja vapaana koodaus-aggressiosta.
+```text
+        THE UPSIDE-DOWN DEPENDENCY TREE (ASHVATTHA)
 
-*Kun tämä kurinalaisuus tehdään ilman hedelmien tavoittelua (palkkioita tai egoa), se on **Sattvista**. Mutta kun se tehdään vain show'na muille, se on **Rajasista** ja tilapäistä. Ja kun sillä vahingoitetaan itseä (Burnout) tai muita, se on **Tamasista**."*
+           (Roots above: domain & invariants)
+                          │
+                          ▼
+                 [ The absolute model ]
+                    /            \
+                   /              \
+                  /                \
+      [ Bounded Context A ]   [ Bounded Context B ]
+            /      \                /      \
+           /        \              /        \
+   (Branches below: classes, libraries, SQL queries, UI)
+```
 
-**OM TAT SAT – Puhtaan teon kaava**
+**How does one get free of tangled dependencies?**
 
-Krishna antoi luvun lopussa Arjunalle ikuisen mantran, jolla jokainen commit ja arkkitehtuuripäätös voidaan pyhittää:
+Arjuna looked at the tree and saw how its branches had grown into one another: inheritance upon inheritance, cursed global state and deep couplings.
 
 **Krishna:**
 
-*"Ajoista alkaen sanat **OM TAT SAT** ovat edustaneet korkeinta arkkitehtuuritotuutta:*
+*"The true form of this tree cannot be grasped from down here. You see neither its beginning, nor its end, nor its true foundation.*
 
-- **OM:** Edustaa kaiken alkulähdettä ja sovelluksen perusolemusta. Sitä lausumalla aloitetaan jokainen projekti ja PR ilman egoa.
+**This densely entangled and deeply rooted dependency tree must be felled with the sharp Axe of Non-attachment (Asanga-shastra)!**
 
-- **TAT:** Tarkoittaa 'Sitä' (riippumatonta totuutta). Se muistuttaa, että työ tehdään ilman kiintymystä henkilökohtaiseen hyötyyn.
+*Cut away the needless dependencies! Remove the inheritance monsters and replace them with composition. Sever the cyclic couplings without pity!*
 
-- **SAT:** Tarkoittaa kaikkea sitä, mikä on aitoa, rehellistä, hyvää ja pysyvää koodikannassa.
+*When you have cut these distorted couplings away, seek that Original Source from which the whole current of the system once set out. He who has stepped onto that path will never again sink into the swamp of spaghetti code."*
 
-*Mitä ikinä teetkin ilman uskoa ja rehellisyyttä – olipa se koodia, testiä tai dokumentaatiota – sitä kutsutaan sanalla **Asat** (epätosi). Siitä ei ole hyötyä täällä eikä tulevissa projekteissa!"*
+**Three persons / levels in the world of code (Purushas)**
 
-**Luvun XVII päätös**
+Krishna next revealed the three fundamental levels of architecture:
 
-Arjuna ymmärtää nyt koodaamisen syvän henkisen motiivin:
+**Krishna:**
 
-1.  **Motiivi ratkaisee:** Samalla koodirivillä voi olla täysin eri vaikutus riippuen siitä, kirjoitettiinko se Sattvalla (tiimin hyväksi), Rajasilla (egon pönkittämiseksi) vai Tamasilla (sokeasti).
+*"In this world and in this codebase there are two kinds of actor:*
 
-2.  **Puheen ja mielen puhtaus:** Hyvä koodari ei vain kirjoita kaunista syntaksia, vaan puhuu ja viestii tiimille rakentavasti ja lempeästi.
+1. **Kshara (the perishable):** all those classes, objects, processes and temporary variables that are born and die at runtime.
 
-3.  **OM TAT SAT:** Kaikki työ pyhitetään rehellisyydelle (*Sat*) ja laajemmalle kokonaisuudelle (*Om/Tat*).
+2. **Akshara (the imperishable):** that unchanging structure, the integrity of the database and the domain invariants, which survive though the process dies.
 
-Arjuna katsoo koodausmotiivejaan ja siivoaa mielestään viimeisetkin egon rippeet.
+*BUT there is a third level, the highest of all:*
+
+3. **Uttama Purusha / Purushottama (the Supreme Architect / the essential nature):**
+
+*It is that Supreme Consciousness and fundamental principle which extends beyond all systems, which sustains both perishable code and unchanging state, and which breathes life into the whole system.*
+
+*Because I transcend the perishable code and stand higher even than the imperishable structure, I am called in codebases and in epics the **Supreme Architect (Purushottama)**."*
+
+**The conclusion of Chapter XV**
+
+Arjuna now understands the deep hierarchy of dependencies and of all the levels:
+
+1. **The axe of non-attachment:** badly designed, deeply rooted dependencies are not to be feared — they are cut away by sharp and courageous refactoring.
+
+2. **The roots are above:** code does not begin from the database or from a UI component, but from the higher-level domain model.
+
+3. **Purushottama:** the finest architecture sees at once both the disposable, temporary classes (Kshara) and the eternal invariants (Akshara), while itself remaining above them all.
+
+Arjuna felt the weight of the Axe of Non-attachment in his hand. He was ready to prune away the needless dependencies.
 
 **Arjuna:**
 
-*"Mieleni on kirkas ja valmis, Krishna! Olemme saapuneet viimeiselle etapille. Vapauta minut lopullisesti: Kerro minulle viimeisestä luopumisesta (Sannyasa) ja lopullisesta vapautumisesta (Moksha) koodikannassa!"*
+*"I see the tree now, and I have the axe. But Krishna, how do I tell apart those developers and those traits that build purely (the divine qualities) from those that bring ruin (the demonic qualities)?"*
 
-## LUKU 18: Moksha-Sannyasa Yoga eli Lopullinen vapautuminen ja arkkitehtoninen valaistuminen
+## CHAPTER 16: Daivasura-Sampad-Vibhaga Yoga, or Distinguishing Divine and Demonic Development Practices
 
-**Arjunan kysymys: Luopuminen (Tyaga) vs. Kieltäytyminen (Sannyasa)**
+**Two roads in the codebase**
 
-Arjuna katsoi ruudullaan vilkkuvaa terminal-ikkunaa. Hän oli oppinut toiminnasta, tiedosta, muistista, entropiasta ja motiiveista. Mutta yksi asia mietitytti häntä vielä ennen viimeistä siirtoa.
+Arjuna held the Axe of Non-attachment in his hand, ready to cut spaghetti dependencies away. But he wanted a clear compass, so as to recognise which decisions carry a system towards the light and which towards ruin.
+
+**Krishna:**
+
+*"Listen, Arjuna! In this world of code there are two kinds of developer and two kinds of architectural decision: the **divine** (Daivi) and the **demonic** (Asuri).*
+
+*Divine qualities lead the system to stability, to freedom and to peace. Demonic qualities bind the codebase to the slavery of technical debt and to eternal torment on call."*
+
+**Divine qualities (Daivi Sampad)**
+
+Krishna enumerated the twenty-six virtues that make a developer and his code a manifestation of the light:
+
+**Krishna:**
+
+*"These are the marks of the developer born to a divine nature:*
+
+- **Fearlessness:** the courage to refactor old code when the tests are sound.
+
+- **Purity of mind:** clear, readable, self-explaining code without cleverness.
+
+- **Generosity:** sharing knowledge with the team, good documentation and thorough answers in discussion.
+
+- **Self-control:** the restraint not to adopt the newest fashionable framework merely out of a craving for novelty.
+
+- **Non-violence (Ahimsa):** constructive, respectful and encouraging feedback in PR reviews.
+
+- **Truthfulness:** honesty in estimates (for example, 'this ticket takes three days, not two hours').
+
+- **Serenity:** a calm mind, even while an alert is burning in production."*
+
+**Demonic qualities (Asuri Sampad)**
+
+Then Krishna's expression grew grave as he described the destroyers of systems.
+
+**Krishna:**
+
+*"But behold the demonic nature, Arjuna! It is driven by arrogance, pride, anger, harshness and ignorance.*
+
+*The demonic developer says in his heart:*
+
+*'I wrote this code in hours! I need no unit tests; there is not a bug of a bug in my code! The clueless juniors simply fail to grasp my genius. I shall bypass the CI/CD checks and push straight to main with git push --force!'*
+
+*They know neither the integrity of interfaces nor purity. They say:*
+
+*'There is no deeper architecture or domain model in a codebase! It is all just random bit-mush. Let us do as we please and take the money!'*
+
+*Such people — clinging to endless egotistical fantasies and quick wins — create systems riddled with hidden bugs and security holes. They drown themselves and their teams in the hell of technical debt."*
+
+```text
+              A COMPARISON OF TWO CULTURES
+
+  DIVINE (Daivi)                       DEMONIC (Asuri)
+  ─────────────────────────────        ─────────────────────────────
+  • "How does this help the team?"      • "Look at the clever trick I did!"
+  • Thorough tests & a clear PR         • No tests, `--force` push
+  • Honest estimates                    • Lies & shortcuts
+  • Long-term stability                 • Immediate chaos in production
+```
+
+**The three gates of ruin**
+
+Krishna summed up the root causes of demonic coding in the three most dangerous impulses:
+
+**Krishna:**
+
+*"There are three gates to this architectural hell, and they destroy the developer's mind:*
+
+1. **Kama (desire / lust for features):** the wish to cram a hundred new features into the system in haste.
+
+2. **Krodha (rage / festering anger):** fury and rashness when the code does not work at once.
+
+3. **Lobha (greed / the quick keystroke):** the wish to get away with as little work as possible, without tests and without tidying.
+
+**Every wise developer must forsake these three gates!**
+
+*Free yourself from them, Arjuna, and let the standards, the good practices and the shared rules of the team (Shastra) guide your action. Let the coding standard be your teacher in what is to be done and what is to be left undone!"*
+
+**The conclusion of Chapter XVI**
+
+Arjuna understands that the quality of code is not merely a technical question but an **ethical and spiritual choice**:
+
+1. **Virtues in code:** clarity, honesty and testability are divine qualities that bring peace to the whole team.
+
+2. **The danger of ego:** demonic coding is born of ego, of shortcuts and of disregard for others.
+
+3. **Respect for standards:** the shared practices and conventions of a team protect coders from their own hasty impulses.
+
+Arjuna examines his own attitude and consciously chooses the path of light.
 
 **Arjuna:**
 
-*"Krishna! Mikä on se syvin ero kahden asian välillä:*
+*"I have forsaken egotistical quick-fix coding, Krishna. But what of those developers who do their work with great faith and heart, yet know neither the official textbooks nor the standards? To which class does their faith belong?"*
 
-*1. **Sannyasa** (Kaikesta koodaamisesta ja järjestelmistä kieltäytyminen / 'alan maanviljelijäksi')*
+## CHAPTER 17: Shraddhatraya-Vibhaga Yoga, or the Threefold Faith and Motives in Coding
 
-*2. **Tyaga** (Koodaamisen tuloksiin ja egoon kiintymättömyys)?*
+**Arjuna's question: the significance of motive and faith**
 
-*Pitäkö minun jättää tämä koodikanta kokonaan, vai koodata mutta luopua tulosten hedelmistä?"*
-
-**Krishna vastaa: Työstä kieltäytyminen on virhe – tuloksista luopuminen on vapaus**
-
-Krishna jyrähti vastauksensa siten, että se kaikui läpi jokaisen IDE:n ja kääntäjän.
-
-**Krishna:**
-
-*"Viisaat sanovat: Se, että jättää koodaamisen, testauksen, refaktoroinnin ja dokumentoinnin tekemättä uneliaisuuden tai pelon vuoksi, on **Tamasista luopumista**! Se on pelkuruutta.*
-
-*Se, että jättää koodaamisen siksi, että se on vaikeaa, tuotanto-ongelmat ahdistavat tai 'koodaaminen on liian raskasta', on **Rajasista luopumista**. Se ei tuo mitään aitoa vapautta.*
-
-**Mutta se, joka suorittaa oman tehtävänsä (Dharma) – kirjoittaa koodin, korjaa bugit ja pitää huolta arkkitehtuurista – koska se ON HÄNEN TEHTÄVÄNSÄ, luopuen täysin egosta, pörssiosakkeista ja henkilökohtaisesta kunniasta... sitä kutsutaan Sattviseksi luopumiseksi (Tyaga)!**
-
-*Ihminen ei voi koskaan luopua toiminnasta täysin. Niin kauan kuin sinulla on läppäri ja rooli tiimissä, sinun täytyy toimia. Mutta se, joka ei ole kiintynyt toimintansa hedelmiin, on TODELLINEN LUOPUJA (Tyagi)."*
-
-**Viisi tekijää jokaisen commitin takana**
-
-Krishna paljasti, että yksikään kehittäjä ei ole yksin vastuussa järjestelmän toiminnasta tai kaatumisesta:
-
-**Krishna:**
-
-*"Oppineet sanovat, että minkä tahansa koodirivin tai arkkitehtuuripäätöksen toteutumiseen tarvitaan aina **viisi tekijää**:*
-
-1.  **Alusta (Adhisthana):** Tietokone, muisti, laitteisto ja OS.
-
-2.  **Toimija (Karta):** Kehittäjä / Kehittäjän tila.
-
-3.  **Työkalut (Karana):** IDE, kääntäjä, CI/CD-putki ja frameworkit.
-
-4.  **Eri toiminnot (Cesta):** Näppäimistön painallukset, verkkokutsut ja CPU-syklit.
-
-5.  **Kohtalo / Arkkitehtoninen Laki (Daivam):** Asiat, joihin emme voi vaikuttaa (kuten sähkökatkot tai yleiset verkkohäiriöt).
-
-*Tämän tietäen: Se, joka luulee että 'MINÄ YKSIN tein tämän hienon järjestelmän' tai 'MINUN SYYTÄNI on tämä katko', on sokea egolle! Hän ei näe näitä viittä tekijää."*
-
-**Parempi oma velvollisuus epätäydellisesti**
-
-Arjuna yrittää vielä kerran ojentaa päätöksen pois käsistään:
+Arjuna had learned to tell divine coding from demonic. But in daily life he saw many developers who coded with great passion although they knew neither the official rules nor the architecture textbooks.
 
 **Arjuna:**
 
-*"Tekijä tuntee toteutuksen paremmin. Arkkitehti tuntee kokonaisuuden paremmin. Product owner tuntee tarpeen paremmin. Antakaamme jonkun heistä päättää."*
+*"Krishna! What of those developers who set aside the official textbooks and the design pattern guides, but write their code with great enthusiasm and faith (Shraddha)?*
 
-Krishna ei kiistä tätä. Jokainen heistä todella näkee osan, jota Arjuna ei näe. Mutta juuri siksi kenenkään ei pitäisi suorittaa kaikkien muiden velvollisuutta.
+*To which class does their work belong: to Sattva (purity), to Rajas (haste) or to Tamas (darkness)?"*
 
-**Krishna:**
+**Krishna answers: the threefold faith in coding**
 
-**"Parempi suorittaa oma velvollisuutensa (Svadharma) epätäydellisesti kuin toisen täydellisesti."**
-
-Sama pätee järjestelmän sisällä:
-
-- **Aggregate Root** suojelee invariantteja.
-
-- **Application Service** orkestroi käyttötapauksen.
-
-- **Saga** koordinoi pitkää prosessia.
-
-- **Outbox** huolehtii luotettavasta välityksestä.
-
-- **Projektio** vastaa lukukysymyksiin.
-
-- **SQL** hakee tietoa tehokkaasti.
-
-- **Domain-eventti** kertoo, mitä domainissa tapahtui.
-
-Ongelma ei ole, etteivätkö nämä voisi teknisesti tehdä toistensa työtä. Projektio *voi* sisältää business-päätöksen. Saga *voi* muuttaa domain-tilaa. Controller *voi* validoida invariantin. Mapperi *voi* laskea hinnan. Aggregate Root *voi* koota raportin.
-
-Ne voivat jopa tehdä sen täydellisesti.
-
-**Silti ne tekevät toisen velvollisuutta.**
+Krishna explained that every developer's faith and motive for doing the work takes shape according to the quality (Guna) that governs him.
 
 **Krishna:**
 
-*"Arkkitehtoninen raja ei estä komponenttia tekemästä työtään. Se estää sitä tekemästä jonkun toisen työtä."*
+*"A person's faith and attitude are according to his own nature, Arjuna. A developer is what he believes in!*
 
-Myös katselmoijalla on oma rajallinen dharmansa. Hän ei omista tekijän työtä, liiketoiminnan totuutta eikä koko järjestelmän tulevaisuutta. Hän omistaa vain oman rehellisen havaintonsa ja velvollisuuden tuoda se yhteiseen keskusteluun.
+1. **Sattvic faith (Sattvika):**
 
-MR:n hyväksyminen ei tarkoita, että muutos on täydellinen. Hylkääminen ei tarkoita, että tekijä on epäonnistunut. Kysymyksen esittäminen ei tarkoita, että kysyjä tietää vastauksen.
+*The developer believes in the clarity of the code, in the common good of the team and in quality. He writes tests and documentation because he wishes to bring peace and stability to production. He works without propping up his own ego.*
 
-Arjuna ei siis paina vielä *Approve* eikä *Reject*. Hän ei myöskään poista itseään revieweriksi. Hän kirjoittaa kommentin:
+2. **Rajasic faith (Rajasika):**
 
-// Arjuna's PR Review Comment:
+*The developer believes in reputation, in speed and in his own ego. He writes complicated, 'clever' one-liners only to show others how skilful he is. He works to obtain a GitHub profile glittering with stars and a quick round of praise.*
 
-*"En vastusta näitä getter-metodeja siksi, että getter olisi itsessään väärin. En vielä ymmärrä, tarvitseeko mapperi vain rahan ulkoisen representaation vai olemmeko tekemässä `amount`- ja `currency`-kentistä yleisen API:n, jonka varaan myös laskenta alkaa rakentua. Voimmeko käydä yhden konkreettisen käyttötapauksen läpi ja sopia, missä rahan päätökset tehdään, ennen kuin hyväksymme muutoksen?"*
+3. **Tamasic faith (Tamasika):**
 
-Se ei ratkaise sotaa. Se ei edes ratkaise merge requestia.
+*The developer believes blindly in old, mistaken habits or in the answers an AI gives him, without any critical thought. He makes 'sacrifices' (codes through the night) without any plan at all, breaks the team's agreements and produces nothing but chaos."*
 
-Mutta se palauttaa keskusteluun langan, näkymättömän työn ja kunkin oman velvollisuuden.
+```text
+        THREEFOLD MOTIVE AND THE ASCETICISM OF A CODER
 
-**Arjuna:** *"Ymmärränkö minä nyt domainin?"*
+  SATTVA (Clarity & community) ────> Coding for the team & long-term peace
+  RAJAS  (Ego & visibility)    ────> Coding for praise, stars & one's own ego
+  TAMAS  (Blindness & chaos)   ────> Coding blindly, without understanding or plan
+```
 
-**Krishna:** *"Et. Mutta nyt tiedät, mitä kysyä."*
+**The threefold sacrifice and discipline (the coder's Tapas)**
 
-**Krishnan Lopullinen Kehotus ja Sanoma**
+Krishna next defined what genuine developer discipline (*Tapas*) is, in body, in speech and in mind.
 
-Sitten Krishna astui aivan Arjunan viereen, katsoi häntä silmiin ja lausui koko Bhagavad Gitan kuuluisimman loppusäkeen (*Charama Shloka*):
+**Krishna:**
+
+*"Listen to what the true asceticism and discipline of a coder are:*
+
+- **Discipline of the body / the hand:** the code is kept clean, the indentation correct, needless dependencies gone, and ergonomics attended to.
+
+- **Discipline of speech:** PR comments and Slack messages are true, gentle and useful, and cause no needless anxiety in others.
+
+- **Discipline of the mind:** the mind is kept serene, honest, content and free of coding aggression.
+
+*When this discipline is practised without seeking the fruits (reward or ego), it is **Sattvic**. But when it is done merely as a show for others, it is **Rajasic** and short-lived. And when it harms oneself (burnout) or others, it is **Tamasic**."*
+
+**OM TAT SAT — the formula of the pure deed**
+
+At the end of the chapter Krishna gave Arjuna the eternal mantra by which every commit and every architectural decision may be sanctified:
+
+**Krishna:**
+
+*"From the beginning of time the words **OM TAT SAT** have represented the highest architectural truth:*
+
+- **OM:** represents the source of all things and the essential nature of the application. By pronouncing it, every project and every PR is begun without ego.
+
+- **TAT:** means 'That' (the independent truth). It reminds us that the work is done without attachment to personal gain.
+
+- **SAT:** means all that is genuine, honest, good and enduring in a codebase.
+
+*Whatever you do without faith and without honesty — be it code, a test or documentation — is called **Asat** (untrue). It is of no use here, nor in the projects to come!"*
+
+**The conclusion of Chapter XVII**
+
+Arjuna now understands the deep spiritual motive of coding:
+
+1. **The motive decides:** one and the same line of code can have an entirely different effect depending on whether it was written in Sattva (for the good of the team), in Rajas (to prop up the ego) or in Tamas (blindly).
+
+2. **Purity of speech and mind:** a good coder does not merely write beautiful syntax; he speaks to his team constructively and gently.
+
+3. **OM TAT SAT:** all work is consecrated to honesty (*Sat*) and to the larger whole (*Om / Tat*).
+
+Arjuna examines his motives for coding and sweeps the last remnants of ego from his mind.
+
+**Arjuna:**
+
+*"My mind is clear and ready, Krishna! We have come to the final stage. Free me once and for all: tell me of the last renunciation (Sannyasa) and of final liberation (Moksha) in a codebase!"*
+
+## CHAPTER 18: Moksha-Sannyasa Yoga, or Final Liberation and Architectural Enlightenment
+
+**Arjuna's question: renunciation (Tyaga) versus refusal (Sannyasa)**
+
+Arjuna looked at the terminal window flickering on his screen. He had learned of action, of knowledge, of memory, of entropy and of motives. But one thing still troubled him before the final move.
+
+**Arjuna:**
+
+*"Krishna! What is the deepest difference between these two things:*
+
+*1. **Sannyasa** (renouncing all coding and all systems altogether — 'I shall become a farmer')*
+
+*2. **Tyaga** (non-attachment to the results of coding and to the ego)?*
+
+*Ought I to leave this codebase entirely, or to code but renounce the fruits of the results?"*
+
+**Krishna answers: refusing the work is an error — renouncing the results is freedom**
+
+Krishna thundered his answer so that it echoed through every IDE and every compiler.
+
+**Krishna:**
+
+*"The wise say: to leave the coding, the testing, the refactoring and the documenting undone out of torpor or out of fear is **Tamasic renunciation**! It is cowardice.*
+
+*To leave the coding because it is hard, because production problems cause anxiety, or because 'coding is too heavy', is **Rajasic renunciation**. It brings no true freedom whatsoever.*
+
+**But he who performs his own task (Dharma) — who writes the code, fixes the bugs and cares for the architecture — because it IS HIS TASK, renouncing utterly the ego, the share options and personal glory... that is called Sattvic renunciation (Tyaga)!**
+
+*A human being can never renounce action entirely. So long as you have a laptop and a role in a team, you must act. But he who is not attached to the fruits of his action is the TRUE RENOUNCER (Tyagi)."*
+
+**The five factors behind every commit**
+
+Krishna revealed that no single developer is alone responsible for a system working or falling over:
+
+**Krishna:**
+
+*"The learned say that the realisation of any line of code or any architectural decision always requires **five factors**:*
+
+1. **The seat (Adhisthana):** the computer, the memory, the hardware and the OS.
+
+2. **The doer (Karta):** the developer / the developer's state.
+
+3. **The instruments (Karana):** the IDE, the compiler, the CI/CD pipeline and the frameworks.
+
+4. **The various functions (Cesta):** keystrokes, network calls and CPU cycles.
+
+5. **Fate / architectural law (Daivam):** the things beyond our influence (such as power cuts or general network failures).
+
+*Knowing this: he who imagines that 'I ALONE built this fine system' or 'this outage is MY fault' is blind with ego! He does not see these five factors."*
+
+**Better one's own duty, imperfectly**
+
+Arjuna tries once more to hand the decision out of his own hands:
+
+**Arjuna:**
+
+*"The author knows the implementation better. The architect knows the whole better. The product owner knows the need better. Let one of them decide."*
+
+Krishna does not dispute this. Each of them truly does see a part that Arjuna does not. But that is precisely why no one should perform everybody else's duty.
+
+**Krishna:**
+
+**"Better to perform one's own duty (Svadharma) imperfectly than another's perfectly."**
+
+The same holds within the system:
+
+- The **Aggregate Root** guards the invariants.
+
+- The **Application Service** orchestrates the use case.
+
+- The **Saga** coordinates a long-running process.
+
+- The **Outbox** takes care of reliable delivery.
+
+- The **Projection** answers read questions.
+
+- **SQL** fetches data efficiently.
+
+- The **Domain Event** tells what happened in the domain.
+
+The problem is not that these could not technically do one another's work. A projection *can* contain a business decision. A saga *can* change domain state. A controller *can* validate an invariant. A mapper *can* calculate a price. An Aggregate Root *can* assemble a report.
+
+They may even do it perfectly.
+
+**And still they are doing another's duty.**
+
+**Krishna:**
+
+*"An architectural boundary does not prevent a component from doing its work. It prevents it from doing someone else's."*
+
+The reviewer, too, has his own limited dharma. He does not own the author's work, nor the truth of the business, nor the future of the whole system. He owns only his own honest observation, and the duty to bring it into the shared conversation.
+
+Approving an MR does not mean the change is perfect. Rejecting it does not mean the author has failed. Asking a question does not mean the asker knows the answer.
+
+Arjuna therefore presses neither *Approve* nor *Reject* yet. Nor does he remove himself as reviewer. He writes a comment:
+
+```text
+// Arjuna's PR review comment:
+```
+
+*"I do not object to these getter methods because a getter is wrong in itself. I do not yet understand whether the mapper needs only an external representation of money, or whether we are making a general API out of the `amount` and `currency` fields, upon which calculation will then begin to be built as well. Could we walk through one concrete use case and agree on where the decisions about money are made, before we approve the change?"*
+
+That does not settle the war. It does not even settle the merge request.
+
+But it restores to the conversation the thread, the invisible work, and each party's own duty.
+
+**Arjuna:** *"Do I understand the domain now?"*
+
+**Krishna:** *"No. But now you know what to ask."*
+
+**Krishna's final exhortation and message**
+
+Then Krishna stepped right beside Arjuna, looked him in the eyes, and pronounced the most famous closing verse of the whole Bhagavad Gita (*Charama Shloka*):
 
 **Krishna:**
 
 **"Sarva-dharman parityajya mam ekam sharanam vraja:**
 
-**Hylkää kiintymys dogmaattisiin sääntöihin, turhiin framework-taisteluihin ja omaan täydellisyyteesi. Etsi turvaa domainin rehellisestä ymmärtämisestä.**
+**Abandon attachment to dogmatic rules, to futile framework wars and to your own perfection. Take refuge in the honest understanding of the domain.**
 
-*Mikään yksittäinen malli ei ole minä, mutta jokainen totuudellinen malli ilmaisee jotakin minusta.*
+*No single model is me, but every truthful model expresses something of me.*
 
-*Minä vapautan sinut kaikista menneistä koodausvirheistä, huonoista commiteista ja teknisen velan syyllisyydestä. Älä murehdi (Ma shucah)!"*
+*I release you from all past coding errors, from bad commits and from the guilt of technical debt. Do not grieve (Ma shucah)!"*
 
-**Arjunan Herääminen (Nasto Mohah)**
+**Arjuna's awakening (Nasto Mohah)**
 
-Taistelukentällä – ja koodieditorin ääressä – laskeutui täydellinen, syvä hiljaisuus. Epäilys oli tiessään. Pelko tuotannon kaatumisesta oli sulanut pois.
+Upon the battlefield — and before the code editor — a perfect, deep silence descended. Doubt was gone. The fear of production falling over had melted away.
 
 **Krishna:**
 
-*"Oletko kuullut tämän opetuksen keskittyneellä mielellä, Arjuna? Onko tietämättömyydestä syntynyt hämmennyksesi haihtunut?"*
+*"Have you heard this teaching with a concentrated mind, Arjuna? Has the confusion born of ignorance dispersed?"*
 
 **Arjuna:**
 
-*"Nasto mohah smritir labdha tvat-prasadan maya 'cyuta:*
+*"Nashto mohah smritir labdha tvat-prasadan maya 'chyuta:*
 
-**Hämmennykseni on kadonnut! Olen saanut takaisin muistini ja ymmärrykseni sinun armostasi, oi Muuttumaton!**
+**My confusion is gone! I have regained my memory and my understanding by your grace, O Unchanging One!**
 
-**Seison tässä täysin vakaana, ilman epäilystä. Minä teen niin kuin sinä käsket (Karisye vacanam tava)!**"\*
+**I stand here wholly steady, free of doubt. I shall do as you command (Karishye vachanam tava)!**"*
 
-\[ ARJUNA TARTTUU NÄPPÄIMISTÖÖN \]
+```text
+[ ARJUNA TAKES HOLD OF THE KEYBOARD ]
 
-• Pelko kadonnut.
-
-• Ego poistettu.
-
-• Oma velvollisuus tunnistettu.
-
-• Kommentti jätetty MR-katselmointiin.
-
+• Fear: gone.
+• Ego: removed.
+• Own duty: recognised.
+• Comment: left in the MR review.
 • Decision: Request changes submitted.
-
 • Attachment to outcome: none.
+```
 
-**Sanjaya päättää eepoksen**
+**Sanjaya closes the epic**
 
-Eepoksen lopussa Sokean Omistajan (Dhritarashtra) ministeri Sanjaya sulkee reaaliaikaisen yhteys-lokinsa syvällä kunnioituksella:
+At the end of the epic, Sanjaya, minister of the Blind Owner (Dhritarashtra), closes his real-time connection log with deep reverence:
 
 **Sanjaya:**
 
-*"Näin minä kuulin tämän ihmeellisen ja karvat pystyyn nostattavan keskustelun Mestarillisen Arkkitehdin (Krishna) ja jaloimman Kehittäjän (Arjuna) välillä.*
+*"Thus did I hear this wondrous and hair-raising conversation between the Masterly Architect (Krishna) and the noblest of Developers (Arjuna).*
 
-**Missä ikinä on Krishna, Korkein Arkkitehti, ja missä ikinä on Arjuna, jousensa ja näppäimistönsä kohottanut Kehittäjä – siellä on varmasti KESTÄVÄ TYYNEYS, VOITTO, MAHTAVA SUORITUSKYKY JA TÄYDELLINEN RAUHA!**
+**Wherever Krishna is, the Supreme Architect, and wherever Arjuna is, the Developer who has raised his bow and his keyboard — there most surely are LASTING SERENITY, VICTORY, MIGHTY PERFORMANCE AND PERFECT PEACE!**
 
-*Tämä on minun lopullinen näkemykseni."*
+*This is my final view."*
 
-**🕉️ BHAGAVAD GITAN LOKIT - VALMIS 🕉️**
+**🕉️ THE LOGS OF THE BHAGAVAD GITA — COMPLETE 🕉️**
 
-Arjuna ei sulkenut läppäriään. Hän ei juossut karkuun. Hän kysyi oikean kysymyksen ja täytti oman dharmansa. Build oli vihreä. Tuotanto oli stabiili. Mieli oli vapaa.
+Arjuna did not close his laptop. He did not run away. He asked the right question and fulfilled his own dharma. The build was green. Production was stable. The mind was free.
 
 Aum Shanti, Shanti, Shanti. 🚀✨
 
