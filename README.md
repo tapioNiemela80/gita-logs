@@ -1584,19 +1584,71 @@ Krishna enumerated the twenty-six virtues that make a developer, his actions and
 
 *"These are the marks of the developer born to a divine nature:*
 
-- **Fearlessness:** the courage to refactor old code when the tests are sound.
+- **Fearlessness(Abhayam):** The courage to ask a difficult domain question and challenge even a change backed by a green pipeline.
 
-- **Purity of mind:** clear, readable, self-explaining code without cleverness.
+- **Purity of mind(Sattva-samshuddhi):** Acting out of concern for the honesty of the model—not to defend one’s solution, status, or reputation.
 
-- **Generosity:** sharing knowledge with the team, good documentation and thorough answers in discussion.
+- **Steadfastness in knowledge and understanding (Jnana-yoga-vyavasthiti)**: Continuing knowledge crunching even when the first model already appears convincing.
 
-- **Self-control:** the restraint not to adopt the newest fashionable framework merely out of a craving for novelty.
+- **Generosity (Danam)**: Sharing knowledge, context, and reasoning with the entire team. Understanding is not hoarded as a source of personal power.
 
-- **Non-violence (Ahimsa):** constructive, respectful and encouraging feedback in PR reviews.
+- **Self-restraint (Dama)** : The ability to refrain from introducing a framework, abstraction, or generic base class merely because you know how.
 
-- **Truthfulness:** honesty in estimates (for example, 'this ticket takes three days, not two hours').
+- **Sacrifice for the common good (Yajna)** : Writing tests, documenting decisions, and clarifying the model for developers who will enter the codebase after you.
 
-- **Serenity:** a calm mind, even while an alert is burning in production."*
+- **Study (Svadhyaya)**: Continually reading the code, logs, specifications, commit history—and, above all, the domain.
+
+- **Discipline (Tapas)**: Persisting with difficult but necessary modelling work even when it produces neither a quickly closed ticket nor an impressive demo.
+
+- **Straightforwardness (Arjavam)**: The code means what it says. Names, behaviour, and domain concepts do not lie to one another.
+
+- **Non-violence (Ahimsa)**: Challenging the assumption in a review, not attacking the person who wrote it.
+
+- **Truthfulness (Satyam)**: Honestly admitting that a rule is not yet understood, even when pretending otherwise would be more convenient for the sprint.
+
+- **Freedom from anger (Akrodha)**: Refusing to turn a production incident, legacy code, or a disagreement into a personal war.
+
+- **Renunciation (Tyaga)**: The ability to remove your beloved abstraction when growing domain knowledge reveals that it is no longer needed.
+
+- **Peacefulness (Shanti)**: The ability to pause before deploying a hotfix and distinguish genuine urgency from panic spreading through Slack.
+
+- **Refraining from fault-finding and slander (Apaishunam)**: Refusing to base an architectural decision on the claim that another team, a previous developer, or the juniors would not understand anyway.
+
+- **Compassion toward living beings (Daya Bhuteshu)**: Empathy for users, maintainers, on-call engineers, and future developers.
+
+- **Freedom from greed (Aloluptvam)**: Refusing to hoard responsibilities, technologies, ownership, or visible acts of heroism within your own service or under your own name.
+
+- **Gentleness (Mardavam)**: The ability to say something difficult clearly without making another person feel small.
+
+- **Modesty (Hri)**: The healthy capacity to say, ‘I may be misunderstanding this.’
+
+- **Freedom from restlessness (Achapalam)**: Refusing to change the architecture, framework, or domain model with every new idea, conference talk, or AI suggestion.
+
+- **Vigour (Tejas)**: Once a contradiction in the model has been noticed, refusing to let it die politely in the silence of a Teams channel.
+
+- **Forgiveness (Kshama)**: Judging legacy code and its authors in the light of the knowledge, requirements, and pressures of their time.
+
+- **Fortitude (Dhriti)**: Keeping a domain question open even when the answer does not emerge from a single refinement session or the first Model Storming workshop.
+
+- **Cleanliness (Shaucham)**: Keeping boundaries, responsibilities, and dependencies visible. The domain is not polluted with database concerns, transport mechanisms, or framework types.
+
+- **Freedom from malice (Adroha)**: Understanding that the purpose of a review is not to win, humiliate someone, or avenge an earlier architectural decision.
+
+- **Absence of excessive pride (Natimanita)**: Seniority, long experience, or the title of architect does not transform personal intuition into domain truth.
+
+Arjuna listened to the long list and tried to commit every virtue to memory.
+
+**Arjuna:**
+
+*"Krishna, how can I remember all of these while reviewing a single Merge Request?"*
+
+**Krishna:**
+
+*"Then remember only three things:*
+
+*Say the difficult thing. Say it gently. Remember that you may be wrong.*
+
+*If you truly act in this way, the other twenty-three virtues will not be far away."*
 
 **Demonic qualities (Asuri Sampad)**
 
