@@ -498,8 +498,6 @@ Arjuna was left pondering Krishna's words. He had learned that one must not be a
 
 *"If I am not to be attached to the fruits of my work, does that mean the consequences are none of my concern?"*
 
-{pagebreak}
-
 Krishna shook his head.
 
 **Krishna:**
@@ -3100,7 +3098,41 @@ Krishna does not dispute this. Each of them truly does see a part that Arjuna do
 
 **"Better to perform one's own duty (Svadharma) imperfectly than another's perfectly."**
 
-The same holds within the system:
+**The dharma of the test**
+
+Arjuna considered this teaching, but remembered another dispute in which every participant had claimed one universal rule.
+
+**Arjuna:**
+
+*"If no single duty belongs to every actor, Krishna, what of tests? Some developers follow the Detroit school and distrust mocks. Others follow the London school and construct every test from interactions. Which path should I follow?"*
+
+**Krishna:**
+
+*"Do not force one testing doctrine upon every part of the system, Arjuna. Better is each test’s own duty, though imperfectly performed, than the duty of another test perfectly imitated.*
+
+*When you test the **Domain** — its Aggregates and Value Objects — follow the classical path. Do not mock the soul. Give the model real values, invoke behaviour through its public language and observe whether its invariants endure.*
+
+*If the test requires a forest of substitutes merely to create the Aggregate, suspect confusion in the model. Refactor the model; do not conceal its weakness behind mocks.*
+
+*When you test an **application use case**, isolate it through its ports. Here the London path may serve you. Replace the database, clock, message broker and distant service with controlled collaborators. Verify that the use case obtains what it needs, invokes the Domain and carries the consequences towards the correct boundaries.*
+
+*But mock only a boundary whose contract you understand. A mock is a promise made by the test, not evidence that the real collaborator keeps that promise.*
+
+*When you test an **adapter**, do not merely mock the reality it exists to confront. Let the repository meet a real database. Let the HTTP adapter meet a faithful server. Let serialization cross the actual boundary.*
+
+*For the duty of an adapter is translation between the model and the world, and translation cannot be proven while one of the languages is imaginary.*
+
+*Thus the schools are not enemies. Classical tests guard the behaviour of the Domain. Interaction tests clarify the orchestration of the use case. Contract and integration tests reveal whether the adapters speak truthfully to the world.*
+
+*Keep a few tests in which the whole path is crossed, for it is there that model and mechanism, Purusha and Prakriti, finally meet.*
+
+*Choose the test according to the responsibility under examination — not according to the banner beneath which the tester was trained.*
+
+*For a test, too, is bound when it abandons its own duty and attempts to perform the duty of another."*
+
+Arjuna understood that there was no single testing doctrine that could serve every responsibility. The proper test was determined not by loyalty to a school, but by the truth it was expected to reveal.
+
+The same principle governs the system itself:
 
 - The **Aggregate Root** guards the invariants.
 
