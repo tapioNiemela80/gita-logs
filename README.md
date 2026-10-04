@@ -2207,7 +2207,7 @@ Arjuna listened, but uncertainty remained upon his face.
 
 *If your understanding cannot remain steady, return through disciplined practice — Abhyasa-Yoga. Refactor regularly. Write tests that preserve what you have learned. Practise naming until the code speaks more clearly than before.*
 
-*If deep practice is beyond your present strength, perform your work in service to others. Write the error message that helps a user recover. Remove the surprise that would waste your teammate’s morning. Describe the Pull Request so that another mind may enter it without fear.*
+*If deep practice is beyond your present strength, perform your work in service to others. Write the error message that helps a user recover. Remove the surprise that would waste your teammate’s morning. Describe the Merge Request so that another mind may enter it without fear.*
 
 *If even this feels beyond you — when exhaustion has narrowed your world to the task immediately before you — then perform that task honestly and relinquish your claim upon its fruits. Do not demand praise. Do not demand permanence. Do not demand that the architecture bear your name.*
 
@@ -2223,7 +2223,7 @@ It merely asked each developer to take the next honest one.
 
 **Arjuna:**
 
-*“Tell me, Krishna: how may one recognise a developer whose devotion is true? How does such a person walk among legacy systems, Pull Requests, production incidents and architectural disputes?”*
+*“Tell me, Krishna: how may one recognise a developer whose devotion is true? How does such a person walk among legacy systems, Merge Requests, production incidents and architectural disputes?”*
 
 **Krishna:**
 
@@ -2233,7 +2233,7 @@ It merely asked each developer to take the next honest one.
 
 *Who does not say, ‘This is my code,’ but understands that every class is held only in temporary stewardship.*
 
-*Who is not inflated when a Pull Request is approved without comment, nor diminished when it returns bearing twenty questions.*
+*Who is not inflated when a Merge Request is approved without comment, nor diminished when it returns bearing twenty questions.*
 
 *Who causes no needless panic in the team and is not himself ruled by panic when the pipeline burns red.*
 
@@ -2348,11 +2348,11 @@ A third did nothing at all. It remained only because no one had been certain eno
 
 Then, within the first conditional, Arjuna recognised something familiar.
 
-It was the same responsibility whose outline he had glimpsed earlier in the asynchronous flow: the decision that had passed through controllers, mappers and messages without belonging truthfully to any of them.
+It was the same domain responsibility whose absence he had glimpsed earlier in the asynchronous flow. One business concept had passed through controllers, mappers and messages in many representations, while responsibility for preserving its meaning belonged truthfully to none of them.
 
-Here it appeared again, buried inside an eight-year-old method.
+Here that same responsibility appeared again, buried inside an eight-year-old method.
 
-What Arjuna had mistaken for two separate technical problems were two manifestations of the same missing concept.
+What Arjuna had mistaken for a representation problem in one place and a legacy conditional in another were two manifestations of the same missing concept.
 
 **Arjuna:**
 
@@ -2392,23 +2392,23 @@ He needed only to care truthfully for what stood before him.
 
 Arjuna wrote a test to preserve the business distinction the old conditional had silently protected.
 
-He gave the unnamed responsibility a name spoken by the Domain and extracted it into a small class whose purpose was to make that decision.
+He gave the unnamed responsibility a name spoken by the Domain and extracted it into a small domain class whose sole purpose was to make that business decision.
 
-The asynchronous flow no longer needed to carry fragments of the rule through its controllers, mappers and messages.
+The controllers, mappers and messages of the asynchronous flow still translated the concept between representations, but the decision itself now belonged to the Domain.
 
-The legacy method no longer needed to conceal the same rule among thirty parameters and forgotten branches.
+The legacy method no longer concealed the same decision among thirty parameters and forgotten branches. It delegated to the newly named responsibility.
 
-Two distant regions of the codebase became simpler — not because Arjuna had forced them to share an abstraction, but because he had recognised the single responsibility they had both been trying to express.
+Two distant regions of the same Bounded Context became simpler — not because Arjuna had forced them to share an abstraction in advance, but because he had recognised the single responsibility they had both been trying to express.
 
 This was knowledge crunching in action.
 
-Arjuna had not invented an abstraction and searched for places to use it. He had encountered the same responsibility in two different forms, allowed his understanding to remain incomplete and returned to it only when the evidence had deepened.
+Arjuna had not invented an abstraction and searched for places to use it. He had encountered the same business rule in two different forms, allowed his understanding to remain incomplete and returned to it only when the evidence had deepened.
 
 The class was not the discovery.
 
-The discovery was that the two behaviours meant the same thing.
+The discovery was that the two implementations were making the same Domain decision.
 
-The class merely gave that meaning a home.
+The class merely gave that decision a name and a home.
 
 Arjuna renamed the variables whose meaning every developer had been forced to guess.
 
@@ -2416,7 +2416,9 @@ He removed the branch whose purpose had ended with the migration six years befor
 
 He added the invariant check that both implementations had always assumed but neither had expressed.
 
-The change was small.
+The diff was modest.
+
+The understanding that made it possible was not.
 
 It would never appear in an architecture presentation.
 
@@ -2446,7 +2448,7 @@ Arjuna now understands devotion to the craft:
 
 3. **Legacy code deserves investigation rather than contempt:** compassion does not forbid criticism, refactoring or replacement. It requires understanding before judgement.
 
-4. **Knowledge grows through repeated encounters:** a concept may first appear only as an unnamed resemblance between distant behaviours. Knowledge crunching allows the evidence to deepen until the missing responsibility can finally be recognised.
+4. **Knowledge grows through repeated encounters:** a concept may first appear only as an unnamed resemblance between distant structures. Knowledge crunching allows the evidence to deepen until the missing responsibility can finally be recognised.
 
 5. **The codebase is held in stewardship:** no developer owns the code, and no implementation is permanent. Each generation receives the system, changes it and passes it onward.
 
