@@ -861,101 +861,186 @@ Arjuna looks at the monolith with new eyes. He no longer dreams of deleting the 
 
 **Mastering the mind in the age of interruption**
 
-Arjuna was ready to refactor living code, but he met a new obstacle at once. Every time he tried to sink into a complicated async flow, his attention scattered.
+Arjuna had learned that he could not refactor what he had not first understood. Yet whenever he tried to follow a complicated asynchronous flow from its boundary to the business decision and back again, his attention scattered.
 
 Slack sang out its red notifications, a Teams invitation displaced his calendar, and in the browser window the latest technology news flickered.
 
+Each interruption seemed small. Yet whenever Arjuna returned to the code, the thread of meaning had vanished. He remembered the individual methods, but no longer the reason that bound them together.
+
 **Arjuna:**
 
-*"Krishna! The mind is restless, turbulent, demanding and obstinate! Controlling it seems to me as impossible as tying a storm wind into a knot.*
+*“Krishna! The mind is restless, turbulent, demanding and obstinate! Controlling it seems to me as impossible as tying a storm wind into a knot.*
 
-*How can I model deep business rules when my mind leaps from a ticket notification to the gossip of the coffee room and from there to the production logs in a fraction of a second?"*
+*How can I model deep business rules when my mind leaps from a ticket notification to the gossip of the coffee room and from there to the production logs in a fraction of a second?”*
 
-**Krishna answers: Abhyasa and Vairagya (practice and letting go)**
+**Krishna answers: Abhyasa and Vairagya**
 
-Krishna looked at Arjuna with understanding. This was no new problem — it was the eternal struggle of the human mind.
+Krishna looked at Arjuna with understanding. This was no new problem. The tools had changed, but the restlessness of the human mind had not.
 
 **Krishna:**
 
-*"Without doubt the mind is hard to master, O mighty-armed one! But it can be attained by two things: **Abhyasa** (regular practice) and **Vairagya** (letting go, and discipline).*
+*“Without doubt the mind is hard to master, O mighty-armed one! But it may be guided through two things: **Abhyasa** — the patient practice of returning — and **Vairagya** — letting go of every distraction that does not serve the work before you.*
 
-*He who does not master his mind cannot attain deep, focused concentration (Deep Work). But he who masters himself and strives by the right methods attains success."*
+*Do not imagine that mastery means the mind never wanders. Even the trained mind will wander.*
+
+*Mastery lies in noticing where it has gone and bringing it back without anger.*
+
+*The developer who follows every interruption becomes a servant of circumstance. But one who practises returning may remain with a difficult question long enough for its hidden structure to reveal itself.”*
 
 {line-numbers: false}
 ```text
                  THE STATE OF DEEP WORK (DHYANA)
 
-  Phone 🔕  │  Slack Do Not Disturb 🌙  │  IDE fullscreen 💻
-  ────────────────────────────────────────────────────────
-                          │
-                          ▼
-                  ONE FOCUS (Ekagra)
-                          │
-                          ▼
-                A flawless domain model
+  Phone silent  │  Slack Do Not Disturb  │  IDE fullscreen
+  ──────────────────────────────────────────────────────────
+                             │
+                             ▼
+                    ONE FOCUS (Ekagra)
+                             │
+                             ▼
+                 The thread of meaning held
+                             │
+                             ▼
+                  A hidden assumption seen
 ```
 
-**How does a coder prepare his place of meditation?**
+**How does a developer prepare the place of meditation?**
 
-Krishna gave very practical instructions on how a developer should prepare for a session of deep work:
+Krishna gave Arjuna practical instructions for preparing a session of deep work.
 
 **Krishna:**
 
-*"Let the developer choose a clean and quiet workspace, where there are no needless distractions. Let him set his working posture ergonomically — neither too high nor too low.*
+*“Let the developer choose a clean and quiet place where needless distractions do not continually lay claim to his attention. Let the screen stand neither too high nor too low, and let the body be seated without strain.*
 
-*Let him switch off Slack notifications, close the tabs of social media, and put his phone on silent.*
+*Let him silence the phone, close the windows of idle argument and place Slack beyond the reach of every passing impulse.*
 
-*Let him sit there steadily, keep his back straight, and direct his gaze only upon the code before him, without looking to either side.*
+*Let him keep before him only the code, the question and such evidence as the question requires.*
 
-*Let him not eat too heavy a lunch before a deep work session, nor let him suffer hunger. Let him not stay awake all night on the strength of caffeine, nor sleep half the day away. Moderation in all things is the key to yoga!"*
+*Let him not eat so heavily that the mind sinks into darkness, nor work so long without food that every method appears an enemy.*
+
+*Let him not remain awake all night by the power of caffeine, nor abandon half the day to exhaustion.*
+
+*Yoga is not found in heroic excess, Arjuna. Clarity grows through a rhythm that can be sustained.”*
 
 {pagebreak}
 
-**A simile for the mind: a windless place**
+**A flame in a windless place**
 
-Krishna used a beautiful simile to describe the mind of a focused coder.
+Krishna used a beautiful simile to describe the mind of a focused developer.
 
 **Krishna:**
 
-*"As the flame of a candle does not flicker in a windless place, so is the mind of that architect steady who practises absorption in the domain model.*
+*“As the flame of a candle does not flicker in a windless place, so becomes the attention of one absorbed in the Domain.*
 
-*When the mind grows calm before the code, the developer knows a joy that surpasses the level of the senses. He no longer wavers from the truth, whatever refactoring challenges he may meet.*
+*When the mind grows calm before the code, the developer begins to perceive what haste concealed. Separate methods reveal their common meaning. Technical movement reveals the business decision beneath it.*
 
-*This standing apart from that state — this letting go of haste and clamour — is called true Deep Work."*
+*Yet the mind will wander again. Do not fight it as though interruption were a moral failure. Notice it, release what captured it and return to the last point at which the meaning was still clear.*
 
-**Arjuna's fear: "What if I fail halfway?"**
+*This patient return from haste and clamour is called true Deep Work.”*
 
-One thing still troubled Arjuna.
+**The code before him**
+
+Arjuna switched on *Do Not Disturb* and returned to the asynchronous flow.
+
+An incoming command passed through a controller, entered an application service and was transformed by a mapper. From there it crossed a message boundary, awakened an Aggregate and eventually produced an event bearing yet another representation of the same information.
+
+Arjuna began with the request.
+
+He followed one value into the application service.
+
+A notification appeared at the edge of the screen. His eyes moved towards it.
+
+He noticed.
+
+He returned.
+
+He followed the value through the mapper. Its name changed.
+
+For a moment he wondered whether a newer framework would make the flow easier to understand. He opened a browser tab and placed his fingers upon the keyboard.
+
+He noticed.
+
+He closed the tab.
+
+He returned.
+
+At the message boundary, the value divided into two primitives. Inside the Aggregate, the same pair appeared again as a single concept. In the event, it was represented differently once more.
+
+Arjuna felt the urge to begin changing names immediately.
+
+But he remained still.
+
+He followed the thread again from the beginning.
+
+The controller, mapper, message and Aggregate no longer appeared as isolated technical structures. Beneath them ran one business meaning, repeatedly translated and nearly forgotten.
+
+Arjuna changed no code.
+
+Yet slowly the system ceased to appear as it had before.
+
+Three different names revealed themselves as representations of the same business concept. Beneath a harmless-looking conditional, Arjuna found an assumption upon which the whole flow depended.
 
 **Arjuna:**
 
-*"Krishna! And what if a developer attempts this, turns off his notifications and sinks into the code, but loses his concentration all the same? What if he does not finish the PR, and yet does not enjoy the quick victories of the 'Just Ship It' crowd either? Is he like a scattered cloud, belonging neither to the sky nor to the earth?"*
+*“Krishna, I have written nothing. Yet the code no longer appears as it did before.”*
 
 **Krishna:**
 
-*"Arjuna! Never does one who writes good code come to ruin — neither in this sprint nor in those to come!*
+*“That is the work of attention, Arjuna.*
 
-*He who strives for honest architecture but falls short halfway is born again into a better environment. He ends up in a team with good coding practices and wise seniors.*
+*Refactoring begins before the first line is changed.*
 
-*There he finds again the level of understanding he reached in his previous project, and continues onward from it. Not one hour of work done for the sake of a good model is ever wasted."*
+*The impatient developer changes what he has merely seen. The attentive developer remains until he understands what the code is trying to protect.”*
 
-{pagebreak}
+**Arjuna’s fear: “What if I fail halfway?”**
+
+One doubt still troubled Arjuna.
+
+**Arjuna:**
+
+*“Krishna! What if a developer attempts this practice, silences his notifications and enters deeply into the code, yet loses his concentration all the same?*
+
+*What if he follows the model for hours but does not finish the Pull Request? What if he neither completes the work nor enjoys the quick victories of the ‘Just Ship It’ crowd?*
+
+*Is his effort lost like a scattered cloud, belonging neither to the sky nor to the earth?”*
+
+**Krishna:**
+
+*“Never does honest effort towards understanding come to ruin, Arjuna — neither in this sprint nor in those to come.*
+
+*The developer who strives to understand the Domain but falls short has not returned empty-handed. What he has learned remains within him.*
+
+*Perhaps the sprint ends. Perhaps the ticket passes to another team. Perhaps the project itself is abandoned and its repository archived.*
+
+*Yet when he encounters the same confusion in another form, he does not begin from nothing. He recognizes the broken boundary, the unnamed concept and the assumption disguised as implementation.*
+
+*It is as though the understanding gained in one codebase awakens again in another.*
+
+*Not one hour spent in honest attention is wasted.”*
 
 **The conclusion of Chapter VI**
 
-Arjuna learns the value of concentration and self-discipline:
+Arjuna now understands the discipline of attention:
 
-1. **The mind is a tool, not a master:** one can be freed from bondage to Slack and Teams by creating conscious boundaries for deep work.
+1. **Mastery is the practice of returning:** the mind will wander. Deep work lies in noticing this without anger and returning patiently to the question.
 
-2. **Moderation in all things:** the best code is not born in all-night energy-drink marathons, but in a steady, ergonomic and lucid daily rhythm.
+2. **Understanding precedes refactoring:** before changing the code, the developer must remain with it long enough to discover the meaning and responsibilities concealed beneath its technical movement.
 
-3. **The effort is never wasted:** even if the sprint runs late, the learning and the discipline that were built carry over into the next project.
+3. **Moderation sustains clarity:** insight is not born from permanent urgency, sleepless nights or heroic exhaustion, but from a rhythm in which attention can remain lucid.
 
-Arjuna puts on his headphones, switches on *Do Not Disturb* and looks straight at the class in front of him.
+4. **No sincere inquiry is wasted:** even unfinished work leaves behind understanding that may awaken later in another method, another system or another project.
+
+Arjuna placed his hands upon the keyboard.
+
+He was not yet ready to change the code.
+
+For the first time, he was ready to understand it.
 
 **Arjuna:**
 
-*"My mind is serene, Krishna. I shut out the outside world. I am ready to understand the deepest nature of the system."*
+*“My mind is not motionless, Krishna. But when it wanders, I know how to return.*
+
+*Now show me the difference between understanding the model and knowing whether it survives reality.”*
 
 {pagebreak}
 
@@ -2044,7 +2129,7 @@ Krishna smiled.
 
 **Architectural Sutra:** *To love a codebase is not to defend every line that already exists. Devotion is the patient care through which clarity is restored without demanding perfection.*
 
-**Arjuna's question: “Abstract perfection or everyday care?”**
+**Arjuna’s question: “Abstract perfection or everyday care?”**
 
 The terrifying radiance of the Universal Form had receded.
 
@@ -2058,7 +2143,7 @@ Yet another question troubled him.
 
 **Arjuna:**
 
-*"Krishna, you have shown me that every implementation must pass away. You have also shown me that no human mind can contain the living system in its entirety.*
+*“Krishna, you have shown me that every implementation must pass away. You have also shown me that no human mind can contain the living system in its entirety.*
 
 *Tell me, then, which are the better architects:*
 
@@ -2066,7 +2151,7 @@ Yet another question troubled him.
 
 *Or those who devote themselves to the form before them: this Bounded Context, this Aggregate, this imperfect legacy system and the work of caring for them one commit at a time?*
 
-*Which path leads most surely to wisdom and peace?"*
+*Which path leads most surely to wisdom and peace?”*
 
 **Krishna answers: everyday devotion surpasses theoretical purism**
 
@@ -2074,7 +2159,7 @@ Krishna looked at Arjuna gently.
 
 **Krishna:**
 
-*"Those who fix their minds upon the living Domain and serve it with steady attention — them I hold to be the wisest practitioners.*
+*“Those who fix their minds upon the living Domain and serve it with steady attention — them I hold to be the wisest practitioners.*
 
 *Those who pursue the Unmanifested also seek the truth. They contemplate architectures beyond code, patterns beyond frameworks and principles that no single implementation can fully embody.*
 
@@ -2088,7 +2173,7 @@ Krishna looked at Arjuna gently.
 
 *Do not worship the diagram while neglecting the system it was drawn to serve. Do not love architectural purity more than the people who must live with its implementation.*
 
-*Serve the living reality of the Domain through the work that lies before you."*
+*Serve the living reality of the Domain through the work that lies before you.”*
 
 {line-numbers: false}
 ```text
@@ -2108,25 +2193,25 @@ Arjuna listened, but uncertainty remained upon his face.
 
 **Arjuna:**
 
-*"Krishna, my attention is not always steady.*
+*“Krishna, my attention is not always steady.*
 
 *Sometimes the Domain is unclear. Sometimes the requirements contradict one another. Sometimes the sprint is ending, the build is red and my mind is scattered across five conversations.*
 
-*How can one such as I practise devotion to the craft?"*
+*How can one such as I practise devotion to the craft?”*
 
 **Krishna:**
 
-*"There are many steps upon the path of Bhakti, Arjuna. Begin from the highest step you can honestly reach.*
+*“There are many steps upon the path of Bhakti, Arjuna. Begin from the highest step you can honestly reach.*
 
 *First, if you can fix your mind wholly upon the truth of the Domain, do so. Let every name, boundary and behaviour arise from attentive understanding. This is the highest devotion.*
 
-*If your understanding cannot remain steady, return through disciplined practice — Abhyasa-Yoga. Refactor regularly. Write tests that preserve what you have learned. Leave comments where intent would otherwise be lost. Practise naming until the code speaks more clearly than before.*
+*If your understanding cannot remain steady, return through disciplined practice — Abhyasa-Yoga. Refactor regularly. Write tests that preserve what you have learned. Practise naming until the code speaks more clearly than before.*
 
-*If deep practice is beyond your present strength, perform your work in service to others. Write the error message that helps a user recover. Remove the surprise that would waste your teammate's morning. Describe the Pull Request so that another mind may enter it without fear.*
+*If deep practice is beyond your present strength, perform your work in service to others. Write the error message that helps a user recover. Remove the surprise that would waste your teammate’s morning. Describe the Pull Request so that another mind may enter it without fear.*
 
 *If even this feels beyond you — when exhaustion has narrowed your world to the task immediately before you — then perform that task honestly and relinquish your claim upon its fruits. Do not demand praise. Do not demand permanence. Do not demand that the architecture bear your name.*
 
-*Knowledge is better than blind execution. Contemplation is deeper than knowledge repeated without reflection. Yet deeper still is the renunciation of possessive pride in the result — for from such renunciation, peace follows."*
+*Knowledge is better than blind execution. Contemplation is deeper than knowledge repeated without reflection. Yet deeper still is the renunciation of possessive pride in the result — for from such renunciation, peace follows.”*
 
 Arjuna considered this ladder.
 
@@ -2138,11 +2223,11 @@ It merely asked each developer to take the next honest one.
 
 **Arjuna:**
 
-*"Tell me, Krishna: how may one recognise a developer whose devotion is true? How does such a person walk among legacy systems, Pull Requests, production incidents and architectural disputes?"*
+*“Tell me, Krishna: how may one recognise a developer whose devotion is true? How does such a person walk among legacy systems, Pull Requests, production incidents and architectural disputes?”*
 
 **Krishna:**
 
-*"That developer is dear to me who hates no codebase and bears no contempt towards those who came before.*
+*“That developer is dear to me who hates no codebase and bears no contempt towards those who came before.*
 
 *Who is compassionate towards juniors, patient with uncertainty and willing to ask before declaring.*
 
@@ -2164,13 +2249,15 @@ It merely asked each developer to take the next honest one.
 
 *Who knows that care without skill is helpless, but skill without care is dangerous.*
 
-*Such a developer — capable, compassionate and free from possessive ego — is exceedingly dear to me."*
+*Such a developer — capable, compassionate and free from possessive ego — is exceedingly dear to me.”*
 
-**Compassion for the legacy system - the next teaching did not come through another developer’s Merge Request, but through a method Arjuna himself had been asked to change**
+**Compassion for the legacy system**
 
-Arjuna looked down at the editor.
+Krishna’s teaching did not remain abstract for long.
 
-Before him stood a method written eight years earlier. It accepted thirty parameters, mutated objects received from three different layers and returned a boolean whose meaning depended upon which exception had not been thrown.
+Arjuna’s next task was not to review another developer’s Merge Request. He had been asked to change a method already living in production.
+
+The method was eight years old. It accepted thirty parameters, mutated objects received from three different layers and returned a boolean whose meaning depended upon which exception had not been thrown.
 
 Its author had left the company long ago.
 
@@ -2189,13 +2276,13 @@ The workaround remained.
 
 **Arjuna:**
 
-*"Krishna, how can I feel devotion towards this?*
+*“Krishna, how am I to approach this with devotion?*
 
-*The method is tangled, the model is silent and every change reveals another hidden dependency. Is it not right to despise such code? Would not a complete rewrite be purer?"*
+*The method is tangled, the model is silent and every change reveals another hidden dependency. Is it not right to despise such code? Would not a complete rewrite be purer?”*
 
 **Krishna:**
 
-*"Do not look upon legacy code with hatred, Arjuna.*
+*“Do not look upon legacy code with hatred, Arjuna.*
 
 *That method was born in a storm you did not weather.*
 
@@ -2223,27 +2310,53 @@ The workaround remained.
 
 *He asks what the code protects, who still depends upon it and which apparent defect is holding back a consequence no test environment has revealed.*
 
-*Then he changes it — neither timidly nor violently, but with understanding."*
+*Then he changes it — neither timidly nor violently, but with understanding.”*
 
 Arjuna studied the method again.
 
-For the first time he did not see an enemy.
+Once he would have seen only an enemy.
 
-He saw a record of decisions whose reasons had been lost.
+Now he saw evidence: a record of decisions whose reasons had been lost.
 
 **Krishna:**
 
-*"Treat the legacy system as a physician treats a weary patient.*
+*“Treat the legacy system as a physician treats a weary patient.*
 
 *Do not praise the illness. Do not hate the body for bearing it.*
 
 *Observe carefully. Learn its history. Strengthen what still sustains life. Remove what causes harm.*
 
-*And never confuse a newer body with a healed one."*
+*And never confuse a newer body with a healed one.”*
+
+**Returning to the code**
+
+Arjuna did not begin by refactoring.
+
+He silenced his notifications and practised what Krishna had taught him.
+
+He followed each parameter back to its caller. He traced the mutated objects through their layers. He searched the history of the method, read the old migration scripts and compared their assumptions with the system that existed now.
+
+Whenever his mind rushed towards condemnation or the clean pleasure of a rewrite, he noticed and returned to the evidence.
+
+Slowly the method began to speak.
+
+One conditional protected a business distinction that still mattered, though its name had disappeared from the Ubiquitous Language.
+
+Another branch guarded against data produced before the migration.
+
+A third did nothing at all. It remained only because no one had been certain enough to remove it.
+
+The code was tangled, but it was not meaningless.
+
+The method did not become beautiful.
+
+It became legible.
+
+Arjuna now understood what it protected, what history had made obsolete and what the present Domain required it to become.
+
+Only then did he place his hands upon the keyboard.
 
 **The offering of the single commit**
-
-The room became quiet.
 
 Arjuna remembered the immeasurable system he had witnessed: its rivers of events, its countless users, its dead architectures and the blazing mouths of Time into which every implementation must eventually disappear.
 
@@ -2259,13 +2372,15 @@ He did not need his code to survive forever.
 
 He needed only to care truthfully for what stood before him.
 
-Arjuna renamed the variable whose meaning every developer had been forced to guess.
+Arjuna wrote a test to preserve the business distinction the old conditional had silently protected.
+
+He renamed the variable whose meaning every developer had been forced to guess.
 
 He extracted the condition that represented a business rule and gave it a name spoken by the Domain.
 
-He added the invariant check that the old method had always assumed but never expressed.
+He removed the branch whose purpose had ended with the migration six years before.
 
-He wrote one test that would remember what he had learned after his own memory had faded.
+He added the invariant check that the old method had always assumed but never expressed.
 
 The change was small.
 
@@ -2295,7 +2410,7 @@ Arjuna now understands devotion to the craft:
 
 2. **Devotion is attentive care:** every developer can serve according to their present understanding and strength. A clear name, an added test and an honest comment may all be acts of Bhakti.
 
-3. **Legacy code deserves investigation rather than contempt:** compassion does not forbid criticism or replacement. It requires understanding before judgement.
+3. **Legacy code deserves investigation rather than contempt:** compassion does not forbid criticism, refactoring or replacement. It requires understanding before judgement.
 
 4. **The codebase is held in stewardship:** no developer owns the code, and no implementation is permanent. Each generation receives the system, changes it and passes it onward.
 
@@ -2309,11 +2424,13 @@ He saw something living that had been placed, for a time, within his care.
 
 **Arjuna:**
 
-*"My heart is quieter, Krishna. I no longer hate this legacy code, nor do I imagine that love requires me to preserve it unchanged.
-I begin to understand how one may serve the codebase without claiming ownership over it.
-Yet I sense that the code before me and the mind that judges it are not the same. Teach me how to distinguish that which is observed from the one who claims to understand it."*
+*“My heart is quieter, Krishna. I no longer hate this legacy code, nor do I imagine that love requires me to preserve it unchanged.*
 
-Krishna turned Arjuna's attention from the code upon the screen to the one who was looking at it.
+*I begin to understand how one may serve the codebase without claiming ownership over it.*
+
+*Yet I sense that the code before me and the mind that judges it are not the same. Teach me how to distinguish that which is observed from the one who claims to understand it.”*
+
+Krishna turned Arjuna’s attention from the code upon the screen to the one who was looking at it.
 
 {pagebreak}
 
