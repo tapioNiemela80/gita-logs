@@ -1635,18 +1635,6 @@ Arjuna saw the architectures of former ages rise before him in their splendour.
 
 Each age had possessed its own universal notation, its own CASE tool, its own code generator, its own methodology and its own machine that promised to turn human intention directly into software.
 
-One age drew UML diagrams and believed that code would follow obediently from the model.
-
-Another generated forests of classes from database schemas and called the result architecture.
-
-Another placed its faith in model-driven development, fourth-generation languages and visual programming environments. Boxes were connected by arrows, buttons were dragged upon forms and vendors proclaimed that the age of hand-written code was ending.
-
-Another believed that cryptography and blockchains would remove the need for trust, institutions and human judgement.
-
-Another promised that low-code and no-code platforms would allow the business to create software without programmers.
-
-And the newest age spoke to artificial intelligence in natural language and declared that understanding itself had become optional.
-
 The names changed.
 
 The promise did not.
@@ -1657,6 +1645,14 @@ Then the procession advanced.
 
 Arjuna saw mainframes whose builders had believed them to be the final foundation of enterprise computation.
 
+He saw UML diagrams spread across the walls of enterprises until no one could say whether they described the system, prescribed the system or merely remembered a system that no longer existed.
+
+He saw CASE tools generate forests of classes from database schemas. He saw round-trip engineering promise that models and implementations would remain forever synchronized, until both diverged from the Domain together.
+
+He saw fourth-generation languages, model-driven development and visual programming environments proclaim the end of hand-written code. Boxes were connected by arrows, buttons were dragged upon forms and software appeared with astonishing speed.
+
+Yet the difficult question of what the software ought to mean remained unanswered.
+
 He saw remote objects crossing networks as though distance had ceased to exist. CORBA brokers stood like vast celestial machinery, surrounded by engineers who proclaimed that heterogeneous systems had at last been united.
 
 They passed into darkness.
@@ -1665,15 +1661,11 @@ He saw mighty EJB containers ascend, promising that distribution, persistence, t
 
 They too passed into darkness.
 
-He saw SOAP cathedrals, service registries and enterprise service buses upon which every system was promised a place in perfect order. He saw governance councils draw canonical models intended to speak for all domains.
+He saw SOAP cathedrals, service registries and enterprise service buses upon which every system was promised a place in perfect order. Governance councils drew canonical models intended to speak for all domains.
 
 The cathedrals cracked.
 
 The canonical languages became nobody's native tongue.
-
-He saw UML diagrams grow until no one could say whether they described the system, prescribed the system or merely remembered a system that no longer existed.
-
-He saw CASE tools generate code faster than their users could understand it. He saw round-trip engineering promise that models and implementations would remain forever synchronized, until both diverged from the Domain together.
 
 He saw cryptographic systems guarantee the integrity of transactions whose meaning had never been agreed upon.
 
@@ -1681,11 +1673,13 @@ The records became immutable.
 
 The misunderstanding became permanent.
 
+He saw blockchains promise to remove the need for trust, institutions and human judgement, as though the correctness of a recorded decision could prove the wisdom of the decision itself.
+
 He saw microservices arrive as liberators and later multiply into fleets whose dependencies no single team could name.
 
 He saw serverless functions promise freedom from servers while their execution vanished into platforms no developer could inspect.
 
-He saw low-code tools promise freedom from programmers and produce systems that required programmers to understand what the tools had hidden.
+He saw low-code and no-code tools promise freedom from programmers and produce systems that required programmers to understand what the tools had hidden.
 
 Then Arjuna saw the newest forms rise, radiant and surrounded by worshippers.
 
@@ -1733,9 +1727,7 @@ None could decide which distinction mattered to the business, which invariant mu
 
 None could relieve a human being of the duty to understand.
 
-None had been wholly false.
-
-None had been eternal.
+Yet none had been eternal.
 
 The Universal Form contained them all: every useful idea, every forgotten constraint, every triumphant keynote and every migration away from yesterday's inevitable future.
 
@@ -1751,7 +1743,7 @@ Requests, events, records and decisions poured towards them as all rivers rush i
 
 Arjuna saw entire applications carried upon those rivers.
 
-He saw systems whose names had once filled conference halls. He saw the crowned heads of mighty enterprise platforms, adorned with vendor certifications and diagrams of perfect governance. He saw remote-object brokers, application servers, service buses and orchestration engines advancing in magnificent procession.
+He saw systems whose names had once filled conference halls. He saw the crowned heads of mighty enterprise platforms, adorned with vendor certifications and diagrams of perfect governance. He saw architectures advancing in magnificent procession, each still bearing the insignia of the age that had proclaimed it inevitable.
 
 Then the terrible jaws closed.
 
@@ -1769,17 +1761,9 @@ Each believed it had found liberation from complexity.
 
 Each entered the fire carrying complexity in a new form.
 
-He saw microservices multiply beyond comprehension.
+The procession Arjuna had witnessed returned, now stripped of its triumphant names. Platforms, generated systems, immutable ledgers and whole forests of machine-written code rushed together towards the same flame.
 
-He saw serverless functions disappear behind platforms upon which no one on the team knew how to operate.
-
-He saw low-code applications grow beyond what their visual representations could express.
-
-He saw immutable ledgers preserve decisions whose original meaning had been forgotten.
-
-He saw artificial intelligences generate whole forests of code whose branches grew faster than human understanding could follow.
-
-The faster the code was produced, the more eagerly it flew into the flame.
+The faster the implementation was produced, the more eagerly it flew into the fire.
 
 The mouths consumed everything without hatred.
 
@@ -1850,8 +1834,6 @@ He fell to his knees.
 *As rivers hasten towards the ocean, all execution flows into your immeasurable mouths. As moths fly towards flame and destruction, teams and technologies rush into your terrible radiance.*
 
 *I see the heads of mighty systems crushed between your teeth. I see request payloads pouring into your mouths, deployments burning upon your tongues and the fragments of forgotten architectures caught between your jaws.*
-
-*I see every age raise its own perfect notation, its own generator and its own instrument of deliverance. Each promises that ambiguity has been conquered. Each becomes another representation whose meaning must be recovered by those who follow.*
 
 *Your brilliance is like a thousand suns rising at once, yet within that light I can no longer distinguish wisdom from noise.*
 
@@ -1925,7 +1907,7 @@ The Universal Form opened its countless mouths, and Arjuna saw implementations d
 
 *No artificial intelligence knows whether the fluent answer it produced protects the Domain or teaches the system to forget it.*
 
-*The services founded upon forgotten assumptions do not require your hatred. The architectures of former ages do not require your mockery. Each was an answer given under conditions that have passed.*
+*The systems founded upon forgotten assumptions do not require your hatred. The architectures of former ages do not require your mockery. Each was an answer given under conditions that have passed.*
 
 *Learn what they protected. Understand why their boundaries were drawn. Then change them without worship and without contempt.*
 
@@ -2023,19 +2005,17 @@ Arjuna now understands the terrible humility of architecture:
 
 1. **Visibility is not understanding:** logs, metrics and traces can reveal the movements of a system, but they cannot explain what the system means.
 
-2. **Representation is not comprehension:** UML, CASE tools, generated code, immutable ledgers, low-code platforms and artificial intelligence can preserve, transform and multiply representations. None can determine whether the represented understanding is true.
+2. **Every age repeats the same promise:** each generation believes that its notation or automation has conquered complexity. Tools may preserve, transform and multiply representations, but none can determine whether the understanding they reproduce is true.
 
-3. **Every architecture is mortal:** CORBA, EJB, service buses, microservices, serverless platforms, artificial intelligence and today's cleanest model are all forms through which understanding acts for a time.
+3. **Every architecture is mortal:** every implementation is a form through which understanding acts for a time. Even today's cleanest model will eventually be changed, replaced or forgotten.
 
-4. **Every age repeats the same promise:** each generation believes that its notation, methodology or automation has finally conquered complexity. Usually it has only concealed complexity, moved it elsewhere or made it easier to reproduce.
+4. **A boundary is an act of humility:** the Bounded Context does not claim that the rest of the system is irrelevant. It acknowledges that responsible action requires a comprehensible scope.
 
-5. **A boundary is an act of humility:** the Bounded Context does not claim that the rest of the system is irrelevant. It acknowledges that responsible action requires a comprehensible scope.
+5. **Responsibility does not require control:** the architect cannot command the whole living system. Responsible action begins when the illusion of total mastery is surrendered and the duty within the present boundary is accepted.
 
-6. **Responsibility does not require control:** the architect cannot command the whole living system. Responsible action begins when the illusion of total mastery is surrendered and the duty within the present boundary is accepted.
+6. **Production gives assumptions consequence:** it does not reveal every defect, but it is where hidden beliefs eventually encounter reality.
 
-7. **Production gives assumptions consequence:** it does not reveal every defect, but it is where hidden beliefs eventually encounter reality.
-
-8. **The architect is an instrument, not a sovereign:** the work is to protect the truth presently understood, without imagining that any implementation will be final or that any tool can remove the duty to think.
+7. **The architect is an instrument, not a sovereign:** the work is to protect the truth presently understood without imagining that any implementation will be final or that any tool can remove the duty to think.
 
 For a long while Arjuna said nothing.
 
@@ -2045,9 +2025,7 @@ They were steady, not because he believed the system was under his control, but 
 
 **Arjuna:**
 
-*"Krishna, I have seen architectures rise in splendour and disappear into Time. I have seen each generation mistake its newest instrument for the end of uncertainty. I have seen that no framework, model, generator or boundary can be made eternal.*
-
-*I understand now that I cannot control the whole system, nor save it from every consequence. Yet the responsibility before me remains.*
+*"Krishna, I have seen architectures rise in splendour and disappear into Time. I have seen that no framework, model, generator or boundary can be made eternal.*
 
 *How, then, does one continue to serve the work with love, patience and devotion, knowing that everything one builds must someday pass away?"*
 
