@@ -134,7 +134,7 @@ Arjuna lowers his bow. 🏹
 
 Dhritarashtra was blind. He had never looked at the codebase himself, and he had no access to the performance metrics. He was the Product Owner, seated in the executive suite, and he wanted to know one thing only: whether the features sworn to in the sprints were in production.
 
-He turned to Sanjaya. Sanjaya was the team's architecture whisperer and the keeper of the CI/CD pipeline, and to him had been granted *divya-drishti* — the divine faculty of sight, a real-time observability tool reaching into every microservice log and every pull request review.
+He turned to Sanjaya. Sanjaya was the team's architecture whisperer and the keeper of the CI/CD pipeline, and to him had been granted *divya-drishti* — the divine faculty of sight, a real-time observability tool reaching into every microservice log and every merge request review.
 
 **Dhritarashtra:**
 
@@ -354,6 +354,8 @@ Krishna answered with the most famous teaching of the Gita:
 
 *Never do the work merely to get a ticket closed. Do your work steadily, free of attachment to approval or rejection. This evenness of mind is called refactoring."*
 
+{pagebreak}
+
 Code without attachment to the fruits:
 
 {line-numbers: false}
@@ -398,8 +400,6 @@ Arjuna wiped away his tears and asked something very practical:
 *As the tortoise draws its limbs into its shell, so the steady developer withdraws his attention from the panic in Slack, from empty framework hype and from arguments on social media. He does not hate legacy code, nor does he worship the newest fashionable language.*
 
 *While others toss upon the sea of requirements like a raging ocean, the steady architect remains calm. New requirements flow into his codebase every day, but he neither swells with dogmatism nor crumbles under haste. He attains peace."*
-
-{pagebreak}
 
 **The outcome of Chapter II**
 
@@ -731,6 +731,8 @@ Krishna then returns to the teaching that confuses developers most of all: how d
 
 2. **Inaction in action:** Another developer and an AI generator produced 3,000 lines of mapper classes, interfaces and controllers without understanding the business need for one second. From the outside it looked like enormous activity, but as far as the domain was concerned nothing happened at all — it was perfect inaction.
 
+{pagebreak}
+
 **Krishna:**
 
 *"The architect’s finest work is often visible only as the absence of disaster. This, too, is action in inaction. But meditate upon this, son of Kunti: The wise coder is the one whose every deed has been purified of indulgent attachment. His code is not full of needless abstractions (accidental complexity), but only of what belongs to the problem itself (essential complexity)."*
@@ -1000,7 +1002,7 @@ One doubt still troubled Arjuna.
 
 *“Krishna! What if a developer attempts this practice, silences his notifications and enters deeply into the code, yet loses his concentration all the same?*
 
-*What if he follows the model for hours but does not finish the Pull Request? What if he neither completes the work nor enjoys the quick victories of the ‘Just Ship It’ crowd?*
+*What if he follows the model for hours but does not finish the Merge Request? What if he neither completes the work nor enjoys the quick victories of the ‘Just Ship It’ crowd?*
 
 *Is his effort lost like a scattered cloud, belonging neither to the sky nor to the earth?”*
 
@@ -1035,6 +1037,8 @@ Arjuna placed his hands upon the keyboard.
 He was not yet ready to change the code.
 
 For the first time, he was ready to understand it.
+
+{pagebreak}
 
 **Arjuna:**
 
@@ -1202,6 +1206,8 @@ Arjuna looked at the codebase in a new way: he saw the qualities, but above all 
 *"I have found the thread. I no longer look only at the pearls or at the surface of the code, but at that which holds them together."*
 
 Arjuna opened the Merge Request again. The first draft remained where he had left it, correct and unspoken.
+
+{pagebreak}
 
 He began anew:
 
@@ -1600,6 +1606,8 @@ Then Krishna's voice grew graver. He did not want Arjuna to forget the greatest 
 
 *Entropy is the natural state of a codebase! Clean architecture is not a place you arrive at and lie down in — it is a continual struggle against the decaying force of entropy."*
 
+{pagebreak}
+
 **Honesty and the maintenance of energy**
 
 **Krishna:**
@@ -1768,7 +1776,7 @@ He saw low-code and no-code tools promise freedom from programmers and produce s
 
 Then Arjuna saw the newest forms rise, radiant and surrounded by worshippers.
 
-Artificial intelligences produced code faster than any human hand. Agents opened Pull Requests, generated tests and built entire services from sentences. Their disciples declared that implementation had become effortless and that the slow labour of understanding could finally be abandoned.
+Artificial intelligences produced code faster than any human hand. Agents opened Merge Requests, generated tests and built entire services from sentences. Their disciples declared that implementation had become effortless and that the slow labour of understanding could finally be abandoned.
 
 The agents were tireless.
 
@@ -2400,7 +2408,7 @@ The legacy method no longer concealed the same decision among thirty parameters 
 
 Two distant regions of the same Bounded Context became simpler — not because Arjuna had forced them to share an abstraction in advance, but because he had recognised the single responsibility they had both been trying to express.
 
-This was knowledge crunching in action.
+This was **knowledge crunching** in action.
 
 Arjuna had not invented an abstraction and searched for places to use it. He had encountered the same business rule in two different forms, allowed his understanding to remain incomplete and returned to it only when the evidence had deepened.
 
@@ -2542,7 +2550,7 @@ Krishna defined the mental maturity of an architect and a developer. True knowle
 
 - **Absence of boasting:** not showing off one's own tricks in code review.
 
-- **Non-violence (Ahimsa):** no savaging criticism of other developers in PR comments.
+- **Non-violence (Ahimsa):** no savaging criticism of other developers in MR comments.
 
 - **Patience:** calm in the fourth hour of tracking down a legacy bug.
 
@@ -2652,7 +2660,7 @@ Krishna gave Arjuna clear criteria by which to judge the code and the state of t
 
 *“When clarity flows through every class and function, when the tests pass with ease and the architecture is easy to explain to a junior — then know that **Sattva** prevails.*
 
-*When you see in the team an enormous greed for new features, hurried PR reviews, ‘quick and dirty’ comments and the constant putting out of fires — then **Rajas** rules.*
+*When you see in the team an enormous greed for new features, hurried MR reviews, ‘quick and dirty’ comments and the constant putting out of fires — then **Rajas** rules.*
 
 *When the codebase fills with dead code and deprecated libraries that no one dares upgrade, and the developers say, ‘Not worth fixing; it has always been broken’ — then **Tamas** has covered everything in darkness.”*
 
@@ -2763,7 +2771,7 @@ Arjuna asked how a developer could attain perfect peace of mind amid these force
 
 *He remains as steady as a boulder in a storm. He sees that these three qualities merely revolve and act within the code, while his own consciousness remains independent and untouched.*
 
-*To him, praise and blame in PR comments are of equal worth. He codes because it is his dharma and does not let the Gunas sway his mind.*
+*To him, praise and blame in MR comments are of equal worth. He codes because it is his dharma and does not let the Gunas sway his mind.*
 
 *He uses metrics without worshipping them, models without mistaking them for reality, processes without surrendering judgement and estimates without pretending to possess the future.”*
 
@@ -2783,7 +2791,7 @@ Arjuna now saw the codebase and the work of the organisation in an entirely new 
 
 6. **Freedom beyond purity:** the wise architect does not merely pursue Sattva. He acts clearly without becoming attached to his own clarity, models or plans.
 
-Arjuna looked at his own PR queue in peace.
+Arjuna looked at his own MR queue in peace.
 
 **Arjuna:**
 
@@ -2999,7 +3007,7 @@ Then Krishna's expression grew grave as he described the destroyers of systems.
   DIVINE (Daivi)                       DEMONIC (Asuri)
   ─────────────────────────────        ─────────────────────────────
   • "How does this help the team?"      • "Look at the clever trick I did!"
-  • Thorough tests & a clear PR         • No tests, `--force` push
+  • Thorough tests & a clear MR         • No tests, `--force` push
   • Honest estimates                    • Lies & shortcuts
   • Long-term stability                 • Immediate chaos in production
 ```
@@ -3093,7 +3101,7 @@ Krishna next defined what genuine developer discipline (*Tapas*) is, in body, in
 
 - **Discipline of the body / the hand:** the code is kept clean, the indentation correct, needless dependencies gone, and ergonomics attended to.
 
-- **Discipline of speech:** PR comments and Slack messages are true, gentle and useful, and cause no needless anxiety in others.
+- **Discipline of speech:** MR comments and Slack messages are true, gentle and useful, and cause no needless anxiety in others.
 
 - **Discipline of the mind:** the mind is kept serene, honest, content and free of coding aggression.
 
@@ -3297,7 +3305,7 @@ Approving an MR does not mean the change is perfect. Rejecting it does not mean 
 
 Arjuna therefore presses neither *Approve* nor *Reject* yet. Nor does he remove himself as reviewer. He writes a comment:
 
-**Arjuna’s PR review comment**  
+**Arjuna’s MR review comment**  
 *Drafts 1 and 2 deleted, never posted.*
 
 > The getters may be harmless in isolation. What I cannot tell from this change is whether the mapper needs a representation of Money, or whether the API deliberately treats amount and currency as separate values.
