@@ -2253,9 +2253,9 @@ It merely asked each developer to take the next honest one.
 
 **Compassion for the legacy system**
 
-Krishna’s teaching did not remain abstract for long.
+The teaching was soon put to the test.
 
-Arjuna’s next task was not to review another developer’s Merge Request. He had been asked to change a method already living in production.
+Arjuna had been asked to change a method already living in production.
 
 The method was eight years old. It accepted thirty parameters, mutated objects received from three different layers and returned a boolean whose meaning depended upon which exception had not been thrown.
 
@@ -2328,13 +2328,13 @@ Now he saw evidence: a record of decisions whose reasons had been lost.
 
 *And never confuse a newer body with a healed one.”*
 
-**Returning to the code**
+**Understanding before changing**
 
 Arjuna did not begin by refactoring.
 
-He silenced his notifications and practised what Krishna had taught him.
+He began by trying to understand.
 
-He followed each parameter back to its caller. He traced the mutated objects through their layers. He searched the history of the method, read the old migration scripts and compared their assumptions with the system that existed now.
+He silenced his notifications and returned to the practice of Dhyana. He followed each parameter back to its caller. He traced the mutated objects through their layers. He searched the history of the method, read the old migration scripts and compared their assumptions with the system that existed now.
 
 Whenever his mind rushed towards condemnation or the clean pleasure of a rewrite, he noticed and returned to the evidence.
 
@@ -2345,6 +2345,24 @@ One conditional protected a business distinction that still mattered, though its
 Another branch guarded against data produced before the migration.
 
 A third did nothing at all. It remained only because no one had been certain enough to remove it.
+
+Then, within the first conditional, Arjuna recognised something familiar.
+
+It was the same responsibility whose outline he had glimpsed earlier in the asynchronous flow: the decision that had passed through controllers, mappers and messages without belonging truthfully to any of them.
+
+Here it appeared again, buried inside an eight-year-old method.
+
+What Arjuna had mistaken for two separate technical problems were two manifestations of the same missing concept.
+
+**Arjuna:**
+
+*“Krishna, these are not two different tangles.*
+
+*They are one responsibility without a home.”*
+
+**Krishna:**
+
+*“Then give it a name, Arjuna — and a place worthy of that name.”*
 
 The code was tangled, but it was not meaningless.
 
@@ -2374,19 +2392,35 @@ He needed only to care truthfully for what stood before him.
 
 Arjuna wrote a test to preserve the business distinction the old conditional had silently protected.
 
-He renamed the variable whose meaning every developer had been forced to guess.
+He gave the unnamed responsibility a name spoken by the Domain and extracted it into a small class whose purpose was to make that decision.
 
-He extracted the condition that represented a business rule and gave it a name spoken by the Domain.
+The asynchronous flow no longer needed to carry fragments of the rule through its controllers, mappers and messages.
+
+The legacy method no longer needed to conceal the same rule among thirty parameters and forgotten branches.
+
+Two distant regions of the codebase became simpler — not because Arjuna had forced them to share an abstraction, but because he had recognised the single responsibility they had both been trying to express.
+
+This was knowledge crunching in action.
+
+Arjuna had not invented an abstraction and searched for places to use it. He had encountered the same responsibility in two different forms, allowed his understanding to remain incomplete and returned to it only when the evidence had deepened.
+
+The class was not the discovery.
+
+The discovery was that the two behaviours meant the same thing.
+
+The class merely gave that meaning a home.
+
+Arjuna renamed the variables whose meaning every developer had been forced to guess.
 
 He removed the branch whose purpose had ended with the migration six years before.
 
-He added the invariant check that the old method had always assumed but never expressed.
+He added the invariant check that both implementations had always assumed but neither had expressed.
 
 The change was small.
 
 It would never appear in an architecture presentation.
 
-No quarterly report would celebrate the incident it prevented.
+No quarterly report would celebrate the incidents it prevented.
 
 Future developers might never know his name.
 
@@ -2412,9 +2446,11 @@ Arjuna now understands devotion to the craft:
 
 3. **Legacy code deserves investigation rather than contempt:** compassion does not forbid criticism, refactoring or replacement. It requires understanding before judgement.
 
-4. **The codebase is held in stewardship:** no developer owns the code, and no implementation is permanent. Each generation receives the system, changes it and passes it onward.
+4. **Knowledge grows through repeated encounters:** a concept may first appear only as an unnamed resemblance between distant behaviours. Knowledge crunching allows the evidence to deepen until the missing responsibility can finally be recognised.
 
-5. **Craftsmanship is an offering:** the value of careful work does not depend upon praise, visibility or permanence. The integrity of the act is itself sufficient.
+5. **The codebase is held in stewardship:** no developer owns the code, and no implementation is permanent. Each generation receives the system, changes it and passes it onward.
+
+6. **Craftsmanship is an offering:** the value of careful work does not depend upon praise, visibility or permanence. The integrity of the act is itself sufficient.
 
 Arjuna looked at the code without the will to conquer it and without the desire to flee from it.
 
