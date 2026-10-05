@@ -672,6 +672,8 @@ Krishna looked at Arjuna and said:
 
 *To McCarthy I whispered that a program can handle symbols, describe its own structure, and be built upon immutable values.*
 
+*To Kent Beck I entrusted the discipline of Test-Driven Development. He taught that a test is not merely a gate through which finished code must pass, but a question asked before understanding is complete — a rapid conversation between intention, design and evidence. From him you received the courage to change code, the humility to proceed in small steps and the wisdom to let feedback shape the design.*
+
 *To Eric Evans I entrusted the language by which developers and domain experts could explore reality together. He called this practice Domain-Driven Design and taught that the heart of software lies not in its technology, but in the domain and the model through which we strive to understand it.*
 
 *To Vaughn Vernon I gave the task of carrying that language into the hands of another generation. He showed how Bounded Contexts, Aggregates and Domain Events could serve understanding in working systems — provided that the patterns never became substitutes for thought.*
