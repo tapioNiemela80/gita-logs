@@ -2194,8 +2194,6 @@ Yet another question troubled him.
 
 *Which path leads most surely to wisdom and peace?”*
 
-{pagebreak}
-
 **Krishna answers: everyday devotion surpasses theoretical purism**
 
 Krishna looked at Arjuna gently.
@@ -2267,8 +2265,6 @@ It merely asked each developer to take the next honest one.
 **Arjuna:**
 
 *“Tell me, Krishna: how may one recognise a developer whose devotion is true? How does such a person walk among legacy systems, Merge Requests, production incidents and architectural disputes?”*
-
-{pagebreak}
 
 **Krishna:**
 
@@ -2383,6 +2379,62 @@ He silenced his notifications and returned to the practice of Dhyana. He followe
 
 Whenever his mind rushed towards condemnation or the clean pleasure of a rewrite, he noticed and returned to the evidence.
 
+Then Arjuna tried to write a test.
+
+He began with the name:
+
+{line-numbers: false}
+```java
+@Test
+void returnsTrueForValidInput() {
+    var result = legacyMethod(
+            amount,
+            currency,
+            accountActive,
+            blockCode,
+            customer,
+            agreement,
+            executionDate,
+            // twenty-three more arguments
+            auditContext
+    );
+
+    assertTrue(result);
+}
+```
+
+Arjuna stared at the word `valid`.
+
+Valid in what sense?
+
+Which of the thirty parameters made the input valid? What business decision did `true` affirm? Which values belonged to the behaviour, and which merely satisfied machinery surrounding it?
+
+He tried to construct the fixture.
+
+Every parameter demanded another choice. Every choice depended upon another object. Every object invited a mock. Soon the test contained more knowledge of the method’s accidental structure than of the behaviour it was meant to preserve.
+
+It was not yet a test.
+
+It was a second copy of the confusion.
+
+**Arjuna:**
+
+*“Krishna, the code resists me.*
+
+*I wished only to preserve its behaviour before changing it, yet I cannot even name the behaviour I am testing. Every fixture conceals another assumption, and the word ‘valid’ explains nothing.”*
+
+**Krishna:**
+
+*“A test that is difficult to write does not always reveal a lack of testing skill, Arjuna.*
+
+*Sometimes it reveals that the model itself does not yet know what it is doing.*
+
+*You cannot give the test a truthful name because the responsibility before you has no truthful name. Its meaning is scattered across parameters, branches and callers.*
+
+*Do not force the test to pass. Ask what concept it is trying to summon.”*
+
+Arjuna left the test unfinished and returned to the production code.
+
 Slowly the method began to speak.
 
 Within the old method, Arjuna found this:
@@ -2410,7 +2462,18 @@ A third did nothing at all. It remained only because no one had been certain eno
 
 Then, within the first conditional, Arjuna recognised something familiar.
 
-It was the same domain responsibility whose absence he had glimpsed earlier in the asynchronous flow. One business concept had passed through controllers, mappers and messages in many representations, while responsibility for preserving its meaning belonged truthfully to none of them.
+He returned to the notes he had made while tracing the asynchronous flow in his earlier meditation. There, within the message handler, he had found another condition:
+
+{line-numbers: false}
+```java
+if (!account.status().allowsPayments()
+        || message.holdActive()
+        || !money.isPositive()) {
+    return ReleaseDecision.rejected();
+}
+```
+
+It was the same Domain responsibility whose absence he had glimpsed earlier. One business concept had passed through controllers, mappers and messages in many representations, while responsibility for preserving its meaning belonged truthfully to none of them.
 
 Here that same responsibility appeared again, buried inside an eight-year-old method.
 
@@ -2426,6 +2489,22 @@ What Arjuna had mistaken for a representation problem in one place and a legacy 
 
 *“Then give it a name, Arjuna — and a place worthy of that name.”*
 
+The solution did not arrive as a sudden invention.
+
+It had been waiting patiently within the evidence for Arjuna to stop imposing answers and listen to what he had already found.
+
+He stood before the two conditionals as a sculptor stands before an unshaped block of stone. The form was not to be added from outside. It was already present, concealed beneath everything that did not belong to it.
+
+Every misleading name was stone.
+
+Every unrelated branch was stone.
+
+Every representation mistaken for the truth itself was stone.
+
+Arjuna did not create the Domain truth.
+
+He removed what had prevented the code from expressing it.
+
 The code was tangled, but it was not meaningless.
 
 The method did not become beautiful.
@@ -2434,7 +2513,7 @@ It became legible.
 
 Arjuna now understood what it protected, what history had made obsolete and what the present Domain required it to become.
 
-Only then did he place his hands upon the keyboard.
+Only then did he begin to change the production code.
 
 **The offering of the single commit**
 
@@ -2452,9 +2531,7 @@ He did not need his code to survive forever.
 
 He needed only to care truthfully for what stood before him.
 
-Arjuna wrote a test to preserve the business distinction the old conditional had silently protected.
-
-The words of the Domain finally gave the unnamed responsibility its name:
+The words of the Domain finally whispered the unnamed responsibility its name:
 
 **PaymentReleasePolicy.**
 
@@ -2483,6 +2560,35 @@ public final class PaymentReleasePolicy {
     }
 }
 ```
+
+Arjuna returned to the unfinished test.
+
+The word `valid` was no longer needed. The Domain had given the behaviour a name.
+
+{line-numbers: false}
+```java
+@Test
+void active_account_without_hold_may_release_positive_payment() {
+    var decision = paymentReleasePolicy.decide(
+            Money.euros("10.00"),
+            AccountStatus.ACTIVE,
+            HoldStatus.NONE
+    );
+
+    assertEquals(
+            ReleaseDecision.approved(),
+            decision
+    );
+}
+```
+
+The setup was small because the concept was whole.
+
+The assertion was clear because the decision now had a name.
+
+The test had not become easier through mocking.
+
+It had become easier through understanding.
 
 The controllers, mappers and messages of the asynchronous flow still translated the concept between representations. But none of them owned the decision:
 
@@ -2566,11 +2672,13 @@ Arjuna now understands devotion to the craft:
 
 3. **Legacy code deserves investigation rather than contempt:** compassion does not forbid criticism, refactoring or replacement. It requires understanding before judgement.
 
-4. **Knowledge grows through repeated encounters:** a concept may first appear only as an unnamed resemblance between distant structures. Knowledge crunching allows the evidence to deepen until the missing responsibility can finally be recognised.
+4. **Tests may reveal what the model cannot yet express:** when a behaviour cannot be named without vague words such as `valid`, and its fixture merely reproduces the complexity of the implementation, the difficulty may point towards a missing Domain concept.
 
-5. **The codebase is held in stewardship:** no developer owns the code, and no implementation is permanent. Each generation receives the system, changes it and passes it onward.
+5. **Knowledge grows through repeated encounters:** a concept may first appear only as an unnamed resemblance between distant structures. Knowledge crunching allows the evidence to deepen until the missing responsibility can finally be recognised.
 
-6. **Craftsmanship is an offering:** the value of careful work does not depend upon praise, visibility or permanence. The integrity of the act is itself sufficient.
+6. **The codebase is held in stewardship:** no developer owns the code, and no implementation is permanent. Each generation receives the system, changes it and passes it onward.
+
+7. **Craftsmanship is an offering:** the value of careful work does not depend upon praise, visibility or permanence. The integrity of the act is itself sufficient.
 
 Arjuna looked at the code without the will to conquer it and without the desire to flee from it.
 
