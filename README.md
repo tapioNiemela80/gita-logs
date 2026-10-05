@@ -2196,6 +2196,8 @@ Yet another question troubled him.
 
 *Which path leads most surely to wisdom and peace?”*
 
+{pagebreak}
+
 **Krishna answers: everyday devotion surpasses theoretical purism**
 
 Krishna looked at Arjuna gently.
@@ -2233,6 +2235,8 @@ Krishna looked at Arjuna gently.
 **The steps of devotion**
 
 Arjuna listened, but uncertainty remained upon his face.
+
+{pagebreak}
 
 **Arjuna:**
 
