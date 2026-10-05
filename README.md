@@ -1073,8 +1073,6 @@ He was not yet ready to change the code.
 
 For the first time, he was ready to understand it.
 
-{pagebreak}
-
 **Arjuna:**
 
 *“My mind is not motionless, Krishna. But when it wanders, I know how to return.*
@@ -2196,6 +2194,8 @@ Yet another question troubled him.
 
 *Which path leads most surely to wisdom and peace?”*
 
+{pagebreak}
+
 **Krishna answers: everyday devotion surpasses theoretical purism**
 
 Krishna looked at Arjuna gently.
@@ -2267,6 +2267,8 @@ It merely asked each developer to take the next honest one.
 **Arjuna:**
 
 *“Tell me, Krishna: how may one recognise a developer whose devotion is true? How does such a person walk among legacy systems, Merge Requests, production incidents and architectural disputes?”*
+
+{pagebreak}
 
 **Krishna:**
 
