@@ -966,21 +966,56 @@ He closed the tab.
 
 He returned.
 
-At the message boundary, the value divided into two primitives. Inside the Aggregate, the same pair appeared again as a single concept. In the event, it was represented differently once more.
+At the message boundary, Money divided into two primitives: amount and currency. Inside the Aggregate, the two became one concept again. In the event produced by the decision, they assumed yet another representation.
 
-Arjuna felt the urge to begin changing names immediately.
+Then Arjuna reached the message handler:
+
+{line-numbers: false}
+```java
+private ReleaseDecision handle(
+        ReleasePayment message,
+        Account account) {
+
+    var money = Money.of(
+            message.amount(),
+            message.currency()
+    );
+
+    if (!account.status().allowsPayments()
+            || message.holdActive()
+            || !money.isPositive()) {
+        return ReleaseDecision.rejected();
+    }
+
+    return ReleaseDecision.approved();
+}
+```
+
+Every line seemed locally reasonable.
+
+The message carried the necessary data. The handler reconstructed Money. The Account exposed its status. The conditional produced the expected result.
+
+The tests were green.
+
+Yet Arjuna could not explain why the message handler had become responsible for deciding whether a payment could be released.
+
+He felt the urge to extract a method, change the names or move the conditional into the Aggregate.
 
 But he remained still.
 
 He followed the thread again from the beginning.
 
-The controller, mapper, message and Aggregate no longer appeared as isolated technical structures. Beneath them ran one business meaning, repeatedly translated and nearly forgotten.
+The controller, mapper, message, handler and Aggregate no longer appeared as isolated technical structures. Beneath them ran one business meaning, repeatedly translated and nearly forgotten.
 
 Arjuna changed no code.
 
 Yet slowly the system ceased to appear as it had before.
 
-Three different names revealed themselves as representations of the same business concept. Beneath a harmless-looking conditional, Arjuna found an assumption upon which the whole flow depended.
+Three different names revealed themselves as representations of the same business concept. Beneath the harmless-looking conditional, Arjuna found an assumption upon which the whole flow depended.
+
+The condition was visible.
+
+The responsibility behind it was not.
 
 **Arjuna:**
 
@@ -1014,7 +1049,7 @@ One doubt still troubled Arjuna.
 
 *Perhaps the sprint ends. Perhaps the ticket passes to another team. Perhaps the project itself is abandoned and its repository archived.*
 
-*Yet when he encounters the same confusion in another form, he does not begin from nothing. He recognizes the broken boundary, the unnamed concept and the assumption disguised as implementation.*
+*Yet when he encounters the same confusion in another form, he does not begin from nothing. He recognises the broken boundary, the unnamed concept and the assumption disguised as implementation.*
 
 *It is as though the understanding gained in one codebase awakens again in another.*
 
@@ -2348,7 +2383,24 @@ Whenever his mind rushed towards condemnation or the clean pleasure of a rewrite
 
 Slowly the method began to speak.
 
-One conditional protected a business distinction that still mattered, though its name had disappeared from the Ubiquitous Language.
+Within the old method, Arjuna found this:
+
+{line-numbers: false}
+```java
+if (accountActive != 1
+        || blockCode != null
+        || amount.signum() <= 0) {
+    return false;
+}
+```
+
+He stopped.
+
+The syntax was different. The names belonged to another age. One implementation spoke in domain types; the other in integers, nullable codes and primitive values.
+
+Yet they were answering the same question.
+
+The conditional protected a business distinction that still mattered, though its name had disappeared from the Ubiquitous Language.
 
 Another branch guarded against data produced before the migration.
 
@@ -2400,11 +2452,67 @@ He needed only to care truthfully for what stood before him.
 
 Arjuna wrote a test to preserve the business distinction the old conditional had silently protected.
 
-He gave the unnamed responsibility a name spoken by the Domain and extracted it into a small domain class whose sole purpose was to make that business decision.
+The words of the Domain finally gave the unnamed responsibility its name:
 
-The controllers, mappers and messages of the asynchronous flow still translated the concept between representations, but the decision itself now belonged to the Domain.
+**PaymentReleasePolicy.**
 
-The legacy method no longer concealed the same decision among thirty parameters and forgotten branches. It delegated to the newly named responsibility.
+{line-numbers: false}
+```java
+public final class PaymentReleasePolicy {
+
+    public ReleaseDecision decide(
+            Money payment,
+            AccountStatus account,
+            HoldStatus hold) {
+
+        if (!account.allowsPayments()) {
+            return ReleaseDecision.accountBlocked();
+        }
+
+        if (hold.isActive()) {
+            return ReleaseDecision.onHold();
+        }
+
+        if (!payment.isPositive()) {
+            return ReleaseDecision.invalidAmount();
+        }
+
+        return ReleaseDecision.approved();
+    }
+}
+```
+
+The controllers, mappers and messages of the asynchronous flow still translated the concept between representations. But none of them owned the decision:
+
+{line-numbers: false}
+```java
+var decision = paymentReleasePolicy.decide(
+        money,
+        account.status(),
+        HoldStatus.from(message.holdActive())
+);
+```
+
+The legacy method still translated the representations of an earlier age. But it no longer concealed the same decision among thirty parameters and forgotten branches:
+
+{line-numbers: false}
+```java
+var decision = paymentReleasePolicy.decide(
+        Money.of(amount, currency),
+        AccountStatus.fromLegacyValue(accountActive),
+        HoldStatus.fromLegacyCode(blockCode)
+);
+
+return decision.isApproved();
+```
+
+The two callers remained different.
+
+Their histories remained different.
+
+Their representations remained different.
+
+But both now asked the Domain the same question.
 
 Two distant regions of the same Bounded Context became simpler — not because Arjuna had forced them to share an abstraction in advance, but because he had recognised the single responsibility they had both been trying to express.
 
