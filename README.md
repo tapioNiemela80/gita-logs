@@ -2828,128 +2828,384 @@ Arjuna understands that a developer is not his code; that true knowledge require
 
 **How does a codebase bind a developer?**
 
-Arjuna had already learned to distinguish the Field — the code — from the Knower of the Field — understanding. Now he wished to know which forces make even wise developers take poor decisions, and how the spiritual climate of a codebase comes about.
+Arjuna had learned to distinguish the Field — the code and all that could be observed — from the Knower of the Field, who sought to understand it.
+
+Yet this distinction brought him no immediate freedom.
+
+For even a developer who knows that the model is not the Domain may still become attached to a model. Even one who sees the danger of haste may still hurry. Even one who despises neglect may still walk past a broken test because the sprint is ending.
+
+Arjuna wished to know what forces moved through the minds of developers, teams and entire organisations — and how those forces became architecture.
 
 **Arjuna:**
 
-*“Krishna! What makes a developer reach for a bodge, even when he knows better? What are those forces — the Gunas — that bind a person to the matter of code, and how can one be freed from them?”*
+*“Krishna, what makes a developer reach for a bodge even when he knows better?*
 
-**The three qualities (Gunas) in the working life of a coder**
+*What makes one team pursue clarity, another rush endlessly towards delivery and a third surrender before code that everyone knows is broken?*
 
-Krishna illuminated for Arjuna the three fundamental forces that govern all code, all documentation and all team dynamics.
+*What are those forces — the Gunas — that bind a person to the matter of code, and how can one become free of them?”*
+
+**The three qualities in the working life of a developer**
+
+Krishna illuminated for Arjuna the three qualities that move through all code, all documentation, all meetings and all human judgement.
 
 **Krishna:**
 
-*“Listen, Arjuna! Material Nature (Prakriti) consists of three qualities: **Sattva** — purity and clarity; **Rajas** — passion and haste; and **Tamas** — darkness and neglect. They bind the immortal developer to the matter of the codebase.*
+*“Listen, Arjuna. Material Nature — Prakriti — consists of three qualities: **Sattva**, which is clarity; **Rajas**, which is restless passion; and **Tamas**, which is darkness and neglect.*
 
-1. **Sattva — the quality of purity**
+*These qualities do not belong permanently to particular people.*
 
-   *Sattva is spotless, luminous and healthy. It manifests as code that is readable, fully tested, clearly documented and beautiful. Sattva brings the developer inner peace, happiness and deep understanding.*
+*The same developer may write with Sattvic clarity in the morning, answer a production incident with Rajasic haste in the afternoon and leave behind a Tamasic TODO before going home.*
 
-   *But beware: even Sattva can bind. It binds the developer to spiritual pride, to perfectionism and to architectural elitism.*
+*Do not therefore use the Gunas to judge the souls of your teammates.*
 
-2. **Rajas — the quality of passion and haste**
+*Use them to recognise the force shaping the next action.”*
 
-   *Rajas is born of an unquenchable craving for results RIGHT NOW. It manifests as spaghetti code, as digging in the dirt, as shortcuts and as hasty pushes without tests, so that the ticket may be closed before the sprint ends.*
+1. **Sattva — clarity and harmony**
 
-   *Rajas brings restlessness, a permanent state of alert and an endless backlog of things to refactor.*
+   *Sattva is luminous, balanced and capable of revealing structure.*
 
-3. **Tamas — the quality of blindness and rot**
+   *It manifests as code whose purpose can be understood, tests that preserve discovered behaviour, names drawn from the Ubiquitous Language and boundaries that make responsibilities visible.*
 
-   *Tamas is born of ignorance and indifference. It manifests as code copied from forums or from an AI without understanding, as hidden errors, as commented-out test blocks (`// @Ignore`), as laziness and as resistance to change.*
+   *Under Sattva, a developer can remain with uncertainty without immediately concealing it beneath an abstraction. The team asks what the Domain requires before deciding what the framework permits.*
 
-   *Tamas robs the team of its capacity to act and leads to torpor and confusion.”*
+   *Sattva brings understanding and peace.*
+
+   *But beware: even Sattva can bind.*
+
+   *The developer may become proud of clean code, attached to architectural purity and contemptuous of those who work beneath different constraints. He may begin to love the elegance of his model more than the reality the model was created to serve.*
+
+2. **Rajas — ambition, motion and haste**
+
+   *Rajas is born of craving: for completion, recognition, velocity and visible progress.*
+
+   *It manifests as premature implementation, hurried Merge Requests, “temporary” shortcuts and the restless production of code before the question has been understood.*
+
+   *Rajas does not always produce bad code. Great exertion, courageous change and the energy to improve a system may all arise through it.*
+
+   *But when action becomes attached to its fruits, movement replaces direction.*
+
+   *The ticket must be closed. The chart must rise. The sprint goal must remain green. The codebase fills with activity while the Domain remains unmoved.*
+
+3. **Tamas — obscurity, inertia and decay**
+
+   *Tamas is born of ignorance, fatigue and resignation.*
+
+   *It manifests as code copied from an AI without understanding, tests disabled because their failure is inconvenient, dependencies left vulnerable because upgrading them appears difficult and ancient behaviour preserved only because no one remembers why it exists.*
+
+   *Under Tamas, the team says: “Do not touch it. It has always been broken.”*
+
+   *A hidden defect becomes tradition. A workaround becomes architecture. A forgotten assumption becomes an invariant no one dares question.*
+
+   *Tamas robs the team not only of knowledge, but eventually of the belief that knowledge is possible.”*
 
 {line-numbers: false}
-```
-              THE THREE QUALITIES OF A CODEBASE (GUNAS)
+```text
+              THE THREE QUALITIES OF A CODEBASE
 
-                       SATTVA (Clarity & Peace)
-                            /            \
-                           /  "Code is a  \
-                          /   craft, kept  \
-                         /     clean"       \
-      RAJAS (Haste & Mess) <──────────> TAMAS (Rot & Indifference)
-      "Straight to production,          "Don't care, it works
-       no time to test!"                 somehow, don't touch it"
-```
+                       SATTVA
+                Clarity and harmony
+                         /\
+                        /  \
+                       /    \
+                      /      \
+               RAJAS <──────> TAMAS
+          Motion and haste    Obscurity and decay
 
-{pagebreak}
+        All three move through every developer,
+             every team and every system.
+```
 
 **How to tell which quality is in command**
 
-Krishna gave Arjuna clear criteria by which to judge the code and the state of the team at any moment.
-
 **Krishna:**
 
-*“When clarity flows through every class and function, when the tests pass with ease and the architecture is easy to explain to a junior — then know that **Sattva** prevails.*
+*“When the architecture can be explained without concealment, when the tests reveal behaviour rather than merely imitate implementation and when a junior developer may ask a difficult question without fear — know that Sattva prevails.*
 
-*When you see in the team an enormous greed for new features, hurried MR reviews, ‘quick and dirty’ comments and the constant putting out of fires — then **Rajas** rules.*
+*When new features multiply, reviews become hurried, every meeting speaks of acceleration and the team remains permanently busy while the same confusion returns in different forms — Rajas rules.*
 
-*When the codebase fills with dead code and deprecated libraries that no one dares upgrade, and the developers say, ‘Not worth fixing; it has always been broken’ — then **Tamas** has covered everything in darkness.”*
+*When dead code gathers around forgotten decisions, when warnings become background noise and when the answer to every question is ‘that is how the system works’ — Tamas has covered the codebase in darkness.*
 
-**The shadows upon the dashboard wall**
+*Yet do not imagine that a green pipeline proves Sattva, or a red dashboard proves Tamas.*
+
+*The Gunas also shape what the team is capable of seeing.”*
+
+**The Cave of the Anemic Model**
+
+Krishna led Arjuna into a cavern beneath the architecture diagrams.
+
+Along one wall moved the shadows of Customers, Orders, Payments and Contracts.
+
+They possessed familiar names and recognisable shapes. Each had an identifier, fields, getters and setters. The shadows could be loaded from the database, altered and written back again.
+
+Developers chained before the wall called these shadows the Domain Model.
+
+Whenever an important decision had to be made, however, an unseen hand moved elsewhere in the darkness.
+
+Application services calculated prices.
+
+Controllers validated invariants.
+
+Mappers decided which combinations of values were meaningful.
+
+Utility classes interpreted the state of entities.
+
+Upon the wall, the objects remained silent.
 
 **Arjuna:**
 
-*“If all developers enter the system through representations, Krishna — through tickets, dashboards, documentation and models — how can anyone reach the truth of the Domain while already born into illusion? Do not the dashboards, reports and measures reveal the system as it truly is?”*
+*“Krishna, these shapes bear the names of the Domain. Are they not the things themselves?”*
 
 **Krishna:**
 
-*“Not by destroying every representation, Arjuna, but by remembering what it is.*
+*“They are representations deprived of the behaviour that gives them meaning.*
 
-*A map becomes Māyā only when it forgets that it is a map.*
+*The prisoners see an `Order` carrying a status and a price, but they do not see what makes an order acceptable, cancellable or complete.*
 
-*He who watches only the shadows upon the dashboard and mistakes a green report for the integrity of the system is veiled by Tamas.*
+*They see `Money` carrying an amount beside a currency, but the decisions that preserve their unity are made elsewhere.*
 
-*This is Māyā in its modern form, Arjuna: not that the dashboard is false, but that the representation is mistaken for the thing represented. Māyā begins when the representation forgets that it is a representation — and becomes complete when the observer forgets it too.*
+*They see the nouns of the Domain while its verbs move invisibly behind them.*
 
-*Rajas rejoices at the velocity of the shadows upon the wall — and asks whether they might move faster in the next sprint.*
+*Thus they mistake stored attributes for business reality.*
 
-*Sattva turns away from the wall, leaves the cave and encounters the Domain where it truly lives: in the work, language, rules, exceptions and consequences of those who inhabit it.*
+*This is the Cave of the Anemic Domain Model.”*
 
-*Yet even Sattva may bind. When the architect returns to the cave, he must not mistake the model he draws upon the wall for the Domain itself.*
+One developer pointed proudly towards the wall.
 
-*A good model is a conscious shadow: clear enough to guide action, and humble enough to change when reality contradicts it.”*
+“The entity is clean,” he said. “It contains no logic.”
 
-{pagebreak}
+The others praised the purity of the shadow.
 
-{height: "88%"}
-![The Shadows upon the Dashboard Wall](cave.png)
+Outside the cave, the same business rule had already been copied into three services, two controllers and a mapper.
 
-{pagebreak}
+**Krishna:**
 
-Arjuna looked again at the shadows moving across the dashboard. He now understood how Sattva, Rajas and Tamas shaped what an individual developer could see. Yet another question arose.
+*“An anemic model is not empty because it lacks data.*
+
+*It is empty because it cannot explain what its data means or protect the truth that binds those values together.*
+
+*Its names belong to the Domain, but its decisions belong to no one.”*
+
+Krishna loosened Arjuna’s chains and led him towards the mouth of the cave.
+
+At first the light wounded his eyes.
+
+Outside, Arjuna saw that an Order was not merely a collection of fields. It accepted, rejected and constrained change.
+
+Money did not merely carry an amount beside a currency. It guarded the meaning of their union.
+
+An Aggregate was not a tree of persisted objects. It was a boundary within which certain promises had to remain true.
+
+The Domain was not a picture of state.
+
+It was a world of responsibilities, choices and consequences.
 
 **Arjuna:**
 
-*“Do these shadows arise only from the qualities within individual minds, Krishna, or are there also forces by which whole organisations shape the systems they create?”*
+*“Then must every representation be abandoned? Are DTOs, database rows, messages and projections merely false shadows?”*
+
+**Krishna:**
+
+*“No, Arjuna.*
+
+*A shadow is not a lie when it knows that it is a shadow.*
+
+*A database row may preserve state. A DTO may cross a boundary. An event may carry the memory of a decision. A dashboard may reveal one aspect of a living system.*
+
+*Each may serve the truth faithfully.*
+
+*Māyā begins when the representation forgets that it is a representation — and when those who watch it mistake the shadow for the living Domain.”*
+
+**The wall widens**
+
+Arjuna had believed that the cave belonged only to programmers.
+
+Then the wall widened.
+
+Upon it appeared dashboards, sprint reports, Jira workflows, organisational charts, utilisation rates, story points and quarterly roadmaps.
+
+The shadows moved in bright colours.
+
+A green arrow pointed upwards.
+
+A velocity chart climbed.
+
+A release train arrived exactly on schedule.
+
+The managers watching the wall rejoiced.
+
+Far beyond the cave, users struggled with a workflow the system had made slower. A business rule existed in four contradictory implementations. Developers spent their days repairing consequences that appeared nowhere upon the dashboard.
+
+None of this cast a shadow upon the chosen wall.
+
+**Arjuna:**
+
+*“Krishna, surely these reports reveal the state of the organisation. Why else would so much effort be spent producing them?”*
+
+**Krishna:**
+
+*“Every layer of the organisation has its own cave, Arjuna.*
+
+*Developers mistake anemic objects for the Domain.*
+
+*Managers mistake dashboards for the system.*
+
+*Organisations mistake their own communication structures for the natural boundaries of reality.*
+
+*The shadows differ.*
+
+*The error is the same.”*
+
+{pagebreak}
+
+![The Cave of Models and Metrics](cave.png){width=88%}
+
+{pagebreak}
+
+Krishna pointed towards the velocity chart.
+
+**Krishna:**
+
+*“Tamas stares at the green report and concludes that the system is healthy because no inconvenient truth has been measured.*
+
+*Rajas rejoices at the speed with which the shadows move and asks whether they might move faster in the next sprint.*
+
+*Sattva turns away from the wall and seeks the living reality from which the shadows arise: the work, language, rules, exceptions and consequences experienced by those who inhabit the Domain.*
+
+*Yet even Sattva may bind.*
+
+*For when the architect returns from the light and draws a better model upon the wall, he may begin to worship that model too.*
+
+*A good model is therefore a conscious shadow: clear enough to guide action, truthful enough to protect meaning and humble enough to change when reality contradicts it.”*
 
 **The five laws of organisational karma**
 
+Arjuna now understood how the Gunas shaped individual perception. But he also saw that the shadows were not created by individual minds alone.
+
+**Arjuna:**
+
+*“Do these illusions arise only within developers, Krishna? Or are there forces by which whole organisations create the systems they later mistake for reality?”*
+
 **Krishna:**
 
-*“There are laws, Arjuna, which no framework, cloud platform or transformation programme can repeal.*
+*“There are laws of organisational karma, Arjuna, which no framework, cloud platform or transformation programme can repeal.*
 
-*By **Conway’s Law**, the system takes the shape of the organisation that creates it.*
+*They are not commandments issued by a ruler.*
 
-*By **Goodhart’s Law**, a measure ceases to reveal the truth when attaining the measure becomes the goal.*
+*They are recurring consequences of how people divide responsibility, reward behaviour and communicate under uncertainty.”*
 
-*By **Brooks’s Law**, adding more people to work already made late by confusion creates still more communication, coordination and delay.*
+**Conway’s Law — the architecture of communication**
 
-*By **Murphy’s Law**, every failure that remains possible will eventually discover the path by which it may occur.*
+*“By Conway’s Law, the system takes the shape of the organisation that creates it.*
 
-*And by **Wiio’s Law**, communication usually fails — except by accident.*
+*If three departments communicate only through formal requests, their software will eventually communicate through three rigid boundaries — whether the Domain contains those boundaries or not.*
 
-*Rajas attempts to defeat these laws with greater speed. Tamas refuses to see them. Sattva recognises them clearly and arranges the work accordingly.*
+*If two teams jointly own everything, their code will learn to own nothing clearly.*
 
-*These laws are not fate. They are the karma of systems built without understanding.”*
+*The organisation draws itself into the architecture and later mistakes its own reflection for the natural structure of the business.*
+
+*The architecture diagram becomes an organisational chart wearing technical clothing.”*
+
+**Goodhart’s Law — when the shadow becomes the goal**
+
+*“By Goodhart’s Law, a measure ceases to reveal the truth when attaining the measure becomes the goal.*
+
+*Velocity may once have helped a team reflect upon its work.*
+
+*Then velocity becomes a target.*
+
+*Stories are divided differently. Complexity is translated into points. Unfinished work is declared complete. Necessary investigation begins to look unproductive because understanding produces no immediate number.*
+
+*The measurement remains precise.*
+
+*Only its meaning has departed.*
+
+*The prisoners have not merely mistaken the shadow for reality. They have begun rearranging reality so that the shadow appears pleasing.”*
+
+**Brooks’s Law — adding bodies to confusion**
+
+*“By Brooks’s Law, adding more people to work already made late by confusion creates still more communication, coordination and delay.*
+
+*Rajas sees a fire and sends more hands.*
+
+*But every new developer must learn the language, assumptions and history of the system. When these exist only in the memories of individuals, each new person increases the number of paths along which misunderstanding may travel.*
+
+*Nine developers cannot understand one Domain in one month merely because one developer might understand it in nine.*
+
+*Knowledge is not divisible in the manner of manual labour.”*
+
+**Murphy’s Law — the hidden cost of permitted failure**
+
+*“By Murphy’s Law, every failure that remains possible will eventually discover the path by which it may occur.*
+
+*The organisation looks upon a safeguard and sees its immediate cost.*
+
+*It looks upon the absence of that safeguard and sees nothing.*
+
+*But permitting a failure is not free, Arjuna.*
+
+*First, an engineer must study the impossible situation, trace its consequences through the system and design the surrounding code so that the damage might remain survivable.*
+
+*Then every future developer must remember that the forbidden state is nevertheless permitted.*
+
+*And when the situation finally occurs in production, the organisation pays again: through interrupted feature work, investigation, emergency meetings, manual database corrections and the reconstruction of meaning from logs written for another purpose.*
+
+*Thus the cost avoided was never removed.*
+
+*It was merely hidden, multiplied and transferred into the future.”*
+
+**Arjuna:**
+
+*“Then choosing not to prevent a failure is itself an architectural decision?”*
+
+**Krishna:**
+
+*“Every permitted state is part of the model, whether the model names it or not.*
+
+*When the business says, ‘The user is an expert; this will never happen,’ it has not removed the path from the system. It has only declined to guard it.*
+
+*The impossible user action will be performed.*
+
+*The nullable value will be null.*
+
+*The message will arrive twice, late or in the wrong order.*
+
+*The snapshot upon the screen will become stale while the user is making a decision.*
+
+*To call these events unlikely does not remove them from the Domain.*
+
+*It merely ensures that when they arrive, they will appear to have come from nowhere.”*
+
+**Wiio’s Law — the karma of communication**
+
+*“And by Wiio’s Law, communication usually fails — except by accident.*
+
+*The Product Owner speaks of an account. The developer hears a database record. The architect hears an Aggregate. The user means a relationship recognised by law.*
+
+*All repeat the same word and leave the meeting believing they have agreed.*
+
+*The message was delivered.*
+
+*The meaning was not.*
+
+*This is why Ubiquitous Language is not a glossary written once and stored in a wiki. It is the continuous labour of discovering whether the same words still summon the same reality in different minds.”*
+
+Krishna looked again towards the wall.
+
+**Krishna:**
+
+*“Rajas attempts to defeat these laws with greater speed.*
+
+*Tamas refuses to see them.*
+
+*Sattva recognises them and arranges the work accordingly.*
+
+*These laws are not fate.*
+
+*They are the karma of systems built without sufficient understanding.”*
 
 **The ritual of estimation**
 
-Arjuna considered these laws and remembered the plans, forecasts and promises that covered the walls of every project room.
-
-{pagebreak}
+Arjuna considered the laws and remembered the forecasts, promises and roadmaps covering the walls of every project room.
 
 **Arjuna:**
 
@@ -2965,61 +3221,133 @@ Arjuna considered these laws and remembered the plans, forecasts and promises th
 
 **Krishna:**
 
-*“Then the estimate has already achieved the precision of the requirement.*
+*“Then the estimate has already achieved the precision of the requirement.”*
 
-*An estimate is not knowledge of the future. It is a statement about the present: what is understood, what is assumed and what still remains hidden.*
-
-*The Tamasic developer gives a number without understanding. The Rajasic developer gives the number that will please the room. The Sattvic developer reveals the uncertainty, names the assumptions and revises the estimate when knowledge changes.*
-
-*Give an estimate when one is needed, Arjuna — but do not mistake the confidence of a number for the truth of the Domain. Remember: no sprint plan survives its first contact with the Domain.”*
-
-**Gunatraya-Atita: rising above the three qualities**
-
-Arjuna asked how a developer could attain perfect peace of mind amid these forces.
-
-**Arjuna:**
-
-*“How is the architect recognised who has risen above these three qualities — the Gunatita?”*
-
-{pagebreak}
+Arjuna was silent.
 
 **Krishna:**
 
-*“That developer, O Arjuna:*
+*“An estimate is not knowledge of the future.*
 
-* *does not hate Tamas when he must repair old and ugly legacy code;*
+*It is a statement about the present: what is understood, what is assumed and what remains hidden.*
 
-* *does not long for Rajas, nor panic when code must be written quickly;*
+*The Tamasic developer gives a number without understanding because investigation feels burdensome.*
 
-* *does not grow proud of Sattva, nor look down upon others though his own code be perfect.*
+*The Rajasic developer gives the number that will please the room because approval is the fruit he seeks.*
 
-*He remains as steady as a boulder in a storm. He sees that these three qualities merely revolve and act within the code, while his own consciousness remains independent and untouched.*
+*The Sattvic developer names the assumptions, reveals the uncertainty and revises the estimate when knowledge changes.*
 
-*To him, praise and blame in MR comments are of equal worth. He codes because it is his dharma and does not let the Gunas sway his mind.*
+*Yet the organisation often asks for a number not to understand uncertainty, but to make uncertainty disappear from the dashboard.*
 
-*He uses metrics without worshipping them, models without mistaking them for reality, processes without surrendering judgement and estimates without pretending to possess the future.”*
+*Then the estimate ceases to be a map.*
 
-**The conclusion of Chapter XIV**
-
-Arjuna now saw the codebase and the work of the organisation in an entirely new light:
-
-1. **The three qualities:** every decision may arise from Sattva — clarity; Rajas — restless ambition; or Tamas — neglect and confusion.
-
-2. **The shadows of measurement:** dashboards, reports and metrics are representations of the system, not the system itself.
-
-3. **Māyā:** illusion begins when the representation is mistaken for the truth it was meant only to reveal.
-
-4. **Organisational karma:** Conway, Goodhart, Brooks, Murphy and Wiio name the recurring forces through which organisations shape their systems and inherit the consequences.
-
-5. **Awareness before action:** when the developer recognises which force is guiding the next decision, he regains the freedom to stop, question and understand.
-
-6. **Freedom beyond purity:** the wise architect does not merely pursue Sattva. He acts clearly without becoming attached to his own clarity, models or plans.
-
-Arjuna looked at his own MR queue in peace.
+*It becomes a promise extracted from ignorance.”*
 
 **Arjuna:**
 
-*“I understand the dynamic forces of the codebase now, Krishna. But what is that Eternal Tree — the Ashvattha — whose roots are above and whose branches are below, from which all these dependencies spring?”*
+*“Should the wise developer then refuse to estimate?”*
+
+**Krishna:**
+
+*“No.*
+
+*Give an estimate when one is needed. Coordinate with others. Make plans and accept responsibility for decisions.*
+
+*But do not mistake the confidence of a number for knowledge of the Domain.*
+
+*Do not conceal uncertainty merely because the room finds uncertainty uncomfortable.*
+
+*And remember: no sprint plan survives its first honest conversation with reality.”*
+
+**Gunatraya-Atita — rising beyond the three qualities**
+
+Arjuna had seen Sattva, Rajas and Tamas in code, in models, in metrics and in the organisation itself.
+
+Now he asked how one might act without becoming bound by any of them.
+
+**Arjuna:**
+
+*“How is the architect recognised who has risen above the three qualities — the Gunatita?”*
+
+**Krishna:**
+
+*“That developer, O Arjuna, does not hate Tamas when he must enter old and neglected code.*
+
+*He does not confuse compassion with passivity. He illuminates what can be understood and repairs what can be repaired.*
+
+*He does not despise Rajas when swift action is truly required. During an incident he acts decisively, but he does not build a permanent culture from the conditions of an emergency.*
+
+*He welcomes Sattva without becoming proud of clarity. He knows that today’s beautiful model remains a shadow and that tomorrow’s knowledge may reveal its limits.*
+
+*He is not elated by praise in a Merge Request nor destroyed by criticism.*
+
+*He is not made wise by a green dashboard nor made foolish by a red one.*
+
+*He asks what the metric excludes, what the model cannot express and whose reality is absent from the diagram.*
+
+*He uses projections without inhabiting them.*
+
+*He uses metrics without worshipping them.*
+
+*He uses processes without surrendering judgement.*
+
+*He gives estimates without pretending to possess the future.*
+
+*He seeks clear architecture without mistaking his own clarity for the final form of truth.*
+
+*Such a developer may enter the cave, work among its shadows and return again to the light without forgetting the difference.”*
+
+**The conclusion of Chapter XIV**
+
+Arjuna now saw the codebase and the organisation in a new light:
+
+1. **The three qualities:** every decision may arise through Sattva — clarity; Rajas — restless ambition; or Tamas — neglect and confusion. These are forces moving through people and systems, not permanent labels for judging individuals.
+
+2. **The anemic model is a technical cave:** its objects carry the names and data of the Domain while the behaviour that gives them meaning remains scattered elsewhere.
+
+3. **A representation is not necessarily a lie:** DTOs, database rows, messages, models and dashboards may all serve reality faithfully, provided they do not claim to be the reality they represent.
+
+4. **Every organisational layer has its own shadows:** developers may mistake data structures for the Domain, managers may mistake dashboards for the system and organisations may mistake their communication structures for natural business boundaries.
+
+5. **Māyā begins with forgotten incompleteness:** illusion arises when the limitations of a model disappear from awareness and becomes complete when reality is manipulated to satisfy the model.
+
+6. **Organisational karma has recurring laws:** Conway, Goodhart, Brooks, Murphy and Wiio describe the consequences through which communication structures, incentives, uncertainty and misunderstanding become software.
+
+7. **Freedom does not require abandoning models:** the wise developer uses maps, measurements, estimates and processes while remembering what each leaves outside the cave.
+
+8. **Even clarity must remain humble:** Sattva liberates only when the architect is willing to let a clear and beautiful model change in the presence of deeper truth.
+
+Arjuna looked once more at the dashboard.
+
+The pipeline was green.
+
+The velocity line rose.
+
+Every ticket assigned to the sprint had been closed.
+
+He no longer mistook these things for proof that the system was well.
+
+Neither did he dismiss them as useless.
+
+They were shadows — partial, purposeful and unable to speak of what stood beyond their light.
+
+Then Arjuna looked at the silent entities upon the other wall.
+
+Their names belonged to the Domain.
+
+Their decisions still belonged to no one.
+
+Beyond the mouth of the cave, he saw the roots of a vast tree descending from somewhere above. Its branches had entered services, databases, user interfaces, teams and the forgotten customs of the organisation.
+
+**Arjuna:**
+
+*“I understand the qualities and the shadows they cast, Krishna.*
+
+*But what is that Eternal Tree — the Ashvattha — whose roots are above and whose branches grow downward into the codebase?*
+
+*From what hidden ground do all these dependencies draw their life?”*
+
+Krishna turned towards the tree.
 
 {pagebreak}
 
