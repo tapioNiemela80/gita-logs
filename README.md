@@ -225,8 +225,6 @@ He did not want to press *Approve*. He did not want to press *Reject*.
 
 *"Having spoken thus, Arjuna cast down his bow — his own IDE window — and closed it in the middle of the battlefield. He sat down on the floor of the chariot, shut the terminal and clutched his head in his hands, broken with sorrow."*
 
-{pagebreak}
-
 {height: 88%}
 ![Arjuna's Dilemma](dilemma.png)
 
@@ -268,8 +266,11 @@ Krishna smiled lightly. He did not declare every getter to be adharma, nor did h
 *As a person casts off worn garments and puts on new ones, so the Domain casts off obsolete implementations and assumes new forms.*
 
 *No weapon of refactoring can sever it,*
+
 *nor can production fire consume it.*
+
 *Water of migration cannot dissolve it,*
+
 *nor can the winds of a new framework dry it away.*
 
 *So it is, Arjuna.*
@@ -2931,15 +2932,47 @@ Krishna illuminated for Arjuna the three qualities that move through all code, a
 
 **The Cave of the Anemic Model**
 
-Krishna led Arjuna into a cavern beneath the architecture diagrams.
+Krishna led Arjuna down a narrow passage beneath the architecture diagrams.
 
-Along one wall moved the shadows of Customers, Orders, Payments and Contracts.
+The light of the office faded behind them.
 
-They possessed familiar names and recognisable shapes. Each had an identifier, fields, getters and setters. The shadows could be loaded from the database, altered and written back again.
+At the end of the passage lay a vast cavern. A fire burned somewhere beyond sight, and upon the stone wall before them moved the shadows of Customers, Orders, Payments and Contracts.
 
-Developers chained before the wall called these shadows the Domain Model.
+Between the fire and the wall sat rows of developers.
 
-Whenever an important decision had to be made, however, an unseen hand moved elsewhere in the darkness.
+They had sat there so long that few remembered entering.
+
+Around their wrists and ankles were chains. They were not made of iron, but of familiar assumptions:
+
+*Entities are only data.*
+
+*Business logic belongs in services.*
+
+*The database schema is the model.*
+
+*If the tests are green, the behaviour must be correct.*
+
+*This is how we have always done it.*
+
+The chains did not prevent the developers from working.
+
+They prevented them from turning far enough to see where the shadows came from.
+
+Arjuna sat among them.
+
+Only then did he feel the weight around his own wrists.
+
+The assumptions were so familiar that he had never recognised them as restraints.
+
+These were the prisoners of the cave.
+
+They were not fools, nor were they careless. Many were skilled, diligent and sincere. But they had been permitted to look in only one direction for so long that the shadows upon the wall had become the limits of reality itself.
+
+The shadows possessed recognisable names and shapes. Each had an identifier, fields, getters and setters. They could be loaded from the database, altered and written back again.
+
+The prisoners pointed towards these shapes and called them the Domain Model.
+
+Whenever an important decision had to be made, however, an unseen hand moved elsewhere behind them.
 
 Application services calculated prices.
 
@@ -2949,7 +2982,9 @@ Mappers decided which combinations of values were meaningful.
 
 Utility classes interpreted the state of entities.
 
-Upon the wall, the objects remained silent.
+The shadows changed accordingly.
+
+Upon the wall, the objects themselves remained silent.
 
 **Arjuna:**
 
@@ -3055,9 +3090,8 @@ None of this cast a shadow upon the chosen wall.
 
 *The error is the same.”*
 
-{pagebreak}
-
-![The Cave of Models and Metrics](cave.png){width=88%}
+{height: 88%}
+![The Cave of Models and Metrics](cave.png)
 
 {pagebreak}
 
@@ -3119,7 +3153,7 @@ Arjuna now understood how the Gunas shaped individual perception. But he also sa
 
 *Only its meaning has departed.*
 
-*The prisoners have not merely mistaken the shadow for reality. They have begun rearranging reality so that the shadow appears pleasing.”*
+*The prisoners of the cave have not merely mistaken the shadow for reality. They have begun rearranging reality so that the shadow appears pleasing.”*
 
 **Brooks’s Law — adding bodies to confusion**
 
