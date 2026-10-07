@@ -233,9 +233,9 @@ He did not want to press *Approve*. He did not want to press *Reject*.
 {sample: true}
 # CHAPTER 2: Krishna's School of Architecture and the Immortal Invariants
 
-**Architectural Sutra:** *Code changes its language, shape and syntax, but the truth it carries does not. An invariant is immortal only for as long as someone remembers what it means.*
+**Architectural Sutra:** Code changes its language, shape and syntax, but the truth it carries does not. An invariant is immortal only for as long as someone remembers what it means.
 
-**Arjuna collapses at the keyboard**
+## Arjuna collapses at the keyboard
 
 **Sanjaya:**
 
@@ -253,7 +253,7 @@ Krishna looked at the diff and asked:
 
 *"Does the mapper need the internal structure of the `Money` object — or does it need a representation from the `Money` object?"*
 
-**The immortality of the invariant (Sankhya Yoga)**
+## The immortality of the invariant (Sankhya Yoga)
 
 Krishna smiled lightly. He did not declare every getter to be adharma, nor did he offer one universal interface. He moved the conversation to the responsibility of the concept, which Arjuna had not yet found the words for.
 
@@ -285,7 +285,6 @@ The DTO needed a representation of `Money`, but the representation did not need 
 
 `Money` could protect its own calculations and at the same time offer the boundary an explicit representation:
 
-{line-numbers: false}
 ```java
 public final class Money {
 
@@ -305,9 +304,8 @@ public final class Money {
 
 This was not the one correct API. Sometimes `record Money(BigDecimal amount, Currency currency)` is a perfectly honest model, and sometimes an infrastructure adapter may read the representation it needs for persistence.
 
-What was decisive was not the syntax of the getter, but **who made the business decisions about money**.
+What was decisive was not the syntax of the getter, but who made the business decisions about money.
 
-{line-numbers: false}
 ```java
 var discountedAmount = money.getAmount()
         .subtract(discount.getAmount());
@@ -317,7 +315,7 @@ return new Money(discountedAmount, money.getCurrency());
 
 When such calculation spreads outward, `Money` is nominally a Value Object but in practice two primitives once more. The outside code becomes responsible for the arithmetic, for keeping the currency intact, for rounding, for the validity of the result and for assembling the new object.
 
-> **A Value Object may offer an external representation. It need not surrender its internal structure as the programming model of the rest of the system.**
+> A Value Object may offer an external representation. It need not surrender its internal structure as the programming model of the rest of the system.
 
 Krishna looked at the getter methods, at the DTO and at the concept behind them. They were not the same thing.
 
@@ -335,11 +333,11 @@ Krishna looked at the getter methods, at the DTO and at the concept behind them.
 
 *Ask this:*
 
-**Does this change protect the Domain, or does it slowly teach the system to forget what the Domain is?**
+*Does this change protect the Domain, or does it slowly teach the system to forget what the Domain is?*
 
 *To keep asking this question is your dharma."*
 
-**Nishkama Karma — act without attachment to results**
+## Nishkama Karma — act without attachment to results
 
 Arjuna looked at Krishna in bewilderment. If code grew old in any case and everything became legacy, why trouble to defend a single invariant in review?
 
@@ -355,18 +353,15 @@ Krishna answered with the most famous teaching of the Gita:
 
 *Never do the work merely to get a ticket closed. Do your work steadily, free of attachment to approval or rejection. This evenness of mind is called refactoring."*
 
-{pagebreak}
-
 Code without attachment to the fruits:
 
-{line-numbers: false}
 ```text
 Goal: A closed Jira ticket, praise  ---> Binds you to fear and stress
 
 Goal: The honesty of the model TODAY ---> Nishkama Karma (freedom to act)
 ```
 
-**The chain of attachment**
+## The chain of attachment
 
 **Arjuna:**
 
@@ -386,7 +381,117 @@ Goal: The honesty of the model TODAY ---> Nishkama Karma (freedom to act)
 
 *He who does his work in fear of a rejected PR, or in expectation of praise or bonus points, is the slave of his results. But he who concentrates on understanding the business model in this very moment attains a serene mind — though the codebase storms around him."*
 
-**Sthitaprajna — the steady architect**
+Arjuna was silent for a while.
+
+Then another doubt occurred to him.
+
+## When words lose their meaning
+
+**Arjuna:**
+
+*"Krishna, you say that from confusion comes the loss of memory. But how can an organisation forget? We preserve everything. Requirements are documented, decisions recorded, tickets archived and dashboards filled with numbers."*
+
+**Krishna:**
+
+*"Because preserving words is not the same as preserving their meaning, Arjuna.*
+
+*Consider the bug.*
+
+*A user observes that the system behaves unexpectedly. This observation may reveal a defect. But the observation itself is not yet the defect.*
+
+*Perhaps the implementation contradicts what was required. Perhaps the requirement was never stated. Perhaps it has changed. Perhaps two specifications contradict one another. Perhaps the user and the developer merely understood the same words differently.*
+
+*These are different things.*
+
+*If all are given the same name, the name ceases to distinguish them."*
+
+Arjuna frowned.
+
+*"But if every observation is recorded as a bug, surely nothing has been lost. The ticket still contains the description."*
+
+**Krishna:**
+
+*"The individual ticket may remember, Arjuna. The organisation may not.*
+
+*Imagine that one hundred and thirty-seven such tickets have been closed. Years pass. Developers leave. Product Owners change. The discussions disappear beneath thousands of newer discussions.*
+
+*Then a dashboard says:*
+
+*‘137 bugs.’*
+
+*Tell me, Arjuna: how many defects were there?"*
+
+Arjuna considered the question.
+
+*"I do not know."*
+
+Krishna nodded.
+
+*"Then the organisation has forgotten.*
+
+*The records remain. The numbers may even be perfectly accurate. But the distinction they were supposed to preserve has disappeared.*
+
+*This is how confusion becomes loss of memory.*
+
+*A requirement does not become a defect because Jira calls it a bug. A defect does not cease to exist because someone calls it an improvement. A customer observation does not become a diagnosis merely because a field in a ticket demands a category.*
+
+*The thing remains what it is.*
+
+*Only your ability to distinguish it from other things has been lost."*
+
+Arjuna looked again at the dashboard.
+
+The numbers suddenly seemed less reassuring.
+
+**Arjuna:**
+
+*"Then even a correct metric may tell us something false?"*
+
+**Krishna:**
+
+*"A metric can count faithfully and still preserve a lie.*
+
+*And beware especially when the number becomes the object of desire.*
+
+*Suppose a manager declares: ‘There shall be no more than ten unresolved bugs.’ The intention may be good. But attachment to the fruit arises even in dashboards.*
+
+*Soon it may become easier to call a defect a design improvement, a production failure a known limitation, or an unresolved problem a backlog item than to remove the defect itself.*
+
+*The number falls.*
+
+*The dashboard turns green.*
+
+*The system does not improve.*
+
+*And those who later look upon the green dashboard may conclude that quality improved precisely while the truth was being hidden from them.*
+
+*Thus careless naming gives rise to confusion.*
+
+*From confusion comes the loss of shared memory.*
+
+*From corrupted memory comes corrupted measurement.*
+
+*From corrupted measurement comes false confidence.*
+
+*And from false confidence comes judgement divorced from the Domain.*
+
+*This too is attachment to results, Arjuna: not changing reality, but changing the words by which reality is measured."*
+
+Arjuna stared at the rows of green indicators.
+
+He had encountered, without knowing its modern name, something he would later find deep inside a strangely familiar cave.
+
+Krishna continued:
+
+*"Therefore guard the language of the Domain.*
+
+*Do not guard words because terminology is sacred. Words may change when understanding changes. A new name may reveal a truth that an old name concealed.*
+
+*But when a distinction matters to the business, preserve the distinction.*
+
+*For a system may preserve all its data and still lose its memory, if it no longer remembers what its words mean."*
+
+## Sthitaprajna — the steady architect
 
 Arjuna wiped away his tears and asked something very practical:
 
@@ -402,25 +507,22 @@ Arjuna wiped away his tears and asked something very practical:
 
 *While others toss upon the sea of requirements like a raging ocean, the steady architect remains calm. New requirements flow into his codebase every day, but he neither swells with dogmatism nor crumbles under haste. He attains peace."*
 
-**The outcome of Chapter II**
+## The outcome of Chapter II
 
 A new perspective begins to take shape for Arjuna:
 
-1. The implementation is mortal, but the **Domain truth** it seeks to express does not die merely because its representation changes.
-
-2. Deleting or changing old code is not architectural murder, so long as the business **invariant** beneath it is preserved and clarified.
-
-3. The work must be done well **here and now**, without attachment to whether it produces approval, victory or a perfect architecture.
-
+1. The implementation is mortal, but the Domain truth it seeks to express does not die merely because its representation changes.
+2. Deleting or changing old code is not architectural murder, so long as the business invariant beneath it is preserved and clarified.
+3. The work must be done well here and now, without attachment to whether it produces approval, victory or a perfect architecture.
 4. The developer is responsible for acting honestly, but cannot claim sole authorship of the result.
-
 5. Inaction does not free the developer from responsibility. What is left undone also bears consequences.
+6. Language is part of the organisation's memory. When important distinctions disappear from its language, even perfectly preserved data may cease to preserve the truth.
+7. A measure must never be confused with the reality it attempts to describe. Attachment to improving the number may destroy the meaning that made the number useful.
 
 Arjuna quietly took hold of his Gandiva and opened the diff again. His hands had stopped trembling. He placed them upon the keyboard.
 
 He typed a comment into the review box. Then he read it over:
 
-{line-numbers: false}
 ```text
 // comment-draft-1.md
 
@@ -438,7 +540,7 @@ explicit representation of Money.
 
 It was correct. Every word of it was correct.
 
-Arjuna looked at the comment for a long moment, but did not press *Comment*. It was, he suspected, less a question than a verdict.
+Arjuna looked at the comment for a long moment, but did not press Comment. It was, he suspected, less a question than a verdict.
 
 Still uncertain whether his silence was wisdom or avoidance, he turned to Krishna.
 
