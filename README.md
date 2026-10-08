@@ -1721,7 +1721,7 @@ Krishna answered in a voice that echoed through the whole development environmen
   ─────────────────────────      ───────────────────────
   • Event-driven stream    --->  Order within chaos
   • Value Object           --->  Integrity without side effects
-  • Green CI/CD pipeline   --->  Continuous peace and trust
+  • Green CI/CD pipeline   --->  Temporary confidence, never proof of truth
   • RELENTLESS ENTROPY     --->  The inevitable decay of every
                                  class left uncared for!
 ```
@@ -1764,7 +1764,7 @@ Arjuna now understands the living nature of a codebase:
 
 2. **Entropy is the shadow:** no architecture is immortal or "finished". Entropy devours everything that is not actively maintained.
 
-3. **Refactoring is life:** the continual tidying of code (the Boy Scout Rule) is the only way to keep the troll of entropy at bay.
+3. **Refactoring is life:** the continual tidying of code (the Boy Scout Rule) is the only way to keep the the quiet advance of entropy at bay.
 
 Arjuna looks at the codebase and sees both its finest manifestations and those places where entropy has already begun to eat the structures away.
 
