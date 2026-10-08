@@ -4375,230 +4375,396 @@ Arjuna examines his motives for coding and sweeps the last remnants of ego from 
 
 # CHAPTER 18: Moksha-Sannyasa Yoga, or Final Liberation and Architectural Enlightenment
 
-**Architectural Sutra:** *Liberation is neither abandoning the work nor perfecting it forever. It is the freedom to perform one's duty without ego — and to release the code when understanding has made it unnecessary.*
+**Architectural Sutra:** *Liberation is neither abandoning the work nor perfecting it forever. It is the freedom to perform one’s duty without ego — and to release the code when understanding has made it unnecessary.*
 
-**Arjuna's question: renunciation (Tyaga) versus refusal (Sannyasa)**
+**Arjuna’s question: renunciation or refusal?**
 
-Arjuna looked at the terminal window flickering on his screen. He had learned of action, of knowledge, of memory, of entropy and of motives. But one thing still troubled him before the final move.
+The Merge Request remained open.
+
+Arjuna had learned of action and inaction, knowledge and memory, duty and consequence. He had seen architectures born and devoured by Time. He had learned to distinguish the Domain from its representations and responsibility from control.
+
+Yet before returning to the review, one final uncertainty remained.
 
 **Arjuna:**
 
-*"Krishna! What is the deepest difference between these two things:*
+*“Krishna, throughout these teachings you have praised both action and renunciation.*
 
-*1. **Sannyasa** (renouncing all coding and all systems altogether — 'I shall become a farmer')*
+*Tell me plainly: what is the difference between **Sannyasa**, the renunciation of action, and **Tyaga**, the renunciation of attachment to its fruits?*
 
-*2. **Tyaga** (non-attachment to the results of coding and to the ego)?*
+*Should I leave this codebase entirely and become a farmer? Or should I remain here, continue the work and somehow cease to be bound by it?”*
 
-*Ought I to leave this codebase entirely, or to code but renounce the fruits of the results?"*
+## Krishna answers: refusing the work is not liberation
 
-**Krishna answers: refusing the work is an error — renouncing the results is freedom**
+Krishna answered without hesitation.
 
-Krishna thundered his answer so that it echoed through every IDE and every compiler.
+**Krishna:**
+
+*“To leave coding, testing, refactoring and documentation undone through carelessness is Tamasic renunciation. Nothing has been understood; the burden has merely been abandoned to another.*
+
+*To leave the work because it is difficult, because disagreement causes discomfort or because production responsibility brings anxiety is Rajasic renunciation. The developer escapes the immediate pain but remains bound to the fear that drove him away.*
+
+*But one who performs the work proper to him — who writes the code, investigates the defect, protects the model and raises the difficult question — while renouncing possession of the result, practises Sattvic renunciation.*
+
+*He does not say: ‘This architecture is mine.’*
+
+*He does not demand that the Merge Request be accepted as proof of his wisdom.*
+
+*He does not require the system to preserve his design forever.*
+
+*He acts because the work is his to do, and releases the fruit because its final form was never his alone to command.*
+
+*No embodied developer can renounce action completely. So long as you remain in the team, your approval acts, your objection acts, your question acts and your silence acts.*
+
+*The true renouncer is not the one who refuses to touch the work.*
+
+*The true renouncer is the one who performs it without trying to possess what follows.”*
 
 {pagebreak}
 
-**Krishna:**
-
-*"The wise say: to leave the coding, the testing, the refactoring and the documenting undone out of torpor or out of fear is **Tamasic renunciation**! It is cowardice.*
-
-*To leave the coding because it is hard, because production problems cause anxiety, or because 'coding is too heavy', is **Rajasic renunciation**. It brings no true freedom whatsoever.*
-
-**But he who performs his own task (Dharma) — who writes the code, fixes the bugs and cares for the architecture — because it IS HIS TASK, renouncing utterly the ego, the share options and personal glory... that is called Sattvic renunciation (Tyaga)!**
-
-*A human being can never renounce action entirely. So long as you have a laptop and a role in a team, you must act. But he who is not attached to the fruits of his action is the TRUE RENOUNCER (Tyagi)."*
+## Process is not understanding
 
 **Arjuna:**
 
-*"Then is it enough that I follow every prescribed process — update the Jira ticket, complete the checklist, obtain the approvals and obey every coding standard?"*
+*“Then perhaps my duty is simple. I shall follow every prescribed process: update the Jira ticket, complete the checklist, obtain the approvals and obey the coding standard. If every required step is performed, surely the action is pure.”*
+
+Krishna shook his head.
 
 **Krishna:**
 
-**"Process is not enough, Arjuna. A ritual performed without understanding cannot preserve the truth of the domain."**
+*“Process may preserve lessons that others learned through pain. A checklist may prevent a known failure. A shared standard may spare each developer from rediscovering the same mistake.*
 
-*"Process can guide right action, but it cannot perform the act of understanding on your behalf. The checklist may be complete while the model remains false."*
+*Honour them.*
+
+*But do not ask them to judge what only understanding can decide.*
+
+*A ritual performed without attention cannot preserve the truth of the Domain. Every checkbox may be marked while the model remains false. Every approval may be present while no one understands what has been approved.*
+
+*Process can guide action.*
+
+*It cannot perform the act of seeing on your behalf.”*
 
 **Arjuna:**
 
-*"Why, then, does the truthful path so often feel harder than the shortcut?"*
+*“Why, then, does truthful work so often feel harder than the shortcut?”*
 
 **Krishna:**
 
-*"That work which at first tastes like poison — the difficult question, the rejected assumption, the model rebuilt after understanding — but in the end becomes nectar, bringing clarity and freedom from rework, is called **Sattvic happiness**.*
+*“That work which first tastes like poison — the difficult question, the rejected assumption, the test that exposes a missing concept, the model rebuilt after understanding — but later becomes nectar through clarity and freedom from rework, is Sattvic happiness.*
 
-*But the shortcut that tastes like nectar at first — the ticket closed, the estimate preserved and the difficult question postponed — ripens in time into poison. Its sweetness belongs to the present sprint; its suffering to every sprint that follows."*
+*The shortcut tastes like nectar at first. The ticket closes. The estimate survives. No uncomfortable conversation takes place.*
 
-Arjuna remained silent. Right action could taste bitter at first, yet another doubt arose.
+*But in time its sweetness ripens into poison.*
+
+*Its pleasure belongs to the present sprint.*
+
+*Its suffering belongs to every sprint that follows.”*
+
+Arjuna remained silent.
+
+Right action could still produce painful consequences. Yet consequences passed through many people, systems and circumstances before their final form became visible.
+
+Another doubt arose.
 
 **Arjuna:**
 
-*"If consequences ripen through time, through the system and through the deeds of many, can any developer be their sole author — or bear them alone?"*
+*“If the fruits of action emerge through the deeds of many, can any developer be their sole author? Can one person bear them alone?”*
 
-**The five factors behind every commit**
+## The five causes behind every commit
 
 **Krishna:**
 
-*"The learned say that the realisation of any line of code or any architectural decision always requires **five factors**:*
+*“No action arises from one cause alone, Arjuna.*
 
-1. **The seat (Adhisthana):** the computer, the memory, the hardware and the OS.
+*Behind every commit stand at least five conditions.*
 
-2. **The doer (Karta):** the developer / the developer's state.
+*There is the **place of action**: the organisation, the codebase, the machine and the history in which the change is made.*
 
-3. **The instruments (Karana):** the IDE, the compiler, the CI/CD pipeline and the frameworks.
+*There is the **doer**: the developer, with his knowledge, fatigue, motives and limitations.*
 
-4. **The various functions (Cesta):** keystrokes, network calls and CPU cycles.
+*There are the **instruments**: the language, IDE, compiler, framework, pipeline and every tool through which intention becomes executable form.*
 
-5. **Fate / architectural law (Daivam):** the things beyond our influence (such as power cuts or general network failures).
+*There is the **activity itself**: the conversations, keystrokes, reviews, tests, deployments and runtime operations by which the change enters the world.*
 
-*Knowing this: he who imagines that 'I ALONE built this fine system' or 'this outage is MY fault' is blind with ego! He does not see these five factors."*
+*And there is **Daivam** — everything that participates in the result without submitting to your command: the misunderstood requirement, the unusual production data, the network failure, the forgotten consumer, the timing of concurrent events and the consequence no one could yet see.*
 
-**Better one's own duty, imperfectly**
+*Therefore, the developer who proclaims, ‘I alone built this system,’ is blinded by pride.*
 
-Arjuna tries once more to hand the decision out of his own hands:
+*But the developer who declares, ‘This entire failure is mine alone,’ may be blinded by the same illusion in another form.*
+
+*Responsibility does not require the fantasy of total control.*
+
+*You are responsible for the honesty of your own participation. You are not the solitary author of the universe in which its consequences unfold.”*
+
+## Better one’s own duty, imperfectly
+
+Arjuna attempted once more to place the decision outside himself.
 
 **Arjuna:**
 
-*"The author knows the implementation better. The architect knows the whole better. The product owner knows the need better. Let one of them decide."*
+*“The author knows the implementation better. The architect sees more of the whole. The Product Owner understands the need. The domain expert knows the business.*
 
-Krishna does not dispute this. Each of them truly does see a part that Arjuna does not. But that is precisely why no one should perform everybody else's duty.
+*Let one of them decide.”*
+
+Krishna did not dispute their knowledge. Each truly saw something Arjuna did not.
+
+That was precisely why none could perform the duty of all the others.
 
 **Krishna:**
 
-**"Better to perform one's own duty (Svadharma) imperfectly than another's perfectly."**
+*“Better to perform one’s own duty imperfectly than another’s duty perfectly.*
 
-**The dharma of the test**
+*The Product Owner must clarify the need.*
 
-Arjuna considered this teaching, but remembered another dispute in which every participant had claimed one universal rule.
+*The domain expert must reveal the business distinctions.*
+
+*The author must explain the implementation and remain open to what it may have overlooked.*
+
+*The architect must illuminate consequences across boundaries.*
+
+*The reviewer must make his honest observation visible.*
+
+*None owns the whole truth.*
+
+*Each is responsible for bringing his part into the conversation.”*
+
+The same principle governed the codebase.
+
+The Aggregate Root guarded its invariants.
+
+The Application Service orchestrated the use case.
+
+The Saga coordinated the long-running process.
+
+The Outbox carried committed consequences reliably towards the outside world.
+
+The Projection answered questions without pretending to command the Domain.
+
+SQL retrieved and transformed data efficiently.
+
+The Domain Event stated what had happened in the language of the model.
+
+The problem was not that these could not technically perform one another’s work.
+
+A projection *could* contain a business decision.
+
+A Saga *could* mutate domain state directly.
+
+A controller *could* validate an invariant.
+
+A mapper *could* calculate a price.
+
+An Aggregate Root *could* assemble a report.
+
+They might even do it perfectly.
+
+**And still they would be performing another’s duty.**
+
+**Krishna:**
+
+*“An architectural boundary does not prevent a component from doing its work.*
+
+*It prevents it from doing someone else’s.”*
+
+## The testing dharma of each layer
+
+Arjuna remembered another dispute in which every participant had claimed one universal doctrine.
 
 **Arjuna:**
 
-*"If no single duty belongs to every actor, Krishna, what of tests? Some developers follow the Detroit school and distrust mocks. Others follow the London school and construct every test from interactions. Which path should I follow?"*
+*“What, then, of testing?*
+
+*Some developers follow the Detroit school and distrust mocks. Others follow the London school and construct their tests through interactions.*
+
+*Which school possesses the truth?”*
 
 **Krishna:**
 
-*"Do not force one testing doctrine upon every part of the system, Arjuna. Better is each test’s own duty, though imperfectly performed, than the duty of another test perfectly imitated.*
+*“Do not force one testing doctrine upon every part of the system, Arjuna. Honour the dharma of the responsibility under examination.*
 
-*When you test the **Domain** — its Aggregates and Value Objects — follow the classical path. Do not mock the soul. Give the model real values, invoke behaviour through its public language and observe whether its invariants endure.*
+*When testing the Domain — its Aggregates and Value Objects — follow the state-based path.*
 
-*If the test requires a forest of substitutes merely to create the Aggregate, suspect confusion in the model. Refactor the model; do not conceal its weakness behind mocks.*
+*Do not mock the soul.*
 
-*When you test an **application use case**, isolate it through its ports. Here the London path may serve you. Replace the database, clock, message broker and distant service with controlled collaborators. Verify that the use case obtains what it needs, invokes the Domain and carries the consequences towards the correct boundaries.*
+*Give the model real values. Invoke behaviour through its public language. Observe whether its invariants endure and whether its decisions produce the correct state and events.*
 
-*But mock only a boundary whose contract you understand. A mock is a promise made by the test, not evidence that the real collaborator keeps that promise.*
+*If constructing the Aggregate requires a forest of substitutes, suspect confusion in the model. Repair the model before teaching the test to conceal its pain.*
 
-*When you test an **adapter**, do not merely mock the reality it exists to confront. Let the repository meet a real database. Let the HTTP adapter meet a faithful server. Let serialization cross the actual boundary.*
+*But when testing an Application Service or a use case, the interaction-based path may serve you. Cut its connections to the database, clock, message broker and distant services. Let controlled collaborators stand at its ports. Verify that the use case obtains what it needs, invokes the Domain and carries the consequences towards the correct boundaries.*
 
-*For the duty of an adapter is translation between the model and the world, and translation cannot be proven while one of the languages is imaginary.*
+*Even there, remember: a mock is a contract imagined by the test, not evidence that reality honours it.*
 
-*Thus the schools are not enemies. Classical tests guard the behaviour of the Domain. Interaction tests clarify the orchestration of the use case. Contract and integration tests reveal whether the adapters speak truthfully to the world.*
+*It tells you what the code intends to ask.*
 
-*Keep a few tests in which the whole path is crossed, for it is there that model and mechanism, Purusha and Prakriti, finally meet.*
+*It does not prove what the real collaborator will answer.*
 
-*Choose the test according to the responsibility under examination — not according to the banner beneath which the tester was trained.*
+*And when testing an adapter, do not mock away the very world it exists to confront. Let the repository meet a real database. Let serialization cross the actual wire format. Let the HTTP adapter speak to a faithful server.*
 
-*For a test, too, is bound when it abandons its own duty and attempts to perform the duty of another."*
+*The duty of an adapter is translation between the model and the world. Translation cannot be proven while one of the languages is imaginary.*
 
-Arjuna understood that there was no single testing doctrine that could serve every responsibility. The proper test was determined not by loyalty to a school, but by the truth it was expected to reveal.
+*Thus the schools are not enemies.*
 
-The same principle governs the system itself:
+*State-based tests protect the behaviour of the Domain.*
 
-- The **Aggregate Root** guards the invariants.
+*Interaction tests clarify the orchestration of the use case.*
 
-- The **Application Service** orchestrates the use case.
+*Contract and integration tests reveal whether the boundaries speak truthfully.*
 
-- The **Saga** coordinates a long-running process.
+*And preserve a few tests in which the whole path is crossed, for there Purusha and Prakriti — meaning and mechanism — finally meet.*
 
-- The **Outbox** takes care of reliable delivery.
+*Choose the test according to the truth it must reveal, not according to the banner beneath which its author was trained.”*
 
-- The **Projection** answers read questions.
+Arjuna understood.
 
-- **SQL** fetches data efficiently.
+A testing school was a tool, not a caste.
 
-- The **Domain Event** tells what happened in the domain.
+A test became dogmatic only when it abandoned the responsibility before it and began defending the identity of its author.
 
-The problem is not that these could not technically do one another's work. A projection *can* contain a business decision. A saga *can* change domain state. A controller *can* validate an invariant. A mapper *can* calculate a price. An Aggregate Root *can* assemble a report.
+## The Moksha of code
 
-They may even do it perfectly.
+Arjuna looked again at the two getter methods.
 
-**And still they are doing another's duty.**
+He had heard that the finest code was the code never written and that the second finest was the code one could delete today.
+
+Yet something in the saying seemed incomplete.
+
+**Arjuna:**
+
+*“Krishna, is deletion itself liberation? Does code attain Moksha merely when it disappears from the repository?”*
 
 **Krishna:**
 
-*"An architectural boundary does not prevent a component from doing its work. It prevents it from doing someone else's."*
+*“Code that is never written does not enter the cycle of software Samsara. It acquires no dependencies, suffers no deprecations, receives no CVEs and demands no maintenance from those who follow.*
 
-The reviewer, too, has his own limited dharma. He does not own the author's work, nor the truth of the business, nor the future of the whole system. He owns only his own honest observation, and the duty to bring it into the shared conversation.
+*Having never been born, it lies beyond the reach of entropy.*
 
-Approving an MR does not mean the change is perfect. Rejecting it does not mean the author has failed. Asking a question does not mean the asker knows the answer.
+*But do not confuse wisdom with neglect.*
 
-Arjuna therefore presses neither *Approve* nor *Reject* yet. Nor does he remove himself as reviewer. He writes a comment:
+*Necessary code left unwritten also bears karma. The unserved user, the missing invariant and the manual workaround carry its consequences in another form.*
 
-**Arjuna’s MR review comment**  
+*Deleted code no longer decays, but deletion alone does not erase its karma.*
+
+*Its assumptions may survive in database schemas, API contracts, persisted data, operational procedures, documentation and the habits of developers who no longer remember where those habits began.*
+
+*The lines disappear.*
+
+*Their ghosts may continue to govern the system.*
+
+*Liberation is not deleting code.*
+
+***Liberation is no longer needing it.***
+
+*When understanding deepens, the model becomes simpler. When every dependent has been released and no hidden assumption remains bound to the old implementation, deletion is not destruction.*
+
+*It is Moksha.*
+
+*The best code is made unnecessary by understanding.*
+
+*The second best is the code that understanding allows you to release today.”*
+
+## Krishna’s final teaching
+
+Then Krishna came to stand beside Arjuna and looked at the open Merge Request.
+
+His voice was quiet now. Nothing remained to be conquered.
+
+**Krishna:**
+
+*“Sarva-dharman parityajya mam ekam sharanam vraja.*
+
+*Release your attachment to dogmatic rules, to framework wars, to the need to appear certain and to the hope of designing the final architecture.*
+
+*Take refuge in the honest pursuit of the Domain.*
+
+*No single model is the Domain. Yet every truthful model may reveal something of it.*
+
+*I release you from the shame that binds you to your past coding errors — but not from the responsibility to understand and repair what they have set in motion.*
+
+*You are not required to pretend that the mistake never occurred.*
+
+*You are required only to meet its consequences without self-deception and without despair.*
+
+*Do not grieve.”*
+
+## Arjuna’s awakening
+
+A deep silence descended upon the office.
+
+The Merge Request remained open.
+
+The getter methods had not changed. The pipeline offered no new evidence. No voice from the business descended from the clouds to reveal the final truth.
+
+Yet something in Arjuna had become still.
+
+**Krishna:**
+
+*“Have you heard these teachings with a concentrated mind, Arjuna? Has the confusion that paralysed your action dispersed?”*
+
+**Arjuna:**
+
+*“Nashto mohah smritir labdha tvat-prasadan maya ’chyuta.*
+
+*My confusion has lifted. I have regained my memory through your grace.*
+
+*I do not claim certainty about the Domain. I do not yet know whether these getters are harmless representations or the beginning of a model that will forget what Money means.*
+
+*But I am no longer uncertain about my duty.*
+
+*I shall neither approve what I do not understand nor reject what I cannot condemn.*
+
+*I shall make the uncertainty visible.”*
+
+His doubt about the Domain remained.
+
+His doubt about his duty did not.
+
+## The final review
+
+The reviewer had his own limited dharma.
+
+He did not own the author’s work.
+
+He did not own the truth of the business.
+
+He did not own the future of the system.
+
+He owned only his honest observation and the duty to bring it into the shared conversation.
+
+Approving a Merge Request did not mean the change was perfect.
+
+Requesting changes did not mean the author had failed.
+
+Asking a question did not mean the reviewer already knew the answer.
+
+Arjuna opened the review box.
+
+The first draft had been a verdict.
+
+The second had been a speech.
+
+Both had been correct.
+
+Neither had been posted.
+
+He began once more.
+
+**Arjuna’s Merge Request review comment**  
 *Drafts 1 and 2 deleted, never posted.*
 
-> The getters may be harmless in isolation. What I cannot tell from this change is whether the mapper needs a representation of Money, or whether the API deliberately treats amount and currency as separate values.
+> The getters may be harmless in isolation. What I cannot tell from this change is whether the mapper needs a representation of `Money`, or whether the API deliberately treats amount and currency as separate values.
 >
-> Could we walk through one concrete use case and agree where decisions about money belong? If they belong to Money, could the mapper depend on an explicit representation instead of its internal structure?
+> Could we walk through one concrete use case and agree where decisions about money belong?
+>
+> If they belong to `Money`, could the mapper depend on an explicit representation instead of its internal structure?
 
-This time, he presses *Comment*.
+Arjuna read the comment once.
 
-It does not settle the war. It does not even settle the Merge Request.
+This time, he pressed *Comment*.
 
-But it restores to the conversation the thread, the invisible work, and each party’s own duty.
+It did not settle the war.
 
-**Arjuna:** *"Do I understand the domain now?"*
+It did not even settle the Merge Request.
 
-**Krishna:** *"No. But now you know what to ask."*
-
-**The Moksha of code**
-
-Arjuna looked upon the getter methods once more. He had heard that the finest code was the code that had never been written, and that the second finest was the code that could be deleted today. Yet he remained uncertain.
-
-**Arjuna:**
-
-*"Krishna, is deletion itself liberation? Does code attain Moksha merely when it disappears from the repository?"*
-
-**Krishna:**
-
-*"Code that is never written does not enter the cycle of software Samsara. It acquires no dependencies, suffers no deprecations, receives no security vulnerabilities and demands no maintenance from those who come after you. Having never been born, it lies beyond the reach of entropy.*
-
-*But do not confuse wisdom with neglect. Refusing to write necessary code is also an action, and inaction too bears karma. The unserved user, the missing invariant and the manual workaround will carry its consequences in another form.*
-
-*Deleted code no longer decays, but deletion alone does not erase its karma. Its assumptions may survive in database schemas, API contracts, persisted data, documentation, operational procedures and developers' memories. The lines are gone; their ghosts may still govern the system.*
-
-**Deletion is not liberation. Liberation is no longer needing the code.**
-
-*When understanding deepens, the model becomes simpler, every dependent is released and no hidden assumption remains bound to the old implementation, deletion is not destruction. It is Moksha.*
-
-*The best code is made unnecessary by understanding. The second best is the code that understanding allows you to release today."*
-
-**Krishna's final exhortation and message**
-
-Then Krishna stepped right beside Arjuna, looked him in the eyes, and pronounced the most famous closing verse of the whole Bhagavad Gita (*Charama Shloka*):
-
-**Krishna:**
-
-**"Sarva-dharman parityajya mam ekam sharanam vraja:**
-
-**Abandon attachment to dogmatic rules, to futile framework wars and to your own perfection. Take refuge in the honest understanding of the domain.**
-
-*No single model is me, but every truthful model expresses something of me.*
-
-*I release you from all past coding errors, from bad commits and from the guilt of technical debt. Do not grieve (Ma shucah)!"*
-
-**Arjuna's awakening (Nasto Mohah)**
-
-Upon the battlefield — and before the code editor — a perfect, deep silence descended. Doubt was gone. The fear of production falling over had melted away.
-
-**Krishna:**
-
-*"Have you heard this teaching with a concentrated mind, Arjuna? Has the confusion born of ignorance dispersed?"*
-
-**Arjuna:**
-
-*"Nashto mohah smritir labdha tvat-prasadan maya 'chyuta:*
-
-**My confusion is gone! I have regained my memory and my understanding by your grace, O Unchanging One!**
-
-**I stand here wholly steady, free of doubt. I shall do as you command (Karishye vachanam tava)!**"
+But it restored to the conversation the question, the invisible work and each participant’s own duty.
 
 {line-numbers: false}
 ```text
@@ -4613,19 +4779,44 @@ Upon the battlefield — and before the code editor — a perfect, deep silence 
 • Question: asked.
 • Teaching: understood.
 • Attachment to outcome: none.
-```
 
-**Sanjaya closes the epic**
+**Arjuna:**
 
-At the end of the epic, Sanjaya, minister of the Blind Owner (Dhritarashtra), closes his real-time connection log with deep reverence:
+*“Do I understand the Domain now?”*
+
+**Krishna:**
+
+*“No.*
+
+*But now you know what to ask.”*
+
+{pagebreak}
+
+## Sanjaya closes the epic
+
+Far from the battlefield, the blind Product Owner still awaited the final status report.
+
+He could not see the code, the review discussion or the assumptions through which the system held together. He saw only the dashboard.
+
+Sanjaya closed his connection to the field and spoke.
 
 **Sanjaya:**
 
-*"Thus did I hear this wondrous and hair-raising conversation between the Masterly Architect (Krishna) and the noblest of Developers (Arjuna).*
+*“Thus did I hear this wondrous and hair-raising conversation between Krishna, the keeper of understanding, and Arjuna, the developer who finally raised his bow.*
 
-**Wherever Krishna is, the Supreme Architect, and wherever Arjuna is, the Developer who has raised his bow and his keyboard — there most surely are LASTING SERENITY, VICTORY, MIGHTY PERFORMANCE AND PERFECT PEACE!**
+*Wherever there is understanding that does not flee from action, and wherever there is action that does not pretend to own the truth, there abide clarity, responsibility and the possibility of peace.*
 
-*This is my final view."*
+*The review has been submitted.*
+
+*The sprint goal has been met.*
+
+*The build is green.*
+
+*Production is stable.*
+
+*No unresolved impediment is visible upon the dashboard.*
+
+*This is my final view.”*
 
 {pagebreak}
 
@@ -4634,18 +4825,25 @@ At the end of the epic, Sanjaya, minister of the Blind Owner (Dhritarashtra), cl
 
 {pagebreak}
 
-**🕉️ THE LOGS OF THE BHAGAVAD GITA — COMPLETE 🕉️**
+# 🕉️ THE LOGS OF THE BHAGAVAD GITA — COMPLETE 🕉️
 
-Arjuna did not close his laptop. He did not run away. He asked the right question and fulfilled his own dharma. The build was green. Production was stable. The mind was free.
+Arjuna did not close his laptop.
 
-Aum Shanti, Shanti, Shanti. 
+He did not run away.
+
+He asked the question that was his to ask and released the answer that was not his alone to command.
+
+*Aum Shanti, Shanti, Shanti.*
 
 {pagebreak}
 
 **GitLab:**
 
+```text
 Merge request cannot be merged.
+
 Source branch is 37 commits behind target branch.
+```
 
 **Samsara.** ![](krishna-flute-right.png){width: "100%"}
 
