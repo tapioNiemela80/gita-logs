@@ -4252,7 +4252,9 @@ Krishna summed up the root causes of demonic coding in the three most dangerous 
 
 **Every wise developer must forsake these three gates!**
 
-*Free yourself from them, Arjuna, and let the standards, the good practices and the shared rules of the team (Shastra) guide your action. Let the coding standard be your teacher in what is to be done and what is to be left undone!"*
+*Free yourself from them, Arjuna, and let the standards, good practices and shared rules of the team (Shastra) guide your action.
+Let the coding standard preserve the lessons already learned — but never ask it to judge what only understanding can decide.
+Yet beware, Pārtha: do not search for the Asuri qualities only in other developers. The moment you believe yourself incapable of them, they have already found their safest hiding place!"*
 
 **The conclusion of Chapter XVI**
 
