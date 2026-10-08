@@ -3386,7 +3386,7 @@ Krishna pointed with his hand at the whole formed by the project folder, the rep
   • CI/CD pipelines & performance   • Recognition of invariants and boundaries
              │                                       │
              ▼                                       ▼
-     Impermanent & changing                  Eternal & aware
+     Impermanent & changing                  Conscious & interpretive
 ```
 
 **Of what does the Field (the codebase) consist?**
@@ -3397,7 +3397,7 @@ Krishna set out in detail everything the field of a codebase contains:
 
 *"The hardware, the quantity of memory, the components of the compiler, the ego, the type system, the five streams of sense data (logs, console output, network I/O, processes, disk connections), the wishes ('if only this sprint would end'), the hatred of a bug, the joy of a green test, and that structure which holds the classes upright in memory — all this is the Field and its modifications.*
 
-*Never confuse yourself (the Knower) with the field (a line of code)! You are not that ugly null pointer exception, and you are not that brilliant one-line lambda. You are the consciousness that sees both the bug and the brilliance without being defined by either. The code is merely what you left behind; you are what chooses to refactor it.""*
+*Never confuse yourself (the Knower) with the field (a line of code)! You are not that ugly null pointer exception, and you are not that brilliant one-line lambda. You are the consciousness that sees both the bug and the brilliance without being defined by either. The code is merely what you left behind; you are what chooses to refactor it."*
 
 **What is true knowledge (Jnana)?**
 
@@ -4057,11 +4057,13 @@ He grasped a branch for balance, but it twisted around a root and disappeared in
 
 *Then the dependencies no longer serve the system. They bind it in chains of its own making.*
 
-*Do not deceive yourself, Partha. Adharma seldom announces itself as destruction. It presents itself as efficiency"*
+*Do not deceive yourself, Partha. Adharma seldom announces itself as destruction. It presents itself as efficiency."*
 
 {pagebreak}
+
 {height: "88%"}
 ![Arjuna trapped in the roots of the dependency tree](bbom.png)
+
 {pagebreak}
 
 **How does one get free of tangled dependencies?**
@@ -4076,7 +4078,7 @@ Arjuna looked at the tree and saw how its branches had grown into one another: i
 
 *Cut away the needless dependencies! Remove the inheritance monsters and replace them with composition. Sever the cyclic couplings without pity!*
 
-*When you have cut these distorted couplings away, seek that Original Source from which the whole current of the system once set out. He who has stepped onto that path will never again sink into the swamp of spaghetti code."*
+*When you have cut these distorted couplings away, seek that Original Source from which the whole current of the system once set out. He who has stepped onto that path will not so easily sink again into the swamp of spaghetti code."*
 
 **Three persons / levels in the world of code (Purushas)**
 
