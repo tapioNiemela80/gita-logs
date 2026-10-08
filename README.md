@@ -1845,6 +1845,11 @@ Krishna turned Arjuna’s attention towards the countless forms through which ar
 
 {pagebreak}
 
+{height: 88%}
+![Its stillness was never obedience.](acl.png)
+
+{pagebreak}
+
 # CHAPTER 10: Vibhuti Yoga, or the System’s Mighty Manifestations and Entropy
 
 **Architectural Sutra:** *The greatness of architecture appears wherever meaning survives transmission, boundaries preserve truth and knowledge is shared without pride. Yet every living system must change, and every change leaves structure that must be understood again.*
