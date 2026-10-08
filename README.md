@@ -1855,103 +1855,381 @@ Krishna turned Arjuna’s attention towards the countless forms through which ar
 
 {pagebreak}
 
-# CHAPTER 10: Vibhuti Yoga, or the System's Mighty Manifestations and Entropy
+# CHAPTER 10: Vibhuti Yoga, or the System’s Mighty Manifestations and Entropy
 
-**Architectural Sutra:** *The greatness of architecture appears wherever meaning survives transmission, boundaries preserve truth and knowledge is shared without pride. Yet Time stands within every system too, patiently turning all unattended structure into entropy.*
+**Architectural Sutra:** *The greatness of architecture appears wherever meaning survives transmission, boundaries preserve truth and knowledge is shared without pride. Yet every living system must change, and every change leaves structure that must be understood again.*
 
-**Arjuna asks to see the majesty**
+**Arjuna asks to see the manifestations**
 
-Arjuna had understood the royal secret. But in the multiplicity of the world of code he longed for fixed points: in what things and in what phenomena is Krishna truly recognised within a codebase?
+Arjuna had learned the royal secret.
+
+Architecture did not reveal itself only through diagrams, frameworks or classes bearing important names. Its finest work was often visible only through what remained coherent, what could change locally and what never became an incident.
+
+But this invisibility troubled him.
 
 **Arjuna:**
 
-*"Krishna! You speak to me of an eternal architecture, but tell me concretely:*
+*“Krishna, you have taught me that architecture may pervade the entire system without belonging to any single class.*
 
-*In which classes, in which interfaces and in which phenomena does your majesty (Vibhuti) shine most brightly? How can I recognise you in the midst of this million-line branch?"*
+*But how can I recognise what cannot be pointed to?*
 
-**Krishna declares his manifestations in code**
+*In which objects, boundaries and actions does architectural understanding reveal itself most clearly?*
 
-Krishna answered in a voice that echoed through the whole development environment.
+*Show me its manifestations — its Vibhutis — within this million-line codebase.”*
+
+**Krishna declares his manifestations**
+
+Krishna answered without opening an architecture diagram.
 
 **Krishna:**
 
-*"Listen, O Arjuna! My mighty manifestations have no end, but I shall tell you the chief among them:*
+*“My manifestations within a system have no end, Arjuna. I shall name only those through which the hidden structure becomes visible.*
 
-- *Of messages I am the meaning that survives transmission.*
+*Of messages, I am the meaning that survives transmission.*
 
-- *Of transactions I am the boundary that preserves an invariant.*
+*Of transactions, I am the boundary within which an invariant remains true.*
 
-- *Of caches I am the humility to know that I am not the truth.*
+*Of data types, I am the Value Object that makes an invalid state difficult to express.*
 
-- *Of data types I am the **Value Object** that refuses an invalid state.*
+*Of structures, I am the Aggregate that accepts responsibility for a whole without pretending to own the entire system.*
 
-- *Of structures I am the **Aggregate Root** that accepts responsibility for the whole.*
+*Of repositories, I am the restoration of identity without the leakage of persistence into the model.*
 
-- *Of coding practices I am **Test-Driven Development**, and of compiler features I am **immutability**.*
+*Of caches, I am the humility to remember that a copy is not the truth.*
 
-- *Among developers I am the **senior who listens patiently to a junior’s question** without judging."*
+*Of events, I am the memory that something meaningful occurred — not merely that a row changed.*
+
+*Of tests, I am the question that forces intention to become observable.*
+
+*Of refactorings, I am the change through which meaning becomes clearer while behaviour remains protected.*
+
+*Of code reviews, I am the honest question asked without ownership of the answer.*
+
+*And among senior developers, I am the one who listens to a junior’s doubt long enough to discover that the doubt was evidence.”*
+
+Arjuna looked through the repository.
+
+He saw no single supreme abstraction.
+
+Instead he saw moments in which the system remembered what it meant.
 
 {line-numbers: false}
 ```text
-        MANIFESTATIONS AND ENTROPY
+          MANIFESTATIONS OF ARCHITECTURAL UNDERSTANDING
 
-  HIGHEST MAJESTY (Vibhuti)      FINGERPRINT IN THE CODE
-  ─────────────────────────      ───────────────────────
-  • Event-driven stream    --->  Order within chaos
-  • Value Object           --->  Integrity without side effects
-  • Green CI/CD pipeline   --->  Temporary confidence, never proof of truth
-  • RELENTLESS ENTROPY     --->  The inevitable decay of every
-                                 class left uncared for!
+  MANIFESTATION                   WHAT IT REVEALS
+  ───────────────────────────     ───────────────────────────────
+  Meaningful boundary             Responsibility has a home
+  Value Object                    Validity belongs to the concept
+  Observable test                 An intention has become a claim
+  Green CI/CD pipeline            Temporary confidence,
+                                  never proof of truth
+  Honest refactoring              Structure follows understanding
 ```
-
-**Entropy — the inescapable law of nature**
-
-Then Krishna's voice grew graver. He did not want Arjuna to forget the greatest enemy of all codebases.
-
-**Krishna:**
-
-*"But remember this, Arjuna! I am also that force which crumbles everything that is built — I am **Entropy**!*
-
-*No code stays clean of itself. Leave the most beautiful architecture untouched for half a year, and see what happens:*
-
-- Dependencies age and acquire security holes (CVEs).
-
-- Environment parameters change and APIs are deprecated.
-
-- New, hurried changes break the boundaries, and 'temporary' patches harden into permanent ones.
-
-*Entropy is the natural state of a codebase! Clean architecture is not a place you arrive at and lie down in — it is a continual struggle against the decaying force of entropy."*
-
-{pagebreak}
-
-**Honesty and the maintenance of energy**
-
-**Krishna:**
-
-*"As rot eats wood, so entropy eats the repository for which no continual work (Yajna) is done.*
-
-*If you do not bring new order into the system continually — by refactoring, by cleaning, by questioning — Tamas (decay) takes command.*
-
-*Knowledge of this entropy is not a source of despair but an awakening! It means that repairing the code today is not a mark of failure but a sign of life. Only dead code does not change."*
-
-**The conclusion of Chapter X**
-
-Arjuna now understands the living nature of a codebase:
-
-1. **Beauty and integrity:** Krishna is present in every cleaned class, every clear name and every flawless test.
-
-2. **Entropy is the shadow:** no architecture is immortal or "finished". Entropy devours everything that is not actively maintained.
-
-3. **Refactoring is life:** the continual tidying of code (the Boy Scout Rule) is the only way to keep the the quiet advance of entropy at bay.
-
-Arjuna looks at the codebase and sees both its finest manifestations and those places where entropy has already begun to eat the structures away.
 
 **Arjuna:**
 
-*"Now I understand the majesty of entropy and your fingerprint in the code, Krishna. But my mind is ready to see the most terrifying thing of all: show me the True Form of the Whole System (Vishvarupa)!"*
+*“If these are manifestations of sound architecture, Krishna, why do they not preserve the system forever?*
+
+*Why does a codebase that was once clear become difficult again?”*
+
+Krishna’s expression grew grave, but not sorrowful.
+
+**Entropy — the condition of every living system**
+
+**Krishna:**
+
+*“Because no implementation preserves itself, Arjuna.*
+
+*Dependencies age. Platforms change. Security vulnerabilities are discovered in code that appeared safe when it was written. External APIs alter their contracts. Infrastructure disappears beneath new layers of abstraction.*
+
+*But these are only the most visible forms of decay.*
+
+*The Domain also moves.*
+
+*Laws change.*
+
+*Users discover exceptions.*
+
+*Words acquire more precise meanings.*
+
+*Two cases once believed identical reveal themselves to be different.*
+
+*A business rule that seemed local is found to depend upon a distinction no one had yet named.*
+
+*Even if no developer acts carelessly, yesterday’s model may cease to express today’s reality.*
+
+*This is entropy within software: not merely disorder in the code, but the growing distance between structure, understanding and the world the system must serve.”*
+
+**Arjuna:**
+
+*“Then entropy is the enemy of architecture?”*
+
+**Krishna:**
+
+*“Do not give it a moral nature.*
+
+*Entropy is not an evil developer waiting to corrupt your classes.*
+
+*It is the condition under which architectural care becomes necessary.*
+
+*A codebase accumulates history because it lives.*
+
+*Every new requirement arrives through structures shaped by earlier requirements. Every correction leaves evidence of assumptions that once appeared sufficient. Every integration joins one changing system to another.*
+
+*What is left unattended drifts apart.*
+
+*Meaning separates from representation.*
+
+*Responsibility separates from the class that bears its name.*
+
+*The reason for a decision separates from the decision itself.*
+
+*Eventually the code still runs, but no one can explain with confidence why it behaves as it does.”*
+
+Arjuna thought of systems whose pipelines had remained green for years while the work of their users became steadily more difficult.
+
+**Krishna:**
+
+*“A green pipeline tells you that the checks you remembered to write have passed.*
+
+*It does not tell you that you wrote the right checks.*
+
+*It does not tell you that the requirement was understood.*
+
+*It does not tell you that the model still speaks the language of the people whose work has changed.*
+
+*It is evidence.*
+
+*Never despise evidence.*
+
+*But never mistake it for truth.”*
+
+**Lehman’s Laws — why living systems cannot remain still**
+
+**Arjuna:**
+
+*“If an architecture was built with care, Krishna, why must it be tended without end?*
+
+*Why can the system not simply remain correct once its rules have been implemented?”*
+
+**Krishna:**
+
+*“Because the codebase does not stand apart from the world it serves.*
+
+*The Domain continues to change around it. A system embedded in that changing world must adapt or become progressively less satisfactory to those who depend upon it.*
+
+*This is the first teaching of Lehman: a living system must continue to change in order to remain useful.*
+
+*But change has its own karma.*
+
+*Every new behaviour enters through structures formed by earlier understanding.*
+
+*Every new exception introduces another path.*
+
+*Every new representation creates another place in which meaning may diverge.*
+
+*Every new integration binds the system to assumptions that live beyond its control.*
+
+*Unless deliberate work is done to preserve, simplify and restore structure, complexity increases.*
+
+*This is Lehman’s second teaching.”*
+
+**Arjuna:**
+
+*“Then change is both necessary and dangerous?”*
+
+**Krishna:**
+
+*“Yes.*
+
+*A system that refuses to change becomes faithful to a world that no longer exists.*
+
+*A system that changes without understanding loses the meaning it was created to preserve.*
+
+*Therefore the question is not whether the codebase changes.*
+
+*The question is whether each change deepens the model or merely adds another place where the old confusion may hide.”*
+
+Arjuna considered this.
+
+A system could preserve all its existing behaviour and still become wrong because the world around it had changed.
+
+It could also change in every sprint while learning nothing new.
+
+**Krishna:**
+
+*“Do not therefore praise stability without asking what has remained stable.*
+
+*A stable invariant may protect truth.*
+
+*A stable workaround may preserve misunderstanding.*
+
+*A stable interface may shelter its consumers from needless change.*
+
+*A stable model may prevent the Domain from expressing a distinction it has only now discovered.*
+
+*Stability is not virtue by itself.*
+
+*Neither is change.”*
+
+**The metabolism of a living codebase**
+
+**Arjuna:**
+
+*“What, then, is the proper place of refactoring? Is it merely the correction of code that should have been written better in the first place?”*
+
+**Krishna:**
+
+*“No, Arjuna.*
+
+*Refactoring is not punishment for the imperfection of the past.*
+
+*Nor is it the endless polishing of code until every class satisfies an architect’s aesthetic preference.*
+
+*Refactoring is the metabolism of a living codebase.*
+
+*Through it, the system digests what the team has learned.*
+
+*Sometimes understanding reveals a concept that had been scattered across conditionals.*
+
+*Sometimes two abstractions once believed separate are found to protect the same responsibility.*
+
+*Sometimes an abstraction created for an expected future has become an obstacle because that future never arrived.*
+
+*Sometimes the wisest refactoring is deletion.*
+
+*Sometimes it is leaving stable code untouched.*
+
+*The purpose is not cleanliness for its own sake.*
+
+*The purpose is to keep the structure capable of expressing what is now understood.”*
+
+**Arjuna:**
+
+*“How can I know whether a refactoring serves understanding or merely my desire for a cleaner shape?”*
+
+**Krishna:**
+
+*“Ask what new truth has made the current structure insufficient.*
+
+*If you cannot name it, wait.*
+
+*Do not move responsibilities merely because another arrangement appears fashionable.*
+
+*Do not extract an abstraction merely because two methods look alike.*
+
+*Do not replace an old framework merely because a new one promises fewer lines of code.*
+
+*But when a discovered distinction has no place to live, when one responsibility appears in several technical disguises or when the model can no longer protect what the Domain now knows — then refactoring becomes an act of truthfulness.”*
+
+Arjuna remembered how the same payment-release decision had appeared in two distant parts of the codebase.
+
+At first the duplication had been merely structural.
+
+Only later had understanding revealed the shared responsibility.
+
+**Krishna:**
+
+*“The model does not grow through motion alone.*
+
+*It grows when motion follows learning.”*
+
+**Yajna — the continual offering of care**
+
+**Krishna:**
+
+*“As every living system consumes energy to preserve its organisation, so every living codebase requires continual work.*
+
+*This work is Yajna — not sacrifice to the vanity of perfect code, but the recurring offering by which understanding is returned to the system.*
+
+*A misleading name is corrected.*
+
+*A forgotten decision is recorded.*
+
+*A dependency is upgraded before its abandoned version becomes an emergency.*
+
+*A test is rewritten so that it describes behaviour rather than implementation.*
+
+*A boundary is restored before one exception becomes a convention.*
+
+*None of these acts creates a final architecture.*
+
+*They keep the system capable of receiving the next truth.”*
+
+**Arjuna:**
+
+*“Then maintenance is not evidence that the architecture has failed?”*
+
+**Krishna:**
+
+*“No.*
+
+*The need for maintenance proves only that the system remains entangled with time.*
+
+*Failure begins when the organisation interprets all maintenance as waste and every visible feature as value.*
+
+*Then the work required to preserve changeability is postponed because its fruit is the absence of a future crisis.*
+
+*Entropy advances quietly through what no dashboard rewards.”*
+
+The repository before Arjuna no longer appeared as a finished structure gradually being ruined by careless hands.
+
+It appeared as a living record of encounters between understanding and change.
+
+Some parts had remained clear because their responsibilities were still true.
+
+Some had become tangled because the world had asked questions the old model could not answer.
+
+Others had decayed because small compromises had accumulated without anyone returning to examine their combined meaning.
+
+**The conclusion of Chapter X**
+
+Arjuna now understands the manifestations and entropy of a living system:
+
+1. **Architectural greatness preserves meaning:** the finest manifestations of architecture are those through which truth survives translation, change and scale.
+
+2. **Architecture is visible through consequences:** clear boundaries, truthful types and local changes reveal structure more reliably than grand diagrams or framework names.
+
+3. **A green pipeline is evidence, not truth:** it shows that known checks passed. It cannot prove that the system expresses the right Domain or that the Domain has remained unchanged.
+
+4. **Living systems must evolve:** a system embedded in a changing world must change or become less satisfactory to those it serves.
+
+5. **Change generates complexity:** every adaptation leaves structural consequences unless deliberate work restores alignment between code and understanding.
+
+6. **Refactoring is metabolism:** it is neither punishment for past failure nor endless cosmetic purification, but the means by which a living system incorporates what has been learned.
+
+7. **Entropy is not defeat:** it is the condition under which continued architectural care acquires meaning.
+
+8. **There is no final architecture:** the goal is not to conquer change, but to preserve the system’s capacity to learn through it.
+
+Arjuna looked across the codebase.
+
+He saw Value Objects guarding meaning, Aggregates carrying responsibility, messages crossing boundaries and tests making claims about behaviour.
+
+He also saw outdated dependencies, forgotten assumptions, duplicated decisions and models that had begun to lag behind the world they represented.
+
+For the first time, these did not appear as separate phenomena.
+
+They were manifestations of one living system moving through time.
+
+**Arjuna:**
+
+*“I understand now, Krishna.*
+
+*The finest architecture does not conquer Time. It remains capable of learning while Time moves through it.*
+
+*But I have seen only separate manifestations — a boundary here, an invariant there, a system changing one commit at a time.*
+
+*Show me now the Whole.*
+
+*Reveal the living system in which all these changes, dependencies, births and failures occur at once.”*
+
+Krishna looked upon Arjuna.
+
+What he was about to reveal could not be held within an IDE, an architecture diagram or an ordinary human mind.
 
 {pagebreak}
-
 # CHAPTER 11: Vishvarupa Darshana Yoga, or the Universal Form of the Living System
 
 **Architectural Sutra:** *Observability may make the whole system visible. Only boundaries can make it understandable. The architect who attempts to hold the entire living system in his mind will be consumed by the very complexity he seeks to master.*
