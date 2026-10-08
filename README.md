@@ -2008,8 +2008,6 @@ Arjuna thought of systems whose pipelines had remained green for years while the
 
 *But never mistake it for truth.”*
 
-{pagebreak}
-
 ## Lehman’s Laws — why living systems cannot remain still
 
 **Arjuna:**
@@ -4818,9 +4816,9 @@ He asked the question that was his to ask and released the answer that was not h
 
 **GitLab:**
 
+{line-numbers: false}
 ```text
 Merge request cannot be merged.
-
 Source branch is 37 commits behind target branch.
 ```
 
@@ -4838,7 +4836,7 @@ Arjuna cannot approve it.
 
 Standing between the DDD Alliance and the Just Ship It Legion, he sees what the tests cannot: a locally reasonable change may teach the entire system to dismantle a domain concept into primitives.
 
-Fortunately, his reviewer is Krishna.
+Fortunately, his guide is Krishna.
 
 Across eighteen chapters, The Logs of the Bhagavad Gita reimagines the Gita as a dialogue about software architecture, Domain-Driven Design, technical debt, knowledge crunching, Event Sourcing, refactoring, entropy—and the moral terror of reviewing code written by people you respect.
 
