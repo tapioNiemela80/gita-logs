@@ -4779,6 +4779,7 @@ But it restored to the conversation the question, the invisible work and each pa
 • Question: asked.
 • Teaching: understood.
 • Attachment to outcome: none.
+```
 
 **Arjuna:**
 
