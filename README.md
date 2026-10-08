@@ -4140,17 +4140,17 @@ Krishna enumerated the twenty-six virtues that make a developer, his actions and
 
 *"These are the marks of the developer born to a divine nature:*
 
-- **Fearlessness(Abhayam):** The courage to ask a difficult domain question and challenge even a change backed by a green pipeline.
+- **Fearlessness (Abhayam):** The courage to ask a difficult domain question and challenge even a change backed by a green pipeline.
 
-- **Purity of mind(Sattva-samshuddhi):** Acting out of concern for the honesty of the model—not to defend one’s solution, status, or reputation.
+- **Purity of mind (Sattva-samshuddhi):** Acting out of concern for the honesty of the model—not to defend one’s solution, status, or reputation.
 
 - **Steadfastness in knowledge and understanding (Jnana-yoga-vyavasthiti)**: Continuing knowledge crunching even when the first model already appears convincing.
 
 - **Generosity (Danam)**: Sharing knowledge, context, and reasoning with the entire team. Understanding is not hoarded as a source of personal power.
 
-- **Self-restraint (Dama)** : The ability to refrain from introducing a framework, abstraction, or generic base class merely because you know how.
+- **Self-restraint (Dama)**: The ability to refrain from introducing a framework, abstraction, or generic base class merely because you know how.
 
-- **Sacrifice for the common good (Yajna)** : Writing tests, documenting decisions, and clarifying the model for developers who will enter the codebase after you.
+- **Sacrifice for the common good (Yajna)**: Writing tests, documenting decisions, and clarifying the model for developers who will enter the codebase after you.
 
 - **Study (Svadhyaya)**: Continually reading the code, logs, specifications, commit history—and, above all, the domain.
 
@@ -4343,7 +4343,7 @@ Krishna next defined what genuine developer discipline (*Tapas*) is, in body, in
 
 *“By making the Field, the deed and its fruit observable.*
 
-*At the dawn of the Agile age, the practitioners spoke the three words of the observable deed: GIVEN, WHEN, THEN.”*
+*When Behaviour-Driven Development arose, its practitioners spoke the three words of the observable deed: GIVEN, WHEN, THEN.”*
 
 - ***GIVEN*** — *the Field. The context and the state of the system as they truly are. It is the acknowledgement of Kshetra without assumption or ego.*
 
@@ -4365,7 +4365,7 @@ Arjuna now understands the deep spiritual motive of coding:
 
 3. **GIVEN, WHEN, THEN**: a rule is not understood until its context, action and observable consequence can be stated clearly.
 
-Arjuna examines his motives for coding and sweeps the last remnants of ego from his mind.
+Arjuna examines his motives for coding and recognises the remnants of ego still hiding within them.
 
 **Arjuna:**
 
@@ -4807,7 +4807,7 @@ Sanjaya closed his connection to the field and spoke.
 
 *Wherever there is understanding that does not flee from action, and wherever there is action that does not pretend to own the truth, there abide clarity, responsibility and the possibility of peace.*
 
-*The review has been submitted.*
+*The comment has been posted.*
 
 *The sprint goal has been met.*
 
