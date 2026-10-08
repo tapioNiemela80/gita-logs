@@ -3043,7 +3043,7 @@ Yet beneath those representations, a business decision remained alive.
 
 Another branch guarded against data produced before the migration.
 
-A third did nothing at all. It remained only because no one had been certain enough to remove it.
+Yet another did nothing at all. It remained only because no one had been certain enough to remove it.
 
 Then, within the first conditional, Arjuna recognised something familiar.
 
@@ -4033,7 +4033,7 @@ He grasped a branch for balance, but it twisted around a root and disappeared in
 
 *Then the dependencies no longer serve the system. They bind it in chains of its own making.*
 
-*Do not deceive yourself, Partha. Adharma seldom announces itself as destruction. It presents itself as efficiency."*
+*Do not deceive yourself, Pārtha. Adharma seldom announces itself as destruction. It presents itself as efficiency."*
 
 {pagebreak}
 
@@ -4242,7 +4242,7 @@ Arjuna understands that the quality of code is not merely a technical question b
 
 3. **Respect for standards:** the shared practices and conventions of a team protect coders from their own hasty impulses.
 
-Arjuna examines his own attitude and consciously chooses the path of light.
+Arjuna examined his own attitude and believed he had chosen the path of light.
 
 **Arjuna:**
 
@@ -4747,7 +4747,7 @@ But it restored to the conversation the question, the invisible work and each pa
 [ THE FINAL STATE OF ARJUNA'S REVIEW ]
 
 • Fear: gone.
-• Ego: removed.
+• Ego: noticed.
 • Own duty: recognised.
 • Drafts: deleted.
 • Final comment: posted.
