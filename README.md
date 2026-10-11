@@ -285,7 +285,7 @@ Krishna smiled lightly. He did not declare every getter to be adharma, nor did h
 
 *“Do not confuse a domain concept with the primitive that currently carries it, Arjuna.*
 
-*Listen: my divine vision reaches three thousand years into the future, to the misty, frost-bound realms of the North—to a land called Finland, on the eve of autumn in 2024.*
+*Listen: my divine vision reaches thousands of years into the future, to the misty, frost-bound realms of the North — to a land called Finland, on the eve of autumn in 2024.*
 
 *There, developers shall build vast systems upon a seemingly eternal belief: that the general VAT rate is 24 per cent and shall remain a primitive integer forever.*
 
