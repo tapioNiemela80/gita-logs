@@ -373,6 +373,7 @@ Krishna answered with the most famous teaching of the Gita:
 
 Code without attachment to the fruits:
 
+{line-numbers: false}
 ```text
 Goal: A closed Jira ticket, praise  ---> Binds you to fear and stress
 
