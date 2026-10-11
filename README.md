@@ -4541,6 +4541,14 @@ They might even do it perfectly.
 
 *It prevents it from doing someone else’s.”*
 
+*“Remember this, Conqueror of Sleep: the same word may name different models in different Bounded Contexts.*
+
+*An Aggregate cannot answer to two kings at once. The Product in Marketing and the Product in Sales may bear the same name and refer to the same thing in the world, yet each serves a different king: the business and Product Owner of its own Bounded Context. Each guards the truths entrusted to it and fulfils its own dharma.*
+
+*When these two realms must speak, they meet at a boundary. They exchange messages through an explicit contract; each Context translates what it receives into the language of its own model, fulfilling the duty entrusted to it.*
+
+*When those responsibilities are mixed, chaos follows—and adharma takes hold.”*
+
 ## The testing dharma of each layer
 
 Arjuna remembered another dispute in which every participant had claimed one universal doctrine.
