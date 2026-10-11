@@ -236,7 +236,7 @@ He did not want to press *Approve*. He did not want to press *Reject*.
 
 **Architectural Sutra:** Code changes its language, shape and syntax, but the truth it carries does not. An invariant is immortal only for as long as someone remembers what it means.
 
-## Arjuna collapses at the keyboard
+**Arjuna collapses at the keyboard**
 
 **Sanjaya:**
 
@@ -254,7 +254,7 @@ Krishna looked at the diff and asked:
 
 *"Does the mapper need the internal structure of the `Money` object — or does it need a representation from the `Money` object?"*
 
-## The immortality of the invariant (Sankhya Yoga)
+**The immortality of the invariant (Sankhya Yoga)**
 
 Krishna smiled lightly. He did not declare every getter to be adharma, nor did he offer one universal interface. He moved the conversation to the responsibility of the concept, which Arjuna had not yet found the words for.
 
@@ -382,7 +382,7 @@ Goal: A closed Jira ticket, praise  ---> Binds you to fear and stress
 Goal: The honesty of the model TODAY ---> Nishkama Karma (freedom to act)
 ```
 
-## The chain of attachment
+**The chain of attachment**
 
 **Arjuna:**
 
@@ -406,7 +406,7 @@ Arjuna was silent for a while.
 
 Then another doubt occurred to him.
 
-## When words lose their meaning
+**When words lose their meaning**
 
 **Arjuna:**
 
@@ -512,7 +512,7 @@ Krishna continued:
 
 *For a system may preserve all its data and still lose its memory, if it no longer remembers what its words mean."*
 
-## Sthitaprajna — the steady architect
+**Sthitaprajna — the steady architect**
 
 Arjuna wiped away his tears and asked something very practical:
 
