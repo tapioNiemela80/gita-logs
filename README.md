@@ -279,7 +279,9 @@ Krishna smiled lightly. He did not declare every getter to be adharma, nor did h
 
 *Yet the truth of the business is not destroyed with its representation. It existed before the first line of code was written, and it remains when the last repository has been forgotten.*
 
-*Code is only the body through which the Domain acts for a time. Do not mistake the mortality of the implementation for the mortality of the truth it seeks to express."***Krishna:**
+*Code is only the body through which the Domain acts for a time. Do not mistake the mortality of the implementation for the mortality of the truth it seeks to express."*
+
+**Krishna:**
 
 *“Do not confuse a domain concept with the primitive that currently carries it, Arjuna.*
 
