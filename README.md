@@ -286,19 +286,19 @@ Krishna's gaze travelled far beyond the battlefield.
 
 **Krishna:**
 
-*“Do not confuse a domain concept with the primitive that currently carries it, Arjuna.
+*“Do not confuse a domain concept with the primitive that currently carries it, Arjuna.*
 
-Listen: my divine vision reaches three thousand years into the future, to the misty, frost-bound realms of the North — to a land named Finland, in the autumn of 2024.
+*Listen: my divine vision reaches three thousand years into the future, to the misty, frost-bound realms of the North — to a land named Finland, in the autumn of 2024.*
 
-There, developers shall build vast systems upon a seemingly eternal belief: that the general VAT rate is 24 per cent, and shall remain a primitive integer forever.
+*There, developers shall build vast systems upon a seemingly eternal belief: that the general VAT rate is 24 per cent, and shall remain a primitive integer forever.*
 
-Then, in a single night, the law shall raise the rate to 25.5 per cent.
+*Then, in a single night, the law shall raise the rate to 25.5 per cent.*
 
-And lo! Systems that modelled the rate as a primitive `int` shall crumble in agony, unable to express the Domain's true meaning without breaking thousands of lines of code!
+*And lo! Systems that modelled the rate as a primitive `int` shall crumble in agony, unable to express the Domain's true meaning without breaking thousands of lines of code!*
 
-Had those developers spoken in terms of a `VatRate` Value Object, only the representation behind that concept would have needed to change. The model would have continued to speak of a rate without fear.
+*Had those developers spoken in terms of a `VatRate` Value Object, only the representation behind that concept would have needed to change. The model would have continued to speak of a rate without fear.*
 
-The Value Object does not abolish change, Arjuna. It gives change a place to happen, so the rest of the Domain need not forget what the concept means.”*
+*The Value Object does not abolish change, Arjuna. It gives change a place to happen, so the rest of the Domain need not forget what the concept means.”*
 
 The DTO needed a representation of `Money`, but the representation did not need to dictate the behaviour of the concept.
 
