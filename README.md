@@ -231,12 +231,9 @@ He did not want to press *Approve*. He did not want to press *Reject*.
 {pagebreak}
 
 {sample: true}
-
 # CHAPTER 2: Krishna's School of Architecture and the Immortal Invariants
 
 **Architectural Sutra:** Code changes its language, shape and syntax, but the truth it carries does not. An invariant is immortal only for as long as someone remembers what it means.
-
-**Arjuna collapses at the keyboard**
 
 **Sanjaya:**
 
@@ -358,7 +355,7 @@ Krishna looked at the getter methods, at the DTO and at the concept behind them.
 
 *To keep asking this question is your dharma."*
 
-## Nishkama Karma — act without attachment to results
+**Nishkama Karma — act without attachment to results**
 
 Arjuna looked at Krishna in bewilderment. If code grew old in any case and everything became legacy, why trouble to defend a single invariant in review?
 
@@ -528,7 +525,7 @@ Arjuna wiped away his tears and asked something very practical:
 
 *While others toss upon the sea of requirements like a raging ocean, the steady architect remains calm. New requirements flow into his codebase every day, but he neither swells with dogmatism nor crumbles under haste. He attains peace."*
 
-## The outcome of Chapter II
+**The outcome of Chapter II**
 
 A new perspective begins to take shape for Arjuna:
 
@@ -1594,7 +1591,7 @@ Arjuna looked upon the database with new respect — and with less reverence.
 
 **Architectural Sutra:** *The deepest architecture is often invisible because it does not seek to display itself. A small function offered honestly to the Domain may contain more truth than a magnificent framework.*
 
-## The highest and most secret knowledge
+**The highest and most secret knowledge**
 
 Arjuna had learned how an Aggregate preserves its identity when its persisted representation is returned from the database and awakened again in memory.
 
@@ -1640,7 +1637,7 @@ But the one asking it had changed.
 
 *It is understood only by those willing to see what remains when the diagrams, frameworks and titles are removed.”*
 
-## All parts rest upon the Domain
+**All parts rest upon the Domain**
 
 Krishna directed Arjuna’s attention towards the Bounded Context.
 
@@ -1705,7 +1702,7 @@ The architecture did not appear as a monument standing above the classes.
 
 It appeared as coherence among them.
 
-## The simple offering
+**The simple offering**
 
 **Arjuna:**
 
@@ -1731,7 +1728,7 @@ Arjuna lowered his eyes.
 
 He remembered classes he had designed badly, abstractions he had defended too long and reviews in which certainty had spoken before understanding.
 
-## Forgiveness does not revert the commit
+**Forgiveness does not revert the commit**
 
 **Arjuna:**
 
@@ -1785,7 +1782,7 @@ Nothing in the repository had changed.
 
 Yet repair had become possible.
 
-## The royal knowledge belongs to no priesthood
+**The royal knowledge belongs to no priesthood**
 
 **Krishna:**
 
@@ -1819,7 +1816,7 @@ Yet repair had become possible.
 
 *It is the ability to recognise what must be understood next — and to approach it without pride, denial or fear.”*
 
-## The royal secret
+**The royal secret**
 
 Arjuna now understood why the knowledge was both royal and secret.
 
@@ -1835,7 +1832,7 @@ Forgiveness did not erase technical debt.
 
 It released the developer from defending it long enough for repair to begin.
 
-## The conclusion of Chapter IX
+**The conclusion of Chapter IX**
 
 Arjuna now understands the royal architectural secret:
 
@@ -1894,7 +1891,7 @@ But this invisibility troubled him.
 
 *Show me its manifestations — its Vibhutis — within this million-line codebase.”*
 
-## Krishna declares his manifestations
+**Krishna declares his manifestations**
 
 Krishna answered without opening an architecture diagram.
 
@@ -1952,7 +1949,7 @@ Instead he saw moments in which the system remembered what it meant.
 
 Krishna’s expression grew grave, but not sorrowful.
 
-## Entropy — the condition of every living system
+**Entropy — the condition of every living system**
 
 **Krishna:**
 
@@ -2030,7 +2027,7 @@ Arjuna thought of systems whose pipelines had remained green for years while the
 
 *But never mistake it for truth.”*
 
-## Lehman’s Laws — why living systems cannot remain still
+**Lehman’s Laws — why living systems cannot remain still**
 
 **Arjuna:**
 
@@ -2082,7 +2079,7 @@ Arjuna thought of systems whose pipelines had remained green for years while the
 
 *Neither is change.”*
 
-## The metabolism of a living codebase
+**The metabolism of a living codebase**
 
 **Arjuna:**
 
@@ -2144,7 +2141,7 @@ Only later had understanding revealed the shared responsibility.
 
 *It grows when motion follows learning.”*
 
-## Yajna — the continual offering of care
+**Yajna — the continual offering of care**
 
 **Krishna:**
 
@@ -2188,7 +2185,7 @@ Some had become tangled because the world had asked questions the old model coul
 
 Others had decayed because small compromises had accumulated without anyone returning to examine their combined meaning.
 
-## The conclusion of Chapter X
+**The conclusion of Chapter X**
 
 Arjuna now understands the manifestations and entropy of a living system:
 
@@ -4391,7 +4388,7 @@ Yet before returning to the review, one final uncertainty remained.
 
 *Should I leave this codebase entirely and become a farmer? Or should I remain here, continue the work and somehow cease to be bound by it?”*
 
-## Krishna answers: refusing the work is not liberation
+**Krishna answers: refusing the work is not liberation**
 
 Krishna answered without hesitation.
 
@@ -4417,9 +4414,7 @@ Krishna answered without hesitation.
 
 *The true renouncer is the one who performs it without trying to possess what follows.”*
 
-{pagebreak}
-
-## Process is not understanding
+**Process is not understanding**
 
 **Arjuna:**
 
@@ -4467,7 +4462,7 @@ Another doubt arose.
 
 *“If the fruits of action emerge through the deeds of many, can any developer be their sole author? Can one person bear them alone?”*
 
-## The five causes behind every commit
+**The five causes behind every commit**
 
 **Krishna:**
 
@@ -4493,7 +4488,7 @@ Another doubt arose.
 
 *You are responsible for the honesty of your own participation. You are not the solitary author of the universe in which its consequences unfold.”*
 
-## Better one’s own duty, imperfectly
+**Better one’s own duty, imperfectly**
 
 Arjuna attempted once more to place the decision outside himself.
 
@@ -4571,7 +4566,7 @@ They might even do it perfectly.
 
 *When those responsibilities are mixed, chaos follows—and adharma takes hold.”*
 
-## The testing dharma of each layer
+**The testing dharma of each layer**
 
 Arjuna remembered another dispute in which every participant had claimed one universal doctrine.
 
@@ -4625,7 +4620,7 @@ A testing school was a tool, not a caste.
 
 A test became dogmatic only when it abandoned the responsibility before it and began defending the identity of its author.
 
-## The Moksha of code
+**The Moksha of code**
 
 Arjuna looked again at the two getter methods.
 
@@ -4667,7 +4662,7 @@ Yet something in the saying seemed incomplete.
 
 *The second best is the code that understanding allows you to release today.”*
 
-## Krishna’s final teaching
+**Krishna’s final teaching**
 
 Then Krishna came to stand beside Arjuna and looked at the open Merge Request.
 
@@ -4691,7 +4686,7 @@ His voice was quiet now. Nothing remained to be conquered.
 
 *Do not grieve.”*
 
-## Arjuna’s awakening
+**Arjuna’s awakening**
 
 A deep silence descended upon the office.
 
@@ -4723,7 +4718,7 @@ His doubt about the Domain remained.
 
 His doubt about his duty did not.
 
-## The final review
+**The final review**
 
 The reviewer had his own limited dharma.
 
@@ -4799,7 +4794,7 @@ But it restored to the conversation the question, the invisible work and each pa
 
 {pagebreak}
 
-## Sanjaya closes the epic
+**Sanjaya closes the epic**
 
 Far from the battlefield, the blind Product Owner still awaited the final status report.
 
