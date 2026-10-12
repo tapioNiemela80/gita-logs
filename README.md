@@ -3779,13 +3779,19 @@ Krishna paused before the next shadow.
 
 *'Nowadays people know the price of everything and the value of nothing.'*
 
-*A century later, men shall build machines of extraordinary precision to measure their work.*
+*He shall mean it as a complaint about his own age. But a century later, men shall build machines of extraordinary precision to measure their work — and the machines shall prove him more literally correct than he intended.*
 
-*They shall count every completed task, every delivered feature and every defect corrected.*
+*They shall count every completed task, every delivered feature and every defect corrected. Each shall have its price, and the price shall be known.*
 
-*Yet when a developer asks one question and prevents a thousand lines of unnecessary code, the dashboard shall record nothing.*
+*But when a developer asks one question and prevents a thousand lines of unnecessary code, the dashboard shall record nothing.*
 
-*And thus, Arjuna, they shall know the price of everything — but not even the value of nothing."*
+*When a team spends a week understanding a problem and decides not to build the feature at all, the velocity shall not move.*
+
+*When an engineer traces a hidden assumption to its root and removes it before it becomes an incident, no ticket shall close.*
+
+*The machines shall measure everything that leaves a mark, and nothing that leaves none.*
+
+*And so, Arjuna, they shall know the price of everything — and not even the value of nothing."*
 
 **Goodhart’s Law — when the shadow becomes the goal**
 
