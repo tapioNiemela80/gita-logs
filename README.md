@@ -3771,6 +3771,22 @@ Arjuna now understood how the Gunas shaped individual perception. But he also sa
 
 *The architecture diagram becomes an organisational chart wearing technical clothing.”*
 
+Krishna paused before the next shadow.
+
+**Krishna:**
+
+*"Listen, Arjuna. In a distant kingdom, towards the end of the nineteenth century, a man named Oscar Wilde shall observe:*
+
+*'Nowadays people know the price of everything and the value of nothing.'*
+
+*A century later, men shall build machines of extraordinary precision to measure their work.*
+
+*They shall count every completed task, every delivered feature and every defect corrected.*
+
+*Yet when a developer asks one question and prevents a thousand lines of unnecessary code, the dashboard shall record nothing.*
+
+*And thus, Arjuna, they shall know the price of everything — but not even the value of nothing."*
+
 **Goodhart’s Law — when the shadow becomes the goal**
 
 *“By Goodhart’s Law, a measure ceases to reveal the truth when attaining the measure becomes the goal.*
