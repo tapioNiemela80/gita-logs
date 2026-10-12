@@ -3771,6 +3771,28 @@ Arjuna now understood how the Gunas shaped individual perception. But he also sa
 
 *The architecture diagram becomes an organisational chart wearing technical clothing.”*
 
+**Arjuna:**
+
+*"But Krishna, if Conway's Law shapes our architecture whether we wish it or not, must we forever struggle against it?"*
+
+**Krishna:**
+
+*"No, Arjuna. Consider the horse that pulls your chariot.*
+
+*Treat it with care, understand its nature and guide it along a road you have chosen, and it shall carry you faithfully towards your destination.*
+
+*But harness it blindly, ignore its nature and beat it whenever the chariot strays from the road, and the same horse shall bite, kick and drag you into the ditch.*
+
+*The horse has not changed, Arjuna. Only the wisdom of its master has.*
+
+*So it is with Conway's Law.*
+
+*Understand the Domain, discover its boundaries and arrange your organisation accordingly, and the law shall serve your architecture.*
+
+*Ignore those boundaries, divide your people by convenience and demand that the architecture somehow remain coherent, and the same law shall turn against you.*
+
+*Do not blame the horse, Arjuna, for the road you have chosen."*
+
 Krishna paused before the next shadow.
 
 **Krishna:**
