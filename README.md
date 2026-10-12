@@ -3779,7 +3779,7 @@ Krishna paused before the next shadow.
 
 *'Nowadays people know the price of everything and the value of nothing.'*
 
-*He shall mean it as a complaint about his own age. But a century later, men shall build machines of extraordinary precision to measure their work — and the machines shall prove him more literally correct than he intended.*
+*He shall mean it as a complaint about his own age. But a century later, men shall build machines of extraordinary precision to measure their work - and the machines shall prove him more literally correct than he intended.*
 
 *They shall count every completed task, every delivered feature and every defect corrected. Each shall have its price, and the price shall be known.*
 
