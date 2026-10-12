@@ -3899,6 +3899,28 @@ Krishna paused before the next shadow.
 
 *This is why Ubiquitous Language is not a glossary written once and stored in a wiki. It is the continuous labour of discovering whether the same words still summon the same reality in different minds.”*
 
+**Arjuna:**
+
+*"But Krishna, how can men speak of the same thing and understand entirely different things?"*
+
+**Krishna:**
+
+*"There is an ancient tale, Arjuna, of six blind men who encountered an elephant.*
+
+*The first touched its trunk and declared it a serpent. The second felt its leg and called it a tree. The third touched its side and found a wall. Others encountered its ear, tusk and tail, and each described a different creature.*
+
+*Each spoke truthfully of what he had experienced. Yet each mistook his fragment of the truth for the whole.*
+
+*So it is with the Domain, Arjuna.*
+
+*The developer sees an entity. The architect sees an Aggregate. The business expert sees a responsibility. The user sees a promise.*
+
+*They may use the same word, yet describe different parts of the same reality.*
+
+*And when they argue over whose description is correct, the elephant remains an elephant, entirely indifferent to their disagreement.*
+
+*Do not seek agreement upon the word, Arjuna, before you have understood the elephant."*
+
 Krishna looked again towards the wall.
 
 **Krishna:**
